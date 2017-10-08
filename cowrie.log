@@ -3976,3 +3976,83 @@
 2017-10-08T20:19:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] got channel 'direct-tcpip' request
 2017-10-08T20:19:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] direct-tcp connection request to 188.125.69.79:25 from ::1:12332
 2017-10-08T20:19:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:20:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:20:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:20:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:20:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-08T20:20:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:48616
+2017-10-08T20:20:30+0000 [SSHChannel cowrie-discarded-direct-tcpip (6) on SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-08T20:20:30+0000 [SSHChannel cowrie-discarded-direct-tcpip (6) on SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] failed to connect: Connection refused
+2017-10-08T20:20:30+0000 [SSHChannel cowrie-discarded-direct-tcpip (6) on SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] sending close 6
+2017-10-08T20:20:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:20:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-08T20:20:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:16942
+2017-10-08T20:20:35+0000 [SSHChannel cowrie-discarded-direct-tcpip (7) on SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-08T20:20:35+0000 [SSHChannel cowrie-discarded-direct-tcpip (7) on SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] failed to connect: Connection refused
+2017-10-08T20:20:35+0000 [SSHChannel cowrie-discarded-direct-tcpip (7) on SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] sending close 7
+2017-10-08T20:20:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:20:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:21:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:21:06+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.188.87.56:41435 (10.3.66.85:2222) [session: 438b238d196e]
+2017-10-08T20:21:10+0000 [CowrieTelnetTransport,530,223.175.61.87] Closing TTY Log: log/tty/20171008-201907-None-530i.log after 122 seconds
+2017-10-08T20:21:10+0000 [CowrieTelnetTransport,530,223.175.61.87] Connection lost after 125 seconds
+2017-10-08T20:21:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:21:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:21:26+0000 [HoneyPotSSHTransport,244,5.188.87.56] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-08T20:21:26+0000 [HoneyPotSSHTransport,244,5.188.87.56] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-08T20:21:26+0000 [HoneyPotSSHTransport,244,5.188.87.56] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-08T20:21:26+0000 [HoneyPotSSHTransport,244,5.188.87.56] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-08T20:21:26+0000 [HoneyPotSSHTransport,244,5.188.87.56] NEW KEYS
+2017-10-08T20:21:26+0000 [HoneyPotSSHTransport,244,5.188.87.56] starting service 'ssh-userauth'
+2017-10-08T20:21:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,244,5.188.87.56] 'root' trying auth 'password'
+2017-10-08T20:21:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,244,5.188.87.56] login attempt [root/] succeeded
+2017-10-08T20:21:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,244,5.188.87.56] 'root' authenticated with 'password'
+2017-10-08T20:21:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,244,5.188.87.56] starting service 'ssh-connection'
+2017-10-08T20:21:28+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,244,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-08T20:21:28+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,244,5.188.87.56] direct-tcp connection request to ya.ru:443 from ::1:10343
+2017-10-08T20:21:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:21:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:21:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-08T20:21:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] direct-tcp connection request to 65.55.37.104:25 from ::1:16478
+2017-10-08T20:21:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:22:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:22:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:22:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:22:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:22:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:22:45+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 193.124.179.129:50645 (10.3.66.85:2222) [session: 026df3d9cb20]
+2017-10-08T20:22:45+0000 [HoneyPotSSHTransport,245,193.124.179.129] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-10-08T20:22:45+0000 [HoneyPotSSHTransport,245,193.124.179.129] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-10-08T20:22:45+0000 [HoneyPotSSHTransport,245,193.124.179.129] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-08T20:22:45+0000 [HoneyPotSSHTransport,245,193.124.179.129] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-08T20:22:45+0000 [HoneyPotSSHTransport,245,193.124.179.129] NEW KEYS
+2017-10-08T20:22:45+0000 [HoneyPotSSHTransport,245,193.124.179.129] starting service 'ssh-userauth'
+2017-10-08T20:22:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,245,193.124.179.129] 'vagrant' trying auth 'password'
+2017-10-08T20:22:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,245,193.124.179.129] login attempt [vagrant/vagrant] failed
+2017-10-08T20:22:46+0000 [-] 'vagrant' failed auth 'password'
+2017-10-08T20:22:46+0000 [-] unauthorized login: 
+2017-10-08T20:22:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,245,193.124.179.129] 'vagrant' trying auth 'password'
+2017-10-08T20:22:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,245,193.124.179.129] login attempt [vagrant/vagrant] failed
+2017-10-08T20:22:48+0000 [-] 'vagrant' failed auth 'password'
+2017-10-08T20:22:48+0000 [-] unauthorized login: 
+2017-10-08T20:22:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,245,193.124.179.129] 'vagrant' trying auth 'password'
+2017-10-08T20:22:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,245,193.124.179.129] login attempt [vagrant/vagrant] failed
+2017-10-08T20:22:49+0000 [-] 'vagrant' failed auth 'password'
+2017-10-08T20:22:49+0000 [-] unauthorized login: 
+2017-10-08T20:22:49+0000 [HoneyPotSSHTransport,245,193.124.179.129] connection lost
+2017-10-08T20:22:49+0000 [HoneyPotSSHTransport,245,193.124.179.129] Connection lost after 3 seconds
+2017-10-08T20:22:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:23:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:23:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:23:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:23:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:23:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:23:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:24:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:24:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:24:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:24:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:24:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T20:24:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-08T20:24:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,239,91.195.103.180] direct-tcp connection request to 104.47.8.33:25 from ::1:19885
+2017-10-08T20:24:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
