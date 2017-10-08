@@ -7550,3 +7550,94 @@
 2017-10-08T17:34:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
 2017-10-08T17:34:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
 2017-10-08T17:35:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:35:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:35:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:35:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:35:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:35:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:36:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:36:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:36:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:36:28+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 122.4.30.150:33666 (10.3.66.85:2223) [session: TT443]
+2017-10-08T17:36:29+0000 [CowrieTelnetTransport,443,122.4.30.150] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-08T17:36:31+0000 [CowrieTelnetTransport,443,122.4.30.150] Opening TTY Log: log/tty/20171008-173631-None-443i.log
+2017-10-08T17:36:31+0000 [CowrieTelnetTransport,443,122.4.30.150] Warning: state changed and new state returned
+2017-10-08T17:36:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:36:32+0000 [CowrieTelnetTransport,443,122.4.30.150] CMD: enable
+2017-10-08T17:36:32+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: enable 
+2017-10-08T17:36:32+0000 [CowrieTelnetTransport,443,122.4.30.150] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-08T17:36:33+0000 [CowrieTelnetTransport,443,122.4.30.150] CMD: system
+2017-10-08T17:36:33+0000 [CowrieTelnetTransport,443,122.4.30.150] Command not found: system
+2017-10-08T17:36:33+0000 [CowrieTelnetTransport,443,122.4.30.150] CMD: shell
+2017-10-08T17:36:33+0000 [CowrieTelnetTransport,443,122.4.30.150] Command not found: shell
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] CMD: sh
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: sh 
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/busybox wget
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: wget
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/busybox 81c46036wget
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: printf '\00281c46036\177'
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/busybox tftp
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: tftp
+2017-10-08T17:36:34+0000 [CowrieTelnetTransport,443,122.4.30.150] Command found: /bin/busybox 81c46036tftp
+2017-10-08T17:36:35+0000 [CowrieTelnetTransport,443,122.4.30.150] Closing TTY Log: log/tty/20171008-173631-None-443i.log after 3 seconds
+2017-10-08T17:36:35+0000 [CowrieTelnetTransport,443,122.4.30.150] Connection lost after 7 seconds
+2017-10-08T17:36:39+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 178.47.121.174:39583 (10.3.66.85:2223) [session: TT444]
+2017-10-08T17:36:39+0000 [CowrieTelnetTransport,444,178.47.121.174] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-08T17:36:41+0000 [CowrieTelnetTransport,444,178.47.121.174] Opening TTY Log: log/tty/20171008-173641-None-444i.log
+2017-10-08T17:36:41+0000 [CowrieTelnetTransport,444,178.47.121.174] Warning: state changed and new state returned
+2017-10-08T17:36:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] CMD: enable
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: enable 
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] CMD: system
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command not found: system
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] CMD: shell
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command not found: shell
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] CMD: sh
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: sh 
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox wget
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: wget
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox 81c46036wget
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: printf '\00281c46036\177'
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox tftp
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: tftp
+2017-10-08T17:36:42+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox 81c46036tftp
+2017-10-08T17:36:43+0000 [CowrieTelnetTransport,444,178.47.121.174] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-08T17:36:43+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-08T17:36:43+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-08T17:36:43+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: /bin/busybox cat /bin/busybox
+2017-10-08T17:36:43+0000 [CowrieTelnetTransport,444,178.47.121.174] Command found: cat /bin/busybox
+2017-10-08T17:36:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:37:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:37:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:37:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:37:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:37:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:37:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:38:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:38:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:38:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:38:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:38:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:38:43+0000 [CowrieTelnetTransport,444,178.47.121.174] Closing TTY Log: log/tty/20171008-173641-None-444i.log after 121 seconds
+2017-10-08T17:38:43+0000 [CowrieTelnetTransport,444,178.47.121.174] Connection lost after 123 seconds
+2017-10-08T17:38:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:39:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:39:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:39:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:39:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:39:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:39:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T17:40:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
