@@ -1345,3 +1345,33 @@
 2017-10-08T12:50:37+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
 2017-10-08T12:50:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
 2017-10-08T12:50:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T12:51:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T12:51:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T12:51:23+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 212.83.136.196:59260 (10.3.66.85:2222) [session: 62aa9cfae792]
+2017-10-08T12:51:23+0000 [HoneyPotSSHTransport,151,212.83.136.196] connection lost
+2017-10-08T12:51:23+0000 [HoneyPotSSHTransport,151,212.83.136.196] Connection lost after 0 seconds
+2017-10-08T12:51:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,53,163.172.119.32] got global keepalive@jcraft.com request
+2017-10-08T12:51:29+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 212.83.136.196:64128 (10.3.66.85:2222) [session: 17a36615a829]
+2017-10-08T12:51:29+0000 [HoneyPotSSHTransport,152,212.83.136.196] Remote SSH version: SSH-2.0-JSCH-0.1.51
+2017-10-08T12:51:29+0000 [HoneyPotSSHTransport,152,212.83.136.196] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-08T12:51:29+0000 [HoneyPotSSHTransport,152,212.83.136.196] outgoing: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-08T12:51:29+0000 [HoneyPotSSHTransport,152,212.83.136.196] incoming: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-08T12:51:30+0000 [HoneyPotSSHTransport,152,212.83.136.196] NEW KEYS
+2017-10-08T12:51:30+0000 [HoneyPotSSHTransport,152,212.83.136.196] starting service 'ssh-userauth'
+2017-10-08T12:51:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] 'user' trying auth 'none'
+2017-10-08T12:51:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] 'user' trying auth 'keyboard-interactive'
+2017-10-08T12:51:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] login attempt [user/1234] failed
+2017-10-08T12:51:31+0000 [-] 'user' failed auth 'keyboard-interactive'
+2017-10-08T12:51:31+0000 [-] unauthorized login: 
+2017-10-08T12:51:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] 'user' trying auth 'keyboard-interactive'
+2017-10-08T12:51:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] login attempt [user/] failed
+2017-10-08T12:51:32+0000 [-] 'user' failed auth 'keyboard-interactive'
+2017-10-08T12:51:32+0000 [-] unauthorized login: 
+2017-10-08T12:51:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] 'user' trying auth 'password'
+2017-10-08T12:51:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,152,212.83.136.196] login attempt [user/1234] failed
+2017-10-08T12:51:33+0000 [-] 'user' failed auth 'password'
+2017-10-08T12:51:33+0000 [-] unauthorized login: 
+2017-10-08T12:51:33+0000 [HoneyPotSSHTransport,152,212.83.136.196] Got remote error, code 3
+	reason: com.jcraft.jsch.JSchException: Auth fail
+2017-10-08T12:51:33+0000 [HoneyPotSSHTransport,152,212.83.136.196] connection lost
+2017-10-08T12:51:33+0000 [HoneyPotSSHTransport,152,212.83.136.196] Connection lost after 3 seconds
