@@ -4026,3 +4026,87 @@
 2017-10-09T05:29:17+0000 [SSHChannel cowrie-discarded-direct-tcpip (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,404,5.188.87.51] sending close 5
 2017-10-09T05:29:17+0000 [SSHChannel cowrie-discarded-direct-tcpip (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,404,5.188.87.51] discarded direct-tcp forward request to work.a-poster.info:25000 with data 'data=dcdcefbbfeeeebaf'
 2017-10-09T05:29:17+0000 [SSHChannel cowrie-discarded-direct-tcpip (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,404,5.188.87.51] failed to connect: Connection refused
+2017-10-09T05:30:49+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 31.162.170.167:57989 (10.3.66.85:2223) [session: TT751]
+2017-10-09T05:30:49+0000 [CowrieTelnetTransport,751,31.162.170.167] login attempt [root/] succeeded
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Opening TTY Log: log/tty/20171009-053052-None-751i.log
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Warning: state changed and new state returned
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] CMD: enable
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: enable 
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] CMD: system
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Command not found: system
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] CMD: shell
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Command not found: shell
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] CMD: sh
+2017-10-09T05:30:52+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: sh 
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox wget
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: wget
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox 81c46036wget
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: printf '\00281c46036\177'
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox tftp
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: tftp
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox 81c46036tftp
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: /bin/busybox cat /bin/busybox
+2017-10-09T05:30:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Command found: cat /bin/busybox
+2017-10-09T05:31:07+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 178.47.252.119:60355 (10.3.66.85:2223) [session: TT752]
+2017-10-09T05:31:08+0000 [CowrieTelnetTransport,752,178.47.252.119] login attempt [root/zsun1188] succeeded
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Opening TTY Log: log/tty/20171009-053110-None-752i.log
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Warning: state changed and new state returned
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Received unhandled keyID: '\x00'
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] CMD: enable
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Command found: enable 
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Received unhandled keyID: '\x00'
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] CMD: system
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Command not found: system
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Received unhandled keyID: '\x00'
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] CMD: shell
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Command not found: shell
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Received unhandled keyID: '\x00'
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] CMD: sh
+2017-10-09T05:31:10+0000 [CowrieTelnetTransport,752,178.47.252.119] Command found: sh 
+2017-10-09T05:31:11+0000 [CowrieTelnetTransport,752,178.47.252.119] Received unhandled keyID: '\x00'
+2017-10-09T05:31:11+0000 [CowrieTelnetTransport,752,178.47.252.119] CMD: /bin/busybox MIRAI
+2017-10-09T05:31:11+0000 [CowrieTelnetTransport,752,178.47.252.119] Command found: /bin/busybox MIRAI
+2017-10-09T05:31:11+0000 [CowrieTelnetTransport,752,178.47.252.119] Closing TTY Log: log/tty/20171009-053110-None-752i.log after 1 seconds
+2017-10-09T05:31:11+0000 [CowrieTelnetTransport,752,178.47.252.119] Connection lost after 3 seconds
+2017-10-09T05:31:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-09T05:31:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] direct-tcp connection request to 213.206.170.101:25 from ::1:26546
+2017-10-09T05:32:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-09T05:32:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] direct-tcp connection request to 206.190.42.177:25 from ::1:27091
+2017-10-09T05:32:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-09T05:32:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] direct-tcp connection request to 69.134.155.135:25 from ::1:19145
+2017-10-09T05:32:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 82.117.202.122:55857 (10.3.66.85:2222) [session: 6f7421322807]
+2017-10-09T05:32:45+0000 [HoneyPotSSHTransport,441,82.117.202.122] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-10-09T05:32:45+0000 [HoneyPotSSHTransport,441,82.117.202.122] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-10-09T05:32:45+0000 [HoneyPotSSHTransport,441,82.117.202.122] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-09T05:32:45+0000 [HoneyPotSSHTransport,441,82.117.202.122] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-09T05:32:46+0000 [HoneyPotSSHTransport,441,82.117.202.122] NEW KEYS
+2017-10-09T05:32:46+0000 [HoneyPotSSHTransport,441,82.117.202.122] starting service 'ssh-userauth'
+2017-10-09T05:32:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,441,82.117.202.122] 'ovhuser' trying auth 'password'
+2017-10-09T05:32:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,441,82.117.202.122] login attempt [ovhuser/ovhuser] failed
+2017-10-09T05:32:47+0000 [-] 'ovhuser' failed auth 'password'
+2017-10-09T05:32:47+0000 [-] unauthorized login: 
+2017-10-09T05:32:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,441,82.117.202.122] 'ovhuser' trying auth 'password'
+2017-10-09T05:32:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,441,82.117.202.122] login attempt [ovhuser/ovhuser] failed
+2017-10-09T05:32:48+0000 [-] 'ovhuser' failed auth 'password'
+2017-10-09T05:32:48+0000 [-] unauthorized login: 
+2017-10-09T05:32:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,441,82.117.202.122] 'ovhuser' trying auth 'password'
+2017-10-09T05:32:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,441,82.117.202.122] login attempt [ovhuser/ovhuser] failed
+2017-10-09T05:32:49+0000 [-] 'ovhuser' failed auth 'password'
+2017-10-09T05:32:49+0000 [-] unauthorized login: 
+2017-10-09T05:32:49+0000 [HoneyPotSSHTransport,441,82.117.202.122] connection lost
+2017-10-09T05:32:49+0000 [HoneyPotSSHTransport,441,82.117.202.122] Connection lost after 4 seconds
+2017-10-09T05:32:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Closing TTY Log: log/tty/20171009-053052-None-751i.log after 121 seconds
+2017-10-09T05:32:53+0000 [CowrieTelnetTransport,751,31.162.170.167] Connection lost after 124 seconds
+2017-10-09T05:33:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-09T05:33:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,411,91.195.103.195] direct-tcp connection request to 46.4.147.180:25 from ::1:28796
