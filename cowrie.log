@@ -5164,3 +5164,30 @@
 2017-10-09T08:38:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] direct-tcp connection request to 65.55.92.152:25 from ::1:11162
 2017-10-09T08:39:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] got channel 'direct-tcpip' request
 2017-10-09T08:39:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] direct-tcp connection request to 104.47.1.33:25 from ::1:46990
+2017-10-09T08:40:02+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 82.117.202.122:37037 (10.3.66.85:2222) [session: 9bdb9d12c40c]
+2017-10-09T08:40:02+0000 [HoneyPotSSHTransport,1019,82.117.202.122] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-10-09T08:40:02+0000 [HoneyPotSSHTransport,1019,82.117.202.122] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-10-09T08:40:02+0000 [HoneyPotSSHTransport,1019,82.117.202.122] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-09T08:40:02+0000 [HoneyPotSSHTransport,1019,82.117.202.122] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-09T08:40:03+0000 [HoneyPotSSHTransport,1019,82.117.202.122] NEW KEYS
+2017-10-09T08:40:03+0000 [HoneyPotSSHTransport,1019,82.117.202.122] starting service 'ssh-userauth'
+2017-10-09T08:40:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1019,82.117.202.122] 'nodejs' trying auth 'password'
+2017-10-09T08:40:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1019,82.117.202.122] login attempt [nodejs/nodejs] failed
+2017-10-09T08:40:04+0000 [-] 'nodejs' failed auth 'password'
+2017-10-09T08:40:04+0000 [-] unauthorized login: 
+2017-10-09T08:40:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1019,82.117.202.122] 'nodejs' trying auth 'password'
+2017-10-09T08:40:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1019,82.117.202.122] login attempt [nodejs/nodejs] failed
+2017-10-09T08:40:06+0000 [-] 'nodejs' failed auth 'password'
+2017-10-09T08:40:06+0000 [-] unauthorized login: 
+2017-10-09T08:40:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1019,82.117.202.122] 'nodejs' trying auth 'password'
+2017-10-09T08:40:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1019,82.117.202.122] login attempt [nodejs/nodejs] failed
+2017-10-09T08:40:07+0000 [-] 'nodejs' failed auth 'password'
+2017-10-09T08:40:07+0000 [-] unauthorized login: 
+2017-10-09T08:40:07+0000 [HoneyPotSSHTransport,1019,82.117.202.122] connection lost
+2017-10-09T08:40:07+0000 [HoneyPotSSHTransport,1019,82.117.202.122] Connection lost after 4 seconds
+2017-10-09T08:40:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-09T08:40:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] direct-tcp connection request to 188.125.69.79:25 from ::1:38453
+2017-10-09T08:44:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-09T08:44:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] direct-tcp connection request to 104.47.10.33:25 from ::1:31384
+2017-10-09T08:44:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-09T08:44:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1002,91.195.103.180] direct-tcp connection request to 65.55.33.135:25 from ::1:37859
