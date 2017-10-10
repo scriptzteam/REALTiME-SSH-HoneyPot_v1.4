@@ -8105,3 +8105,57 @@
 2017-10-10T21:39:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.138.112.33:25 from ::1:39569
 2017-10-10T21:39:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
 2017-10-10T21:39:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.138.112.33:25 from ::1:43743
+2017-10-10T21:41:05+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:51198 (10.3.66.85:2222) [session: ea2518b8fa1d]
+2017-10-10T21:41:05+0000 [HoneyPotSSHTransport,2179,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-10T21:41:05+0000 [HoneyPotSSHTransport,2179,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T21:41:05+0000 [HoneyPotSSHTransport,2179,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T21:41:05+0000 [HoneyPotSSHTransport,2179,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T21:41:08+0000 [HoneyPotSSHTransport,2179,111.93.237.194] NEW KEYS
+2017-10-10T21:41:08+0000 [HoneyPotSSHTransport,2179,111.93.237.194] starting service 'ssh-userauth'
+2017-10-10T21:41:08+0000 [HoneyPotSSHTransport,2179,111.93.237.194] connection lost
+2017-10-10T21:41:08+0000 [HoneyPotSSHTransport,2179,111.93.237.194] Connection lost after 3 seconds
+2017-10-10T21:41:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T21:41:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.138.112.33:25 from ::1:40745
+2017-10-10T21:41:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T21:41:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.138.112.33:25 from ::1:40041
+2017-10-10T21:42:08+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 200.199.164.51:39291 (10.3.66.85:2223) [session: TT2054]
+2017-10-10T21:42:20+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 190.249.147.70:42838 (10.3.66.85:2223) [session: TT2055]
+2017-10-10T21:42:29+0000 [CowrieTelnetTransport,2054,200.199.164.51] Connection lost after 20 seconds
+2017-10-10T21:42:40+0000 [CowrieTelnetTransport,2055,190.249.147.70] Connection lost after 19 seconds
+2017-10-10T21:42:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T21:42:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 63.250.192.45:25 from ::1:32287
+2017-10-10T21:42:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T21:42:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 63.250.192.45:25 from ::1:24304
+2017-10-10T21:43:06+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 61.247.104.157:2189 (10.3.66.85:2223) [session: TT2056]
+2017-10-10T21:43:07+0000 [CowrieTelnetTransport,2056,61.247.104.157] login attempt [root/] succeeded
+2017-10-10T21:43:09+0000 [CowrieTelnetTransport,2056,61.247.104.157] Opening TTY Log: log/tty/20171010-214309-None-2056i.log
+2017-10-10T21:43:09+0000 [CowrieTelnetTransport,2056,61.247.104.157] Warning: state changed and new state returned
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] CMD: enable
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: enable 
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] CMD: system
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command not found: system
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] CMD: shell
+2017-10-10T21:43:10+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command not found: shell
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] CMD: sh
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: sh 
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox wget
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: wget
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox 81c46036wget
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: printf '\00281c46036\177'
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox tftp
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: tftp
+2017-10-10T21:43:11+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox 81c46036tftp
+2017-10-10T21:43:12+0000 [CowrieTelnetTransport,2056,61.247.104.157] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-10T21:43:12+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-10T21:43:12+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-10T21:43:12+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: /bin/busybox cat /bin/busybox
+2017-10-10T21:43:12+0000 [CowrieTelnetTransport,2056,61.247.104.157] Command found: cat /bin/busybox
+2017-10-10T21:44:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2172,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T21:44:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2172,91.195.103.197] direct-tcp connection request to 69.168.84.3:25 from ::1:35734
