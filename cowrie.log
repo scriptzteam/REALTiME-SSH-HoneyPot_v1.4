@@ -4185,3 +4185,75 @@
 2017-10-10T17:14:11+0000 [SSHChannel cowrie-discarded-direct-tcpip (49) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1861,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
 2017-10-10T17:14:11+0000 [SSHChannel cowrie-discarded-direct-tcpip (49) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1861,91.195.103.189] failed to connect: Connection refused
 2017-10-10T17:14:11+0000 [SSHChannel cowrie-discarded-direct-tcpip (49) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1861,91.195.103.189] sending close 49
+2017-10-10T17:15:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2026,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-10T17:15:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2026,91.195.103.196] direct-tcp connection request to 52.208.171.122:25 from ::1:38652
+2017-10-10T17:15:39+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.236:40648 (10.3.66.85:2222) [session: 02ae70bbe07c]
+2017-10-10T17:15:40+0000 [HoneyPotSSHTransport,2060,221.194.47.236] Remote SSH version: SSH-2.0-PUTTY
+2017-10-10T17:15:40+0000 [HoneyPotSSHTransport,2060,221.194.47.236] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T17:15:40+0000 [HoneyPotSSHTransport,2060,221.194.47.236] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T17:15:40+0000 [HoneyPotSSHTransport,2060,221.194.47.236] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T17:15:40+0000 [HoneyPotSSHTransport,2060,221.194.47.236] NEW KEYS
+2017-10-10T17:15:41+0000 [HoneyPotSSHTransport,2060,221.194.47.236] starting service 'ssh-userauth'
+2017-10-10T17:15:41+0000 [HoneyPotSSHTransport,2060,221.194.47.236] Got remote error, code 11
+	reason: 
+2017-10-10T17:15:41+0000 [HoneyPotSSHTransport,2060,221.194.47.236] connection lost
+2017-10-10T17:15:41+0000 [HoneyPotSSHTransport,2060,221.194.47.236] Connection lost after 1 seconds
+2017-10-10T17:15:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-10T17:15:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] direct-tcp connection request to 66.196.118.33:25 from ::1:30600
+2017-10-10T17:15:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-10T17:15:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] direct-tcp connection request to 66.196.118.33:25 from ::1:40555
+2017-10-10T17:17:22+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 87.125.3.110:38618 (10.3.66.85:2223) [session: TT1889]
+2017-10-10T17:17:22+0000 [CowrieTelnetTransport,1889,87.125.3.110] login attempt [root/password] succeeded
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Opening TTY Log: log/tty/20171010-171725-None-1889i.log
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Warning: state changed and new state returned
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] CMD: cat /proc/mounts; (/bin/busybox MYACH || :)
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: cat /proc/mounts
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: /bin/busybox MYACH
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command not found: :
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; (/bin/busybox MYACH || :)
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: cd /dev/shm
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: cat .s
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: cp /bin/echo .s
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: /bin/busybox MYACH
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command not found: :
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] CMD: tftp; wget; (/bin/busybox MYACH || :)
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: tftp 
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: wget 
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: /bin/busybox MYACH
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command not found: :
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] CMD: dd bs=52 count=1 if=.s || cat .s
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: dd bs=52 count=1 if=.s
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: cat /dev/shm/.s
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] CMD: (/bin/busybox MYACH || :)
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command found: /bin/busybox MYACH
+2017-10-10T17:17:25+0000 [CowrieTelnetTransport,1889,87.125.3.110] Command not found: :
+2017-10-10T17:18:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-10T17:18:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] direct-tcp connection request to 98.138.112.37:25 from ::1:37824
+2017-10-10T17:18:50+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 177.23.38.94:38722 (10.3.66.85:2223) [session: TT1890]
+2017-10-10T17:18:51+0000 [CowrieTelnetTransport,1890,177.23.38.94] login attempt [guest/12345] failed
+2017-10-10T17:18:51+0000 [CowrieTelnetTransport,1890,177.23.38.94] Warning: state changed and new state returned
+2017-10-10T17:18:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-10T17:18:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] direct-tcp connection request to 98.138.112.37:25 from ::1:35329
+2017-10-10T17:18:52+0000 [CowrieTelnetTransport,1890,177.23.38.94] login attempt [enable\x00/system\x00] failed
+2017-10-10T17:18:52+0000 [CowrieTelnetTransport,1890,177.23.38.94] Warning: state changed and new state returned
+2017-10-10T17:18:53+0000 [CowrieTelnetTransport,1890,177.23.38.94] login attempt [shell\x00/sh\x00] failed
+2017-10-10T17:18:53+0000 [CowrieTelnetTransport,1890,177.23.38.94] Warning: state changed and new state returned
+2017-10-10T17:19:03+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 194.44.221.148:63829 (10.3.66.85:2222) [session: f6169fa7a9b0]
+2017-10-10T17:19:03+0000 [HoneyPotSSHTransport,2061,194.44.221.148] Bad protocol version identification: \x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie: mstshash=hello
+2017-10-10T17:19:03+0000 [HoneyPotSSHTransport,2061,194.44.221.148] connection lost
+2017-10-10T17:19:03+0000 [HoneyPotSSHTransport,2061,194.44.221.148] Connection lost after 0 seconds
+2017-10-10T17:19:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2026,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-10T17:19:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2026,91.195.103.196] direct-tcp connection request to 173.203.187.1:25 from ::1:35231
+2017-10-10T17:19:25+0000 [CowrieTelnetTransport,1890,177.23.38.94] Connection lost after 35 seconds
+2017-10-10T17:19:28+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 177.23.38.94:38870 (10.3.66.85:2223) [session: TT1891]
+2017-10-10T17:19:29+0000 [CowrieTelnetTransport,1891,177.23.38.94] login attempt [admin/1234567890] failed
+2017-10-10T17:19:29+0000 [CowrieTelnetTransport,1891,177.23.38.94] Warning: state changed and new state returned
+2017-10-10T17:19:31+0000 [CowrieTelnetTransport,1891,177.23.38.94] login attempt [enable\x00/system\x00] failed
+2017-10-10T17:19:31+0000 [CowrieTelnetTransport,1891,177.23.38.94] Warning: state changed and new state returned
+2017-10-10T17:19:32+0000 [CowrieTelnetTransport,1891,177.23.38.94] login attempt [shell\x00/sh\x00] failed
+2017-10-10T17:19:32+0000 [CowrieTelnetTransport,1891,177.23.38.94] Warning: state changed and new state returned
+2017-10-10T17:19:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-10T17:19:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] direct-tcp connection request to 96.7.203.183:443 from ::1:36471
+2017-10-10T17:19:38+0000 [SSHChannel cowrie-discarded-direct-tcpip (16) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] discarded direct-tcp forward request to 96.7.203.183:443 with data "\x16\x03\x03\x00\xbc\x01\x00\x00\xb8\x03\x03Y\xdd\x019UM9\x96V\xf5\xd0&\xc9IB\xdb\xd9\x04U4co\xb9ZIz\x1a\x85\xeb\x89o\x14\x00\x004\xc0(\x00\x9f\x00\x9e\x00\x9d\x00\x9c\xc0+\xc0#\xc0'\xc0\x14\xc0\x13\x00=\x00<\x005\x00/\xc0,\xc0$\xc0\n\xc0\t\x00j\x00@\x008\x002\x00\n\x00\x13\x00\x05\x00\x04\x01\x00\x00[\xff\x01\x00\x01\x00\x00\x00\x00*\x00(\x00\x00%auth.api.sonyentertainmentnetwork.com\x00\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00\r\x00\x10\x00\x0e\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x00#\x00\x00"
+2017-10-10T17:19:38+0000 [SSHChannel cowrie-discarded-direct-tcpip (16) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] failed to connect: Connection refused
+2017-10-10T17:19:38+0000 [SSHChannel cowrie-discarded-direct-tcpip (16) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2031,5.188.87.55] sending close 16
