@@ -4710,3 +4710,83 @@
 2017-10-10T08:24:45+0000 [SSHChannel cowrie-discarded-direct-tcpip (8) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1656,91.195.103.188] sending close 8
 2017-10-10T08:24:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
 2017-10-10T08:24:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 98.138.112.38:25 from ::1:47696
+2017-10-10T08:25:04+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:58806 (10.3.66.85:2222) [session: 4a1e7f070c72]
+2017-10-10T08:25:04+0000 [HoneyPotSSHTransport,1738,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T08:25:04+0000 [HoneyPotSSHTransport,1738,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T08:25:04+0000 [HoneyPotSSHTransport,1738,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:25:04+0000 [HoneyPotSSHTransport,1738,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:25:04+0000 [HoneyPotSSHTransport,1738,94.16.147.101] NEW KEYS
+2017-10-10T08:25:04+0000 [HoneyPotSSHTransport,1738,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T08:25:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1738,94.16.147.101] 'mint' trying auth 'password'
+2017-10-10T08:25:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1738,94.16.147.101] login attempt [mint/mustopamin] failed
+2017-10-10T08:25:05+0000 [-] 'mint' failed auth 'password'
+2017-10-10T08:25:05+0000 [-] unauthorized login: 
+2017-10-10T08:25:05+0000 [HoneyPotSSHTransport,1738,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T08:25:05+0000 [HoneyPotSSHTransport,1738,94.16.147.101] connection lost
+2017-10-10T08:25:05+0000 [HoneyPotSSHTransport,1738,94.16.147.101] Connection lost after 1 seconds
+2017-10-10T08:25:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:25:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.36:25 from ::1:12248
+2017-10-10T08:25:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:25:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.36:25 from ::1:41328
+2017-10-10T08:27:18+0000 [-] exitCode: 1
+2017-10-10T08:27:18+0000 [-] sending request 'exit-status'
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5 to dl/20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125 to dl/5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947 to dl/f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b to dl/512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663 to dl/d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d to dl/d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9 to dl/8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-10T08:27:18+0000 [-] Not storing duplicate content 0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f
+2017-10-10T08:27:18+0000 [-] Saved redir contents with SHA-256 0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f to dl/0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f
+2017-10-10T08:27:18+0000 [-] Closing TTY Log: log/tty/20171010-082418-ca482ce8ca94-0i.log after 180 seconds
+2017-10-10T08:27:18+0000 [-] sending close 0
+2017-10-10T08:27:34+0000 [HoneyPotSSHTransport,1737,195.22.127.83] avatar root logging out
+2017-10-10T08:27:34+0000 [HoneyPotSSHTransport,1737,195.22.127.83] connection lost
+2017-10-10T08:27:34+0000 [HoneyPotSSHTransport,1737,195.22.127.83] Connection lost after 199 seconds
+2017-10-10T08:27:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:27:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.240:25 from ::1:29295
+2017-10-10T08:28:02+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:42474 (10.3.66.85:2222) [session: bb3858bd3a36]
+2017-10-10T08:28:02+0000 [HoneyPotSSHTransport,1739,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T08:28:02+0000 [HoneyPotSSHTransport,1739,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T08:28:02+0000 [HoneyPotSSHTransport,1739,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:28:02+0000 [HoneyPotSSHTransport,1739,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:28:02+0000 [HoneyPotSSHTransport,1739,94.16.147.101] NEW KEYS
+2017-10-10T08:28:02+0000 [HoneyPotSSHTransport,1739,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T08:28:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1739,94.16.147.101] 'root' trying auth 'password'
+2017-10-10T08:28:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1739,94.16.147.101] login attempt [root/P455w0rd@dm1n] succeeded
+2017-10-10T08:28:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1739,94.16.147.101] 'root' authenticated with 'password'
+2017-10-10T08:28:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1739,94.16.147.101] starting service 'ssh-connection'
+2017-10-10T08:28:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:28:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.240:25 from ::1:40234
+2017-10-10T08:28:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] got channel 'session' request
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] channel open
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] executing command "uname -a"
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] Opening TTY Log: log/tty/20171010-082805-bb3858bd3a36-0e.log
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] CMD: uname -a
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] Command found: uname -a
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] exitCode: 0
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] sending request 'exit-status'
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] sending close 0
+2017-10-10T08:28:05+0000 [HoneyPotSSHTransport,1739,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] received eof, sending ctrl-d to command
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] Received CTRL-D, exiting..
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] exitCode: 0
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] Closing TTY Log: log/tty/20171010-082805-bb3858bd3a36-0e.log after 0 seconds
+2017-10-10T08:28:05+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1739,94.16.147.101] remote close
+2017-10-10T08:28:05+0000 [HoneyPotSSHTransport,1739,94.16.147.101] avatar root logging out
+2017-10-10T08:28:05+0000 [HoneyPotSSHTransport,1739,94.16.147.101] connection lost
+2017-10-10T08:28:05+0000 [HoneyPotSSHTransport,1739,94.16.147.101] Connection lost after 3 seconds
+2017-10-10T08:28:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T08:28:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 65.55.92.136:25 from ::1:35934
+2017-10-10T08:29:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T08:29:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 188.125.69.79:25 from ::1:47852
