@@ -257,3 +257,104 @@
 	reason: 
 2017-10-10T00:15:00+0000 [HoneyPotSSHTransport,1485,121.18.238.123] connection lost
 2017-10-10T00:15:00+0000 [HoneyPotSSHTransport,1485,121.18.238.123] Connection lost after 1 seconds
+2017-10-10T00:15:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:15:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to www.avito.ru:443 from ::1:21889
+2017-10-10T00:15:40+0000 [SSHChannel cowrie-discarded-direct-tcpip (36) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] discarded direct-tcp forward request to www.avito.ru:443 with data '\x16\x03\x01\x01=\x01\x00\x019\x03\x01Y\xdc\x11+\xd5\xaf[\xd1\x923\xfao\xcd\xdd\x1a\x10-@\x1f\xfcR\xb9\xd0\xcd+\xb5\x1f\x08\r\xa1R\x8f\x00\x00\x1c\xc0\n\xc0\t\xc0\x14\xc0\x13\x009\x003\x005\x00/\x00\n\x008\x002\x00\x13\x00\x05\x00\x04\x01\x00\x00\xf4\x00\x00\x00\x11\x00\x0f\x00\x00\x0cwww.avito.ru\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00#\x00\xc0\xa9\x1c`\xa3\xae\x91\x10|\x8b2Baz\xed\xdaj|\x9e^\xa1J\xd5,\xe2o\xc9\t\xd6\x9c|\xac\xe0W\x1c?\xee_\x8fc\x03w\xe44\x00\xfe\xd6 >~\x18\xd9\x83\xf6?I\xe9^zfH\x82\xd8\xf1\xf6u\x0f\xb1\x85\xa0\xc3\xe1\x80\x1a\xc5\xfc\xf4\x16Q\xb7t\x95Fd\x83\xfe\xdf\xe5q.\xa2kz\xd5\n\x17R\xa9\x9e\xfc7\xdc\xed<\x08\xce\x96ra\xa3=\xc5\xa5C\xa7A:1-\xc3\x8f0\x1a\xe7\x90\xfb;\xa9\x15\xc1\t6\xec\x12\x1b\xf4"\x7f\x92s=\x9f=\xc5\xd1\xb4\xf4uH\xc0\x82\x00\xcf\xa3|\xd4\xa7\xaa\x94\xf0\xa48TG\x037\xa0\xfc\xb7\x9b\xb4\x01\xb3\x16c\x10\xb5\x93\xbc\xec-\x82N\xe004<\xbd\x9e\x01%:{\x00\x17\x00\x00\xff\x01\x00\x01\x00'
+2017-10-10T00:15:40+0000 [SSHChannel cowrie-discarded-direct-tcpip (36) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] failed to connect: Connection refused
+2017-10-10T00:15:40+0000 [SSHChannel cowrie-discarded-direct-tcpip (36) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] sending close 36
+2017-10-10T00:15:41+0000 [CowrieTelnetTransport,1343,187.35.63.242] Closing TTY Log: log/tty/20171010-001356-None-1343i.log after 104 seconds
+2017-10-10T00:15:41+0000 [CowrieTelnetTransport,1343,187.35.63.242] Connection lost after 108 seconds
+2017-10-10T00:15:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:15:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 95.213.11.139:443 from ::1:35590
+2017-10-10T00:15:50+0000 [SSHChannel cowrie-discarded-direct-tcpip (37) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] discarded direct-tcp forward request to 95.213.11.139:443 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\xbd6\xaf\xa4\xcf~\x9dPIk\x98s\xd8\x85$\x8e2\x90:=\xf9\x82\xa5[\xabH\xab}\xc1(93\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T00:15:50+0000 [SSHChannel cowrie-discarded-direct-tcpip (37) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] failed to connect: Connection refused
+2017-10-10T00:15:50+0000 [SSHChannel cowrie-discarded-direct-tcpip (37) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] sending close 37
+2017-10-10T00:15:59+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:33880 (10.3.66.85:2222) [session: 330fc72cc058]
+2017-10-10T00:15:59+0000 [HoneyPotSSHTransport,1486,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T00:15:59+0000 [HoneyPotSSHTransport,1486,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T00:15:59+0000 [HoneyPotSSHTransport,1486,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T00:15:59+0000 [HoneyPotSSHTransport,1486,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T00:16:00+0000 [HoneyPotSSHTransport,1486,94.16.147.101] NEW KEYS
+2017-10-10T00:16:00+0000 [HoneyPotSSHTransport,1486,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T00:16:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1486,94.16.147.101] 'asterisk' trying auth 'password'
+2017-10-10T00:16:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1486,94.16.147.101] login attempt [asterisk/asterisk] failed
+2017-10-10T00:16:02+0000 [-] 'asterisk' failed auth 'password'
+2017-10-10T00:16:02+0000 [-] unauthorized login: 
+2017-10-10T00:16:02+0000 [HoneyPotSSHTransport,1486,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T00:16:02+0000 [HoneyPotSSHTransport,1486,94.16.147.101] connection lost
+2017-10-10T00:16:02+0000 [HoneyPotSSHTransport,1486,94.16.147.101] Connection lost after 2 seconds
+2017-10-10T00:17:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:17:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 98.136.217.203:25 from ::1:25160
+2017-10-10T00:17:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:17:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 98.136.217.203:25 from ::1:18791
+2017-10-10T00:17:33+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1476,5.188.87.41] got channel 'direct-tcpip' request
+2017-10-10T00:17:33+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1476,5.188.87.41] direct-tcp connection request to 64.233.165.103:443 from localhost:5556
+2017-10-10T00:17:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:17:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 95.213.11.139:443 from ::1:14453
+2017-10-10T00:17:36+0000 [SSHChannel cowrie-discarded-direct-tcpip (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] discarded direct-tcp forward request to 95.213.11.139:443 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\xee\x93h]E5#\xd2\x85\xc2\x96lw\xb1\x1e\xb3\x15Ev\x06\x12\x11{\r\xe7\xbf\xf2Sq\x1cfb\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T00:17:36+0000 [SSHChannel cowrie-discarded-direct-tcpip (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] failed to connect: Connection refused
+2017-10-10T00:17:36+0000 [SSHChannel cowrie-discarded-direct-tcpip (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] sending close 40
+2017-10-10T00:17:36+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1476,5.188.87.41] discarded direct-tcp forward request to 64.233.165.103:443 with data '\x16\x03\x01\x01y\x01\x00\x01u\x03\x03Y\xdc\x11\x98\\\xb5\xdb\xf8\xd6})9v>\x9f\xfb\xb7\xe31\xa2}\xd2\xe4;$S3\x85g\x8d%\xe2\x00\x00\xca\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\xc0"\xc0!\x00\xa3\x00\x9f\x00k\x00j\x009\x008\x00\x88\x00\x87\xc0\x19\xc0 \x00\xa7\x00m\x00:\x00\x89\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0\x12\xc0\x08\xc0\x1c\xc0\x1b\x00\x16\x00\x13\xc0\x17\xc0\x1a\x00\x1b\xc0\r\xc0\x03\x00\n\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\xc0\x1f\xc0\x1e\x00\xa2\x00\x9e\x00g\x00@\x003\x002\x00\x9a\x00\x99\x00E\x00D\xc0\x18\xc0\x1d\x00\xa6\x00l\x004\x00\x9b\x00F\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x16\x00\x18\xc0\x0c\xc0\x02\x00\x05\x00\x04\x00\x15\x00\x12\x00\x1a\x00\t\x00\x14\x00\x11\x00\x19\x00\x08\x00\x06\x00\x17\x00\x03\x00\xff\x01\x00\x00\x82\x00\x00\x00\x13\x00\x11\x00\x00\x0ewww.google.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x004\x002\x00\x0e\x00\r\x00\x19\x00\x0b\x00\x0c\x00\x18\x00\t\x00\n\x00\x16\x00\x17\x00\x08\x00\x06\x00\x07\x00\x14\x00\x15\x00\x04\x00\x05\x00\x12\x00\x13\x00\x01\x00\x02\x00\x03\x00\x0f\x00\x10\x00\x11\x00\r\x00"\x00 \x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x01\x01\x00\x0f\x00\x01\x01'
+2017-10-10T00:17:36+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1476,5.188.87.41] failed to connect: Connection refused
+2017-10-10T00:17:36+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1476,5.188.87.41] sending close 1
+2017-10-10T00:18:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:18:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 66.196.118.35:25 from ::1:16458
+2017-10-10T00:18:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:18:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 66.196.118.35:25 from ::1:38877
+2017-10-10T00:18:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:18:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to www.avito.ru:443 from ::1:12440
+2017-10-10T00:18:47+0000 [SSHChannel cowrie-discarded-direct-tcpip (43) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] discarded direct-tcp forward request to www.avito.ru:443 with data '\x16\x03\x01\x01=\x01\x00\x019\x03\x01Y\xdc\x11\xe6\r\t\x96\xd6\x94\xfcJ\xc0C\x08E}\xf1<\x98\x96\xfbhn\xc8\xcbz\x84\xb2pL0\xa2\x00\x00\x1c\xc0\n\xc0\t\xc0\x14\xc0\x13\x009\x003\x005\x00/\x00\n\x008\x002\x00\x13\x00\x05\x00\x04\x01\x00\x00\xf4\x00\x00\x00\x11\x00\x0f\x00\x00\x0cwww.avito.ru\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00#\x00\xc0\x92\xd1\xbd\xf3\x04\xb7AZ\xec|\x00M\xfa\xfe6Z\'t1^>\xe4:\x99\xd9\x82\xac]X\xda\xa6X\x9f\xf3Oyf\t8\xb5l\xa9{\xf9 \xb7\x8aU`\\D\rP\xe4x\xbf!\xee\x9d\r\xa0\x19\x84\xd3r\xa5:"\xbb\x07\x12\xa3\x8c\x908~6l]\x9fV#\xefE~l.u\xe9\xac\xbbZ)\x12_Sg\xa7=\xc4S\x03bF\x84\x8d-\xb5\xba\xd0W\x0e\xc4\x98\x9di\x8c+3q\t\x8d\x1b\x06\xd7\x96m\xe4w\x95\xc5\xf6\xf6\xb6\xfa\xbb}\xf2i\xe9\x18\xb9E\xbb\xe3\xbfU{\x7f\x1f\x97\xcf\xd9\x02\xdeS&\x07\xd9\x1d\x07\x15\x89\xe8\xdb2\x0e\x00\xaah\xab\xc98~\xc1y\xed\xd6D:s\xa0\x05\xec`\x89M\xf73vb6\x00\x17\x00\x00\xff\x01\x00\x01\x00'
+2017-10-10T00:18:47+0000 [SSHChannel cowrie-discarded-direct-tcpip (43) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] failed to connect: Connection refused
+2017-10-10T00:18:47+0000 [SSHChannel cowrie-discarded-direct-tcpip (43) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] sending close 43
+2017-10-10T00:18:56+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:46054 (10.3.66.85:2222) [session: 45f344aa8735]
+2017-10-10T00:18:56+0000 [HoneyPotSSHTransport,1487,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T00:18:56+0000 [HoneyPotSSHTransport,1487,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T00:18:56+0000 [HoneyPotSSHTransport,1487,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T00:18:56+0000 [HoneyPotSSHTransport,1487,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T00:18:56+0000 [HoneyPotSSHTransport,1487,94.16.147.101] NEW KEYS
+2017-10-10T00:18:56+0000 [HoneyPotSSHTransport,1487,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T00:18:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1487,94.16.147.101] 'newadmin' trying auth 'password'
+2017-10-10T00:18:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1487,94.16.147.101] login attempt [newadmin/newadmin] failed
+2017-10-10T00:18:58+0000 [-] 'newadmin' failed auth 'password'
+2017-10-10T00:18:58+0000 [-] unauthorized login: 
+2017-10-10T00:18:58+0000 [HoneyPotSSHTransport,1487,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T00:18:58+0000 [HoneyPotSSHTransport,1487,94.16.147.101] connection lost
+2017-10-10T00:18:58+0000 [HoneyPotSSHTransport,1487,94.16.147.101] Connection lost after 1 seconds
+2017-10-10T00:19:04+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 134.236.83.143:34555 (10.3.66.85:2223) [session: TT1344]
+2017-10-10T00:19:05+0000 [CowrieTelnetTransport,1344,134.236.83.143] login attempt [root/vizxv] succeeded
+2017-10-10T00:19:06+0000 [CowrieTelnetTransport,1344,134.236.83.143] Opening TTY Log: log/tty/20171010-001906-None-1344i.log
+2017-10-10T00:19:06+0000 [CowrieTelnetTransport,1344,134.236.83.143] Warning: state changed and new state returned
+2017-10-10T00:19:07+0000 [CowrieTelnetTransport,1344,134.236.83.143] CMD: enable
+2017-10-10T00:19:07+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: enable 
+2017-10-10T00:19:07+0000 [CowrieTelnetTransport,1344,134.236.83.143] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-10T00:19:07+0000 [CowrieTelnetTransport,1344,134.236.83.143] CMD: system
+2017-10-10T00:19:07+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command not found: system
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] CMD: shell
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command not found: shell
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] CMD: sh
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: sh 
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox wget
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: wget
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox 81c46036wget
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: printf '\00281c46036\177'
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox tftp
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: tftp
+2017-10-10T00:19:08+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox 81c46036tftp
+2017-10-10T00:19:09+0000 [CowrieTelnetTransport,1344,134.236.83.143] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-10T00:19:09+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-10T00:19:09+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-10T00:19:09+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: /bin/busybox cat /bin/busybox
+2017-10-10T00:19:09+0000 [CowrieTelnetTransport,1344,134.236.83.143] Command found: cat /bin/busybox
+2017-10-10T00:19:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-10T00:19:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] direct-tcp connection request to 87.240.165.81:443 from ::1:21798
+2017-10-10T00:19:57+0000 [SSHChannel cowrie-discarded-direct-tcpip (44) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] discarded direct-tcp forward request to 87.240.165.81:443 with data '\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\xa4\xd3\xac!\x19\x84H\x1e\xb9b\xb4Q5\xcb\x9e\x97]\xf8=\x85M\x8b\xc5\xf7]A\xb8\x12\xda"\xf6V\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01'
+2017-10-10T00:19:57+0000 [SSHChannel cowrie-discarded-direct-tcpip (44) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] failed to connect: Connection refused
+2017-10-10T00:19:57+0000 [SSHChannel cowrie-discarded-direct-tcpip (44) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1471,5.188.87.54] sending close 44
