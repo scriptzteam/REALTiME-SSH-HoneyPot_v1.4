@@ -1162,3 +1162,106 @@
 2017-10-10T22:32:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.136.216.26:25 from ::1:32856
 2017-10-10T22:33:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
 2017-10-10T22:33:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.136.216.26:25 from ::1:48092
+2017-10-10T22:35:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T22:35:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.138.112.38:25 from ::1:13469
+2017-10-10T22:35:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T22:35:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.138.112.38:25 from ::1:34022
+2017-10-10T22:35:54+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:57903 (10.3.66.85:2222) [session: ab983b545e77]
+2017-10-10T22:35:54+0000 [HoneyPotSSHTransport,2204,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-10T22:35:54+0000 [HoneyPotSSHTransport,2204,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T22:35:54+0000 [HoneyPotSSHTransport,2204,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T22:35:54+0000 [HoneyPotSSHTransport,2204,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T22:35:54+0000 [HoneyPotSSHTransport,2204,111.93.237.194] NEW KEYS
+2017-10-10T22:35:54+0000 [HoneyPotSSHTransport,2204,111.93.237.194] starting service 'ssh-userauth'
+2017-10-10T22:35:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2204,111.93.237.194] 'root' trying auth 'password'
+2017-10-10T22:35:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2204,111.93.237.194] login attempt [root/password1] succeeded
+2017-10-10T22:35:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2204,111.93.237.194] 'root' authenticated with 'password'
+2017-10-10T22:35:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2204,111.93.237.194] starting service 'ssh-connection'
+2017-10-10T22:35:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] got channel 'session' request
+2017-10-10T22:35:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] channel open
+2017-10-10T22:35:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] pty request: 'vanilla' (24, 80, 0, 0)
+2017-10-10T22:35:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Terminal Size: 24 80
+2017-10-10T22:35:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] getting shell
+2017-10-10T22:35:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Opening TTY Log: log/tty/20171010-223557-ab983b545e77-0i.log
+2017-10-10T22:36:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] got channel 'session' request
+2017-10-10T22:36:00+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] channel open
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] executing command "uname"
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Opening TTY Log: log/tty/20171010-223601-ab983b545e77-1e.log
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] CMD: uname
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Command found: uname 
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] exitCode: 0
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] sending request 'exit-status'
+2017-10-10T22:36:01+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] sending close 1
+2017-10-10T22:36:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] got channel 'session' request
+2017-10-10T22:36:01+0000 [SSHChannel session (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] channel open
+2017-10-10T22:36:01+0000 [SSHChannel session (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] pty request: 'vanilla' (24, 80, 0, 0)
+2017-10-10T22:36:01+0000 [SSHChannel session (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Terminal Size: 24 80
+2017-10-10T22:36:01+0000 [SSHChannel session (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] getting shell
+2017-10-10T22:36:01+0000 [SSHChannel session (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Opening TTY Log: log/tty/20171010-223601-ab983b545e77-2i.log
+2017-10-10T22:36:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] got channel 'session' request
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] channel open
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] executing command "free -m"
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Opening TTY Log: log/tty/20171010-223604-ab983b545e77-3e.log
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] CMD: free -m
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Command found: free -m
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] exitCode: 0
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] sending request 'exit-status'
+2017-10-10T22:36:04+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] sending close 3
+2017-10-10T22:36:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] got channel 'session' request
+2017-10-10T22:36:04+0000 [SSHChannel session (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] channel open
+2017-10-10T22:36:05+0000 [SSHChannel session (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] pty request: 'vanilla' (24, 80, 0, 0)
+2017-10-10T22:36:05+0000 [SSHChannel session (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Terminal Size: 24 80
+2017-10-10T22:36:05+0000 [SSHChannel session (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] getting shell
+2017-10-10T22:36:05+0000 [SSHChannel session (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Opening TTY Log: log/tty/20171010-223605-ab983b545e77-4i.log
+2017-10-10T22:36:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] got channel 'session' request
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] channel open
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] executing command "ps x"
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Opening TTY Log: log/tty/20171010-223608-ab983b545e77-5e.log
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] CMD: ps x
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Command found: ps x
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] exitCode: 0
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] sending request 'exit-status'
+2017-10-10T22:36:08+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] sending close 5
+2017-10-10T22:36:09+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Closing TTY Log: log/tty/20171010-223557-ab983b545e77-0i.log after 11 seconds
+2017-10-10T22:36:09+0000 [SSHChannel session (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Closing TTY Log: log/tty/20171010-223601-ab983b545e77-1e.log after 7 seconds
+2017-10-10T22:36:09+0000 [SSHChannel session (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Closing TTY Log: log/tty/20171010-223601-ab983b545e77-2i.log after 7 seconds
+2017-10-10T22:36:09+0000 [SSHChannel session (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Closing TTY Log: log/tty/20171010-223604-ab983b545e77-3e.log after 4 seconds
+2017-10-10T22:36:09+0000 [SSHChannel session (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Closing TTY Log: log/tty/20171010-223605-ab983b545e77-4i.log after 3 seconds
+2017-10-10T22:36:09+0000 [SSHChannel session (5) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2204,111.93.237.194] Closing TTY Log: log/tty/20171010-223608-ab983b545e77-5e.log after 0 seconds
+2017-10-10T22:36:09+0000 [HoneyPotSSHTransport,2204,111.93.237.194] avatar root logging out
+2017-10-10T22:36:09+0000 [HoneyPotSSHTransport,2204,111.93.237.194] connection lost
+2017-10-10T22:36:09+0000 [HoneyPotSSHTransport,2204,111.93.237.194] Connection lost after 14 seconds
+2017-10-10T22:36:46+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 121.18.238.119:52411 (10.3.66.85:2222) [session: c20c08c3b93b]
+2017-10-10T22:36:47+0000 [HoneyPotSSHTransport,2205,121.18.238.119] Remote SSH version: SSH-2.0-PUTTY
+2017-10-10T22:36:47+0000 [HoneyPotSSHTransport,2205,121.18.238.119] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T22:36:47+0000 [HoneyPotSSHTransport,2205,121.18.238.119] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T22:36:47+0000 [HoneyPotSSHTransport,2205,121.18.238.119] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T22:36:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2202,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T22:36:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2202,91.195.103.197] direct-tcp connection request to 64.235.154.109:25 from ::1:45387
+2017-10-10T22:36:47+0000 [HoneyPotSSHTransport,2205,121.18.238.119] NEW KEYS
+2017-10-10T22:36:48+0000 [HoneyPotSSHTransport,2205,121.18.238.119] starting service 'ssh-userauth'
+2017-10-10T22:36:48+0000 [HoneyPotSSHTransport,2205,121.18.238.119] Got remote error, code 11
+	reason: 
+2017-10-10T22:36:48+0000 [HoneyPotSSHTransport,2205,121.18.238.119] connection lost
+2017-10-10T22:36:48+0000 [HoneyPotSSHTransport,2205,121.18.238.119] Connection lost after 1 seconds
+2017-10-10T22:37:33+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T22:37:33+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 63.250.192.46:25 from ::1:33195
+2017-10-10T22:37:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T22:37:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 63.250.192.46:25 from ::1:22665
+2017-10-10T22:38:26+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.47.242:48800 (10.3.66.85:2222) [session: 7afa351639b4]
+2017-10-10T22:38:26+0000 [HoneyPotSSHTransport,2206,221.194.47.242] Remote SSH version: SSH-2.0-PUTTY
+2017-10-10T22:38:26+0000 [HoneyPotSSHTransport,2206,221.194.47.242] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T22:38:26+0000 [HoneyPotSSHTransport,2206,221.194.47.242] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T22:38:26+0000 [HoneyPotSSHTransport,2206,221.194.47.242] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T22:38:27+0000 [HoneyPotSSHTransport,2206,221.194.47.242] NEW KEYS
+2017-10-10T22:38:27+0000 [HoneyPotSSHTransport,2206,221.194.47.242] starting service 'ssh-userauth'
+2017-10-10T22:38:27+0000 [HoneyPotSSHTransport,2206,221.194.47.242] Got remote error, code 11
+	reason: 
+2017-10-10T22:38:27+0000 [HoneyPotSSHTransport,2206,221.194.47.242] connection lost
+2017-10-10T22:38:27+0000 [HoneyPotSSHTransport,2206,221.194.47.242] Connection lost after 1 seconds
+2017-10-10T22:39:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T22:39:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.136.216.26:25 from ::1:40112
+2017-10-10T22:39:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2202,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T22:39:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2202,91.195.103.197] direct-tcp connection request to 72.167.238.32:25 from ::1:33277
+2017-10-10T22:39:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-10T22:39:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2164,5.188.87.50] direct-tcp connection request to 98.136.216.26:25 from ::1:45020
