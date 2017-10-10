@@ -5918,3 +5918,129 @@
 2017-10-10T12:09:37+0000 [CowrieTelnetTransport,1692,189.54.120.80] Command found: /bin/busybox 81c46036tftp
 2017-10-10T12:09:37+0000 [CowrieTelnetTransport,1692,189.54.120.80] Closing TTY Log: log/tty/20171010-120935-None-1692i.log after 1 seconds
 2017-10-10T12:09:37+0000 [CowrieTelnetTransport,1692,189.54.120.80] Connection lost after 5 seconds
+2017-10-10T12:11:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] got channel 'direct-tcpip' request
+2017-10-10T12:11:58+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] direct-tcp connection request to mail.yahoo.com:443 from ::1:49739
+2017-10-10T12:11:58+0000 [SSHChannel cowrie-discarded-direct-tcpip (92) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03S(dY\x0cBN\xb9\x1a\x938\xe2\xe4\xder\x9c\x94\x10\xfe\xc7\x88\x9e\xf4W\xceP\x83\xc8\x1at5\x9b\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T12:11:58+0000 [SSHChannel cowrie-discarded-direct-tcpip (92) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
+2017-10-10T12:11:58+0000 [SSHChannel cowrie-discarded-direct-tcpip (92) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] sending close 92
+2017-10-10T12:12:18+0000 [CowrieTelnetTransport,1690,146.255.227.26] Closing TTY Log: log/tty/20171010-120927-None-1690i.log after 171 seconds
+2017-10-10T12:12:18+0000 [CowrieTelnetTransport,1690,146.255.227.26] Connection lost after 173 seconds
+2017-10-10T12:12:35+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 63.135.62.215:45336 (10.3.66.85:2223) [session: TT1693]
+2017-10-10T12:12:36+0000 [CowrieTelnetTransport,1693,63.135.62.215] login attempt [root/54321] succeeded
+2017-10-10T12:12:37+0000 [CowrieTelnetTransport,1693,63.135.62.215] Opening TTY Log: log/tty/20171010-121237-None-1693i.log
+2017-10-10T12:12:37+0000 [CowrieTelnetTransport,1693,63.135.62.215] Warning: state changed and new state returned
+2017-10-10T12:12:37+0000 [CowrieTelnetTransport,1693,63.135.62.215] Received unhandled keyID: '\x00'
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] CMD: enable
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Command found: enable 
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Received unhandled keyID: '\x00'
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] CMD: system
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Command not found: system
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Received unhandled keyID: '\x00'
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] CMD: shell
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Command not found: shell
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Received unhandled keyID: '\x00'
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] CMD: sh
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Command found: sh 
+2017-10-10T12:12:38+0000 [CowrieTelnetTransport,1693,63.135.62.215] Received unhandled keyID: '\x00'
+2017-10-10T12:12:39+0000 [CowrieTelnetTransport,1693,63.135.62.215] CMD: /bin/busybox MIRAI
+2017-10-10T12:12:39+0000 [CowrieTelnetTransport,1693,63.135.62.215] Command found: /bin/busybox MIRAI
+2017-10-10T12:13:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:13:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 80.67.18.126:25 from ::1:48637
+2017-10-10T12:14:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:08+0000 [SSHChannel cowrie-discarded-direct-tcpip (30) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:08+0000 [SSHChannel cowrie-discarded-direct-tcpip (30) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:08+0000 [SSHChannel cowrie-discarded-direct-tcpip (30) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 30
+2017-10-10T12:14:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:08+0000 [SSHChannel cowrie-discarded-direct-tcpip (31) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:08+0000 [SSHChannel cowrie-discarded-direct-tcpip (31) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:08+0000 [SSHChannel cowrie-discarded-direct-tcpip (31) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 31
+2017-10-10T12:14:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:09+0000 [SSHChannel cowrie-discarded-direct-tcpip (32) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:09+0000 [SSHChannel cowrie-discarded-direct-tcpip (32) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:09+0000 [SSHChannel cowrie-discarded-direct-tcpip (32) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 32
+2017-10-10T12:14:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:09+0000 [SSHChannel cowrie-discarded-direct-tcpip (33) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:09+0000 [SSHChannel cowrie-discarded-direct-tcpip (33) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:09+0000 [SSHChannel cowrie-discarded-direct-tcpip (33) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 33
+2017-10-10T12:14:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (34) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (34) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (34) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 34
+2017-10-10T12:14:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:11+0000 [SSHChannel cowrie-discarded-direct-tcpip (35) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:11+0000 [SSHChannel cowrie-discarded-direct-tcpip (35) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:11+0000 [SSHChannel cowrie-discarded-direct-tcpip (35) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 35
+2017-10-10T12:14:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (36) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (36) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (36) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 36
+2017-10-10T12:14:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (37) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (37) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (37) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 37
+2017-10-10T12:14:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (38) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (38) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (38) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 38
+2017-10-10T12:14:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-10T12:14:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] direct-tcp connection request to 188.214.134.13:8888 from localhost:5556
+2017-10-10T12:14:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (39) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] discarded direct-tcp forward request to 188.214.134.13:8888 with data 'GET /v2/callerinfo?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 188.214.134.13:8888\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-10-10T12:14:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (39) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] failed to connect: Connection refused
+2017-10-10T12:14:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (39) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1770,91.195.103.189] sending close 39
+2017-10-10T12:14:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] got channel 'direct-tcpip' request
+2017-10-10T12:14:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] direct-tcp connection request to mail.yahoo.com:443 from ::1:36338
+2017-10-10T12:14:16+0000 [SSHChannel cowrie-discarded-direct-tcpip (93) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03\xca%\x0c^\xceC\t\xb7\xe0\xbe\xb9x\xa9\x1e^\xf6\xe4\x8a\x0c\xde\n\x85\xf7\xab\x8f\x9bi\x1c\xa9N4\x80\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T12:14:16+0000 [SSHChannel cowrie-discarded-direct-tcpip (93) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] failed to connect: Connection refused
+2017-10-10T12:14:16+0000 [SSHChannel cowrie-discarded-direct-tcpip (93) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1745,91.195.103.216] sending close 93
+2017-10-10T12:14:18+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 201.42.173.43:39825 (10.3.66.85:2223) [session: TT1694]
+2017-10-10T12:14:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] got channel 'direct-tcpip' request
+2017-10-10T12:14:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] direct-tcp connection request to mail.yahoo.com:443 from ::1:45043
+2017-10-10T12:14:18+0000 [SSHChannel cowrie-discarded-direct-tcpip (82) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] discarded direct-tcp forward request to mail.yahoo.com:443 with data '\x16\x03\x01\x01E\x01\x00\x01A\x03\x03=\x9110\x87\xef\x9a\x9fY\xc5\xd7"\xda\xcf\xbbF\x12\xa0\xfc\x8cw\xe9\\\x7fHs\xca\x03\x91$eL\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01'
+2017-10-10T12:14:18+0000 [SSHChannel cowrie-discarded-direct-tcpip (82) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] failed to connect: Connection refused
+2017-10-10T12:14:18+0000 [SSHChannel cowrie-discarded-direct-tcpip (82) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] sending close 82
+2017-10-10T12:14:19+0000 [CowrieTelnetTransport,1694,201.42.173.43] login attempt [admin/pass] failed
+2017-10-10T12:14:19+0000 [CowrieTelnetTransport,1694,201.42.173.43] Warning: state changed and new state returned
+2017-10-10T12:14:19+0000 [CowrieTelnetTransport,1694,201.42.173.43] login attempt [root/7ujMko0admin] succeeded
+2017-10-10T12:14:21+0000 [CowrieTelnetTransport,1694,201.42.173.43] Opening TTY Log: log/tty/20171010-121421-None-1694i.log
+2017-10-10T12:14:21+0000 [CowrieTelnetTransport,1694,201.42.173.43] Warning: state changed and new state returned
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] CMD: cat /proc/mounts; (/bin/busybox CCIWE || :)
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: cat /proc/mounts
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: /bin/busybox CCIWE
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: :
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; (/bin/busybox CCIWE || :)
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: cd /dev/shm
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: cat .s
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: cp /bin/echo .s
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: /bin/busybox CCIWE
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: :
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] CMD: tftp; wget; (/bin/busybox CCIWE || :)
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: tftp 
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: wget 
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: /bin/busybox CCIWE
+2017-10-10T12:14:22+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: :
+2017-10-10T12:14:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-10T12:14:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1845,91.195.103.197] direct-tcp connection request to 208.80.206.85:25 from ::1:34928
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] CMD: dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: dd bs=52 count=1 if=.s
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: cat /dev/shm/.s
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: while read i
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: do echo
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: done < .s
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] CMD: (/bin/busybox CCIWE || :)
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command found: /bin/busybox CCIWE
+2017-10-10T12:14:23+0000 [CowrieTelnetTransport,1694,201.42.173.43] Command not found: :
+2017-10-10T12:14:37+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] got channel 'direct-tcpip' request
+2017-10-10T12:14:37+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] direct-tcp connection request to mail.yahoo.com:443 from ::1:25614
+2017-10-10T12:14:37+0000 [SSHChannel cowrie-discarded-direct-tcpip (83) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03\xbd\xf4\x9aNKt\x9c\x98Cv\xef\xcd\x80\xfbG\xcd\x86e\xdf\x9cD\\\xd0\xa8x\xbb\xa6\x11YF \xf4\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-10T12:14:37+0000 [SSHChannel cowrie-discarded-direct-tcpip (83) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] failed to connect: Connection refused
+2017-10-10T12:14:37+0000 [SSHChannel cowrie-discarded-direct-tcpip (83) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1743,91.195.103.187] sending close 83
