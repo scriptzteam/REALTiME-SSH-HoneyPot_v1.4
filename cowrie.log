@@ -2901,3 +2901,168 @@
 2017-10-10T07:23:59+0000 [HoneyPotSSHTransport,1706,94.16.147.101] avatar root logging out
 2017-10-10T07:23:59+0000 [HoneyPotSSHTransport,1706,94.16.147.101] connection lost
 2017-10-10T07:23:59+0000 [HoneyPotSSHTransport,1706,94.16.147.101] Connection lost after 4 seconds
+2017-10-10T07:25:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T07:25:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.240:25 from ::1:48608
+2017-10-10T07:25:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T07:25:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.240:25 from ::1:29323
+2017-10-10T07:26:50+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 186.130.3.1:40388 (10.3.66.85:2222) [session: 48d8f820f6a5]
+2017-10-10T07:26:50+0000 [HoneyPotSSHTransport,1707,186.130.3.1] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-10-10T07:26:50+0000 [HoneyPotSSHTransport,1707,186.130.3.1] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-10T07:26:50+0000 [HoneyPotSSHTransport,1707,186.130.3.1] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-10T07:26:50+0000 [HoneyPotSSHTransport,1707,186.130.3.1] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-10T07:26:51+0000 [HoneyPotSSHTransport,1707,186.130.3.1] NEW KEYS
+2017-10-10T07:26:51+0000 [HoneyPotSSHTransport,1707,186.130.3.1] starting service 'ssh-userauth'
+2017-10-10T07:26:52+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:26:52+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/pfsense] failed
+2017-10-10T07:26:53+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:26:53+0000 [-] unauthorized login: 
+2017-10-10T07:26:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:26:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/pfsense] failed
+2017-10-10T07:26:54+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:26:54+0000 [-] unauthorized login: 
+2017-10-10T07:26:54+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:60236 (10.3.66.85:2222) [session: 689f24101c35]
+2017-10-10T07:26:54+0000 [HoneyPotSSHTransport,1708,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T07:26:54+0000 [HoneyPotSSHTransport,1708,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T07:26:54+0000 [HoneyPotSSHTransport,1708,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T07:26:54+0000 [HoneyPotSSHTransport,1708,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T07:26:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:26:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/changeme] failed
+2017-10-10T07:26:55+0000 [HoneyPotSSHTransport,1708,94.16.147.101] NEW KEYS
+2017-10-10T07:26:55+0000 [HoneyPotSSHTransport,1708,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T07:26:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1708,94.16.147.101] 'root' trying auth 'password'
+2017-10-10T07:26:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1708,94.16.147.101] login attempt [root/87654321] succeeded
+2017-10-10T07:26:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1708,94.16.147.101] 'root' authenticated with 'password'
+2017-10-10T07:26:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1708,94.16.147.101] starting service 'ssh-connection'
+2017-10-10T07:26:57+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:26:57+0000 [-] unauthorized login: 
+2017-10-10T07:26:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] got channel 'session' request
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] channel open
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] executing command "uname -a"
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] Opening TTY Log: log/tty/20171010-072657-689f24101c35-0e.log
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] CMD: uname -a
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] Command found: uname -a
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] exitCode: 0
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] sending request 'exit-status'
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] sending close 0
+2017-10-10T07:26:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:26:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/motorola] failed
+2017-10-10T07:26:57+0000 [HoneyPotSSHTransport,1708,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T07:26:57+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1708,94.16.147.101] Closing TTY Log: log/tty/20171010-072657-689f24101c35-0e.log after 0 seconds
+2017-10-10T07:26:57+0000 [HoneyPotSSHTransport,1708,94.16.147.101] avatar root logging out
+2017-10-10T07:26:57+0000 [HoneyPotSSHTransport,1708,94.16.147.101] connection lost
+2017-10-10T07:26:57+0000 [HoneyPotSSHTransport,1708,94.16.147.101] Connection lost after 3 seconds
+2017-10-10T07:26:58+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:26:58+0000 [-] unauthorized login: 
+2017-10-10T07:26:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:26:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/admin123] failed
+2017-10-10T07:26:59+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:26:59+0000 [-] unauthorized login: 
+2017-10-10T07:26:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:26:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/password] failed
+2017-10-10T07:27:01+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:01+0000 [-] unauthorized login: 
+2017-10-10T07:27:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/pfsense] failed
+2017-10-10T07:27:02+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:02+0000 [-] unauthorized login: 
+2017-10-10T07:27:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/pfsense] failed
+2017-10-10T07:27:03+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:03+0000 [-] unauthorized login: 
+2017-10-10T07:27:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/12345] failed
+2017-10-10T07:27:04+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:04+0000 [-] unauthorized login: 
+2017-10-10T07:27:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/admin123] failed
+2017-10-10T07:27:06+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:06+0000 [-] unauthorized login: 
+2017-10-10T07:27:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/aerohive] failed
+2017-10-10T07:27:07+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:07+0000 [-] unauthorized login: 
+2017-10-10T07:27:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/7ujMko0admin] failed
+2017-10-10T07:27:08+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:08+0000 [-] unauthorized login: 
+2017-10-10T07:27:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/admin] failed
+2017-10-10T07:27:10+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:10+0000 [-] unauthorized login: 
+2017-10-10T07:27:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/pfsense] failed
+2017-10-10T07:27:11+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:11+0000 [-] unauthorized login: 
+2017-10-10T07:27:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/admin1234] failed
+2017-10-10T07:27:12+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:12+0000 [-] unauthorized login: 
+2017-10-10T07:27:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/1234] failed
+2017-10-10T07:27:14+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:14+0000 [-] unauthorized login: 
+2017-10-10T07:27:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/12345] failed
+2017-10-10T07:27:15+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:15+0000 [-] unauthorized login: 
+2017-10-10T07:27:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/pfsense] failed
+2017-10-10T07:27:16+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:16+0000 [-] unauthorized login: 
+2017-10-10T07:27:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/motorola] failed
+2017-10-10T07:27:17+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:17+0000 [-] unauthorized login: 
+2017-10-10T07:27:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/7ujMko0admin] failed
+2017-10-10T07:27:19+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:19+0000 [-] unauthorized login: 
+2017-10-10T07:27:19+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] 'admin' trying auth 'password'
+2017-10-10T07:27:19+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1707,186.130.3.1] login attempt [admin/manager] failed
+2017-10-10T07:27:20+0000 [-] 'admin' failed auth 'password'
+2017-10-10T07:27:20+0000 [-] unauthorized login: 
+2017-10-10T07:27:20+0000 [-] Disconnecting with error, code 14
+	reason: too many bad auths
+2017-10-10T07:27:20+0000 [HoneyPotSSHTransport,1707,186.130.3.1] connection lost
+2017-10-10T07:27:20+0000 [HoneyPotSSHTransport,1707,186.130.3.1] Connection lost after 30 seconds
+2017-10-10T07:28:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T07:28:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 98.138.112.32:25 from ::1:35983
+2017-10-10T07:28:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T07:28:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 98.138.112.32:25 from ::1:34301
+2017-10-10T07:28:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T07:28:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 98.136.216.25:25 from ::1:39730
+2017-10-10T07:28:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T07:28:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 65.55.92.136:25 from ::1:30358
+2017-10-10T07:29:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T07:29:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 65.54.188.94:25 from ::1:47403
+2017-10-10T07:29:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:43616 (10.3.66.85:2222) [session: 5f261fb075ef]
+2017-10-10T07:29:44+0000 [HoneyPotSSHTransport,1709,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T07:29:44+0000 [HoneyPotSSHTransport,1709,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T07:29:44+0000 [HoneyPotSSHTransport,1709,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T07:29:44+0000 [HoneyPotSSHTransport,1709,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T07:29:45+0000 [HoneyPotSSHTransport,1709,94.16.147.101] NEW KEYS
+2017-10-10T07:29:45+0000 [HoneyPotSSHTransport,1709,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T07:29:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1709,94.16.147.101] 'root' trying auth 'password'
+2017-10-10T07:29:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1709,94.16.147.101] login attempt [root/7654321] succeeded
+2017-10-10T07:29:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1709,94.16.147.101] 'root' authenticated with 'password'
+2017-10-10T07:29:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1709,94.16.147.101] starting service 'ssh-connection'
+2017-10-10T07:29:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] got channel 'session' request
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] channel open
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] executing command "uname -a"
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] Opening TTY Log: log/tty/20171010-072947-5f261fb075ef-0e.log
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] CMD: uname -a
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] Command found: uname -a
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] exitCode: 0
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] sending request 'exit-status'
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] sending close 0
+2017-10-10T07:29:47+0000 [HoneyPotSSHTransport,1709,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] received eof, sending ctrl-d to command
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] Received CTRL-D, exiting..
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] exitCode: 0
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] Closing TTY Log: log/tty/20171010-072947-5f261fb075ef-0e.log after 0 seconds
+2017-10-10T07:29:47+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1709,94.16.147.101] remote close
+2017-10-10T07:29:47+0000 [HoneyPotSSHTransport,1709,94.16.147.101] avatar root logging out
+2017-10-10T07:29:47+0000 [HoneyPotSSHTransport,1709,94.16.147.101] connection lost
+2017-10-10T07:29:47+0000 [HoneyPotSSHTransport,1709,94.16.147.101] Connection lost after 3 seconds
