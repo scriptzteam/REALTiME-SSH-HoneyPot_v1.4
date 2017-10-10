@@ -3921,3 +3921,55 @@
 2017-10-10T07:59:41+0000 [SSHChannel cowrie-discarded-direct-tcpip (108) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
 2017-10-10T07:59:41+0000 [SSHChannel cowrie-discarded-direct-tcpip (108) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] failed to connect: Connection refused
 2017-10-10T07:59:41+0000 [SSHChannel cowrie-discarded-direct-tcpip (108) on SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] sending close 108
+2017-10-10T08:00:23+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:48176 (10.3.66.85:2222) [session: 809f3b774058]
+2017-10-10T08:00:23+0000 [HoneyPotSSHTransport,1724,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T08:00:23+0000 [HoneyPotSSHTransport,1724,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T08:00:23+0000 [HoneyPotSSHTransport,1724,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:00:23+0000 [HoneyPotSSHTransport,1724,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:00:23+0000 [HoneyPotSSHTransport,1724,94.16.147.101] NEW KEYS
+2017-10-10T08:00:24+0000 [HoneyPotSSHTransport,1724,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T08:00:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1724,94.16.147.101] 'musicbot' trying auth 'password'
+2017-10-10T08:00:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1724,94.16.147.101] login attempt [musicbot/123] failed
+2017-10-10T08:00:25+0000 [-] 'musicbot' failed auth 'password'
+2017-10-10T08:00:25+0000 [-] unauthorized login: 
+2017-10-10T08:00:25+0000 [HoneyPotSSHTransport,1724,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T08:00:25+0000 [HoneyPotSSHTransport,1724,94.16.147.101] connection lost
+2017-10-10T08:00:25+0000 [HoneyPotSSHTransport,1724,94.16.147.101] Connection lost after 1 seconds
+2017-10-10T08:00:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T08:00:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 188.125.69.79:25 from ::1:49952
+2017-10-10T08:00:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:00:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 98.138.112.38:25 from ::1:45919
+2017-10-10T08:00:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T08:00:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 188.125.69.79:25 from ::1:18274
+2017-10-10T08:00:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:00:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 98.138.112.38:25 from ::1:17256
+2017-10-10T08:00:58+0000 [CowrieTelnetTransport,1536,51.15.66.174] Closing TTY Log: log/tty/20171010-075852-None-1536i.log after 125 seconds
+2017-10-10T08:00:58+0000 [CowrieTelnetTransport,1536,51.15.66.174] Connection lost after 132 seconds
+2017-10-10T08:00:59+0000 [CowrieTelnetTransport,1537,51.15.66.174] Closing TTY Log: log/tty/20171010-075854-None-1537i.log after 124 seconds
+2017-10-10T08:00:59+0000 [CowrieTelnetTransport,1537,51.15.66.174] Connection lost after 132 seconds
+2017-10-10T08:02:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-10T08:02:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1624,91.195.103.180] direct-tcp connection request to 104.44.194.234:25 from ::1:39752
+2017-10-10T08:03:27+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 94.16.147.101:59846 (10.3.66.85:2222) [session: 90a4f6f112e6]
+2017-10-10T08:03:28+0000 [HoneyPotSSHTransport,1725,94.16.147.101] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-10T08:03:28+0000 [HoneyPotSSHTransport,1725,94.16.147.101] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-10T08:03:28+0000 [HoneyPotSSHTransport,1725,94.16.147.101] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:03:28+0000 [HoneyPotSSHTransport,1725,94.16.147.101] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-10T08:03:28+0000 [HoneyPotSSHTransport,1725,94.16.147.101] NEW KEYS
+2017-10-10T08:03:28+0000 [HoneyPotSSHTransport,1725,94.16.147.101] starting service 'ssh-userauth'
+2017-10-10T08:03:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1725,94.16.147.101] 'musikbot' trying auth 'password'
+2017-10-10T08:03:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,1725,94.16.147.101] login attempt [musikbot/musikbot] failed
+2017-10-10T08:03:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:03:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:18277
+2017-10-10T08:03:29+0000 [-] 'musikbot' failed auth 'password'
+2017-10-10T08:03:29+0000 [-] unauthorized login: 
+2017-10-10T08:03:29+0000 [HoneyPotSSHTransport,1725,94.16.147.101] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-10T08:03:29+0000 [HoneyPotSSHTransport,1725,94.16.147.101] connection lost
+2017-10-10T08:03:29+0000 [HoneyPotSSHTransport,1725,94.16.147.101] Connection lost after 1 seconds
+2017-10-10T08:03:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:03:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:42347
+2017-10-10T08:04:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:04:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:23284
+2017-10-10T08:04:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-10T08:04:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,1633,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:26408
