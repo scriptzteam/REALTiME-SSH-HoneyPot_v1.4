@@ -901,3 +901,145 @@
 2017-10-11T08:19:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2800,91.195.103.196] starting service 'ssh-connection'
 2017-10-11T08:19:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2800,91.195.103.196] got channel 'direct-tcpip' request
 2017-10-11T08:19:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2800,91.195.103.196] direct-tcp connection request to ya.ru:443 from ::1:46254
+2017-10-11T08:20:12+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:58952 (10.3.66.85:2222) [session: 603620dec49a]
+2017-10-11T08:20:12+0000 [HoneyPotSSHTransport,2801,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T08:20:12+0000 [HoneyPotSSHTransport,2801,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T08:20:12+0000 [HoneyPotSSHTransport,2801,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:20:12+0000 [HoneyPotSSHTransport,2801,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:20:13+0000 [HoneyPotSSHTransport,2801,51.15.88.213] NEW KEYS
+2017-10-11T08:20:13+0000 [HoneyPotSSHTransport,2801,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T08:20:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2801,51.15.88.213] '123' trying auth 'password'
+2017-10-11T08:20:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2801,51.15.88.213] login attempt [123/openerp] failed
+2017-10-11T08:20:14+0000 [-] '123' failed auth 'password'
+2017-10-11T08:20:14+0000 [-] unauthorized login: 
+2017-10-11T08:20:14+0000 [HoneyPotSSHTransport,2801,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T08:20:14+0000 [HoneyPotSSHTransport,2801,51.15.88.213] connection lost
+2017-10-11T08:20:14+0000 [HoneyPotSSHTransport,2801,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T08:20:36+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 60.165.208.28:9214 (10.3.66.85:2222) [session: 3067f9eac0f1]
+2017-10-11T08:20:36+0000 [HoneyPotSSHTransport,2802,60.165.208.28] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-10-11T08:20:36+0000 [HoneyPotSSHTransport,2802,60.165.208.28] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-10-11T08:20:36+0000 [HoneyPotSSHTransport,2802,60.165.208.28] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:20:36+0000 [HoneyPotSSHTransport,2802,60.165.208.28] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:20:37+0000 [HoneyPotSSHTransport,2802,60.165.208.28] NEW KEYS
+2017-10-11T08:20:37+0000 [HoneyPotSSHTransport,2802,60.165.208.28] starting service 'ssh-userauth'
+2017-10-11T08:20:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2802,60.165.208.28] 'odoo' trying auth 'password'
+2017-10-11T08:20:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2802,60.165.208.28] login attempt [odoo/x] failed
+2017-10-11T08:20:39+0000 [-] 'odoo' failed auth 'password'
+2017-10-11T08:20:39+0000 [-] unauthorized login: 
+2017-10-11T08:20:39+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2802,60.165.208.28] 'odoo' trying auth 'password'
+2017-10-11T08:20:39+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2802,60.165.208.28] login attempt [odoo/x] failed
+2017-10-11T08:20:40+0000 [-] 'odoo' failed auth 'password'
+2017-10-11T08:20:40+0000 [-] unauthorized login: 
+2017-10-11T08:20:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2802,60.165.208.28] 'odoo' trying auth 'password'
+2017-10-11T08:20:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2802,60.165.208.28] login attempt [odoo/x] failed
+2017-10-11T08:20:41+0000 [-] 'odoo' failed auth 'password'
+2017-10-11T08:20:41+0000 [-] unauthorized login: 
+2017-10-11T08:20:42+0000 [HoneyPotSSHTransport,2802,60.165.208.28] connection lost
+2017-10-11T08:20:42+0000 [HoneyPotSSHTransport,2802,60.165.208.28] Connection lost after 6 seconds
+2017-10-11T08:21:02+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:54901 (10.3.66.85:2222) [session: 88695910e456]
+2017-10-11T08:21:03+0000 [HoneyPotSSHTransport,2803,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T08:21:03+0000 [HoneyPotSSHTransport,2803,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T08:21:03+0000 [HoneyPotSSHTransport,2803,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:21:03+0000 [HoneyPotSSHTransport,2803,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:21:05+0000 [HoneyPotSSHTransport,2803,111.93.237.194] NEW KEYS
+2017-10-11T08:21:05+0000 [HoneyPotSSHTransport,2803,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T08:21:05+0000 [HoneyPotSSHTransport,2803,111.93.237.194] connection lost
+2017-10-11T08:21:05+0000 [HoneyPotSSHTransport,2803,111.93.237.194] Connection lost after 2 seconds
+2017-10-11T08:21:58+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:44406 (10.3.66.85:2222) [session: 5df8b77f03b7]
+2017-10-11T08:21:58+0000 [HoneyPotSSHTransport,2804,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T08:21:58+0000 [HoneyPotSSHTransport,2804,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T08:21:58+0000 [HoneyPotSSHTransport,2804,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:21:58+0000 [HoneyPotSSHTransport,2804,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:21:58+0000 [HoneyPotSSHTransport,2804,51.15.88.213] NEW KEYS
+2017-10-11T08:21:58+0000 [HoneyPotSSHTransport,2804,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T08:21:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2804,51.15.88.213] '123456789' trying auth 'password'
+2017-10-11T08:21:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2804,51.15.88.213] login attempt [123456789/openerp] failed
+2017-10-11T08:21:59+0000 [-] '123456789' failed auth 'password'
+2017-10-11T08:21:59+0000 [-] unauthorized login: 
+2017-10-11T08:21:59+0000 [HoneyPotSSHTransport,2804,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T08:21:59+0000 [HoneyPotSSHTransport,2804,51.15.88.213] connection lost
+2017-10-11T08:21:59+0000 [HoneyPotSSHTransport,2804,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T08:22:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] got channel 'direct-tcpip' request
+2017-10-11T08:22:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] direct-tcp connection request to 98.138.112.37:25 from ::1:29850
+2017-10-11T08:22:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] got channel 'direct-tcpip' request
+2017-10-11T08:22:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] direct-tcp connection request to 98.138.112.37:25 from ::1:18927
+2017-10-11T08:23:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:58052 (10.3.66.85:2222) [session: 61384c57a294]
+2017-10-11T08:23:44+0000 [HoneyPotSSHTransport,2805,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T08:23:44+0000 [HoneyPotSSHTransport,2805,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T08:23:44+0000 [HoneyPotSSHTransport,2805,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:23:44+0000 [HoneyPotSSHTransport,2805,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:23:44+0000 [HoneyPotSSHTransport,2805,51.15.88.213] NEW KEYS
+2017-10-11T08:23:44+0000 [HoneyPotSSHTransport,2805,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T08:23:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2805,51.15.88.213] '1234567890' trying auth 'password'
+2017-10-11T08:23:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2805,51.15.88.213] login attempt [1234567890/openerp] failed
+2017-10-11T08:23:45+0000 [-] '1234567890' failed auth 'password'
+2017-10-11T08:23:45+0000 [-] unauthorized login: 
+2017-10-11T08:23:45+0000 [HoneyPotSSHTransport,2805,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T08:23:45+0000 [HoneyPotSSHTransport,2805,51.15.88.213] connection lost
+2017-10-11T08:23:45+0000 [HoneyPotSSHTransport,2805,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T08:24:00+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 220.134.140.91:36041 (10.3.66.85:2223) [session: TT2400]
+2017-10-11T08:24:01+0000 [CowrieTelnetTransport,2400,220.134.140.91] login attempt [support/support] failed
+2017-10-11T08:24:01+0000 [CowrieTelnetTransport,2400,220.134.140.91] Warning: state changed and new state returned
+2017-10-11T08:24:02+0000 [CowrieTelnetTransport,2400,220.134.140.91] login attempt [root/dreambox] succeeded
+2017-10-11T08:24:05+0000 [CowrieTelnetTransport,2400,220.134.140.91] Opening TTY Log: log/tty/20171011-082405-None-2400i.log
+2017-10-11T08:24:05+0000 [CowrieTelnetTransport,2400,220.134.140.91] Warning: state changed and new state returned
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: enable
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: enable 
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: system
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command not found: system
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: shell
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command not found: shell
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: sh
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: sh 
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: cat /proc/mounts; /bin/busybox IHCXE
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: cat /proc/mounts
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: /bin/busybox IHCXE
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox IHCXE
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: cd /dev/shm
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: cat .s
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: cp /bin/echo .s
+2017-10-11T08:24:06+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: /bin/busybox IHCXE
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: tftp; wget; /bin/busybox IHCXE
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: tftp 
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: wget 
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: /bin/busybox IHCXE
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: dd bs=52 count=1 if=.s
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: cat /dev/shm/.s
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command not found: while read i
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command not found: do echo
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command not found: done < .s
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] CMD: /bin/busybox IHCXE
+2017-10-11T08:24:07+0000 [CowrieTelnetTransport,2400,220.134.140.91] Command found: /bin/busybox IHCXE
+2017-10-11T08:24:39+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:52851 (10.3.66.85:2222) [session: 63ecefd6fab4]
+2017-10-11T08:24:39+0000 [HoneyPotSSHTransport,2806,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T08:24:39+0000 [HoneyPotSSHTransport,2806,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T08:24:39+0000 [HoneyPotSSHTransport,2806,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:24:39+0000 [HoneyPotSSHTransport,2806,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:24:42+0000 [HoneyPotSSHTransport,2806,111.93.237.194] NEW KEYS
+2017-10-11T08:24:42+0000 [HoneyPotSSHTransport,2806,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T08:24:42+0000 [HoneyPotSSHTransport,2806,111.93.237.194] connection lost
+2017-10-11T08:24:42+0000 [HoneyPotSSHTransport,2806,111.93.237.194] Connection lost after 3 seconds
+2017-10-11T08:24:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2800,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-11T08:24:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2800,91.195.103.196] direct-tcp connection request to 213.75.3.30:25 from ::1:17163
+2017-10-11T08:24:57+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 60.165.208.28:13563 (10.3.66.85:2222) [session: 564c43e2a973]
+2017-10-11T08:24:57+0000 [HoneyPotSSHTransport,2807,60.165.208.28] Remote SSH version: SSH-2.0-libssh2_1.7.0
+2017-10-11T08:24:57+0000 [HoneyPotSSHTransport,2807,60.165.208.28] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
+2017-10-11T08:24:57+0000 [HoneyPotSSHTransport,2807,60.165.208.28] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:24:57+0000 [HoneyPotSSHTransport,2807,60.165.208.28] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T08:24:58+0000 [HoneyPotSSHTransport,2807,60.165.208.28] NEW KEYS
+2017-10-11T08:24:58+0000 [HoneyPotSSHTransport,2807,60.165.208.28] starting service 'ssh-userauth'
+2017-10-11T08:24:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2807,60.165.208.28] 'odoo' trying auth 'password'
+2017-10-11T08:24:59+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2807,60.165.208.28] login attempt [odoo/ODOO] failed
+2017-10-11T08:25:00+0000 [-] 'odoo' failed auth 'password'
+2017-10-11T08:25:00+0000 [-] unauthorized login: 
+2017-10-11T08:25:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2807,60.165.208.28] 'odoo' trying auth 'password'
+2017-10-11T08:25:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2807,60.165.208.28] login attempt [odoo/ODOO] failed
+2017-10-11T08:25:01+0000 [-] 'odoo' failed auth 'password'
+2017-10-11T08:25:01+0000 [-] unauthorized login: 
+2017-10-11T08:25:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2807,60.165.208.28] 'odoo' trying auth 'password'
+2017-10-11T08:25:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2807,60.165.208.28] login attempt [odoo/ODOO] failed
