@@ -6907,3 +6907,69 @@
 2017-10-11T17:59:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 63.250.192.45:25 from ::1:15179
 2017-10-11T17:59:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] got channel 'direct-tcpip' request
 2017-10-11T17:59:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 188.125.69.79:25 from ::1:39221
+2017-10-11T18:00:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3318,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-11T18:00:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3318,91.195.103.195] direct-tcp connection request to 216.40.42.4:25 from ::1:14165
+2017-10-11T18:00:47+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 62.210.209.201:56532 (10.3.66.85:2222) [session: 12c6487b1dac]
+2017-10-11T18:00:47+0000 [HoneyPotSSHTransport,3345,62.210.209.201] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T18:00:47+0000 [HoneyPotSSHTransport,3345,62.210.209.201] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T18:00:47+0000 [HoneyPotSSHTransport,3345,62.210.209.201] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T18:00:47+0000 [HoneyPotSSHTransport,3345,62.210.209.201] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T18:00:47+0000 [HoneyPotSSHTransport,3345,62.210.209.201] NEW KEYS
+2017-10-11T18:00:47+0000 [HoneyPotSSHTransport,3345,62.210.209.201] starting service 'ssh-userauth'
+2017-10-11T18:00:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3345,62.210.209.201] 'minecraft' trying auth 'password'
+2017-10-11T18:00:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3345,62.210.209.201] login attempt [minecraft/m1necr@ft] failed
+2017-10-11T18:00:49+0000 [-] 'minecraft' failed auth 'password'
+2017-10-11T18:00:49+0000 [-] unauthorized login: 
+2017-10-11T18:00:49+0000 [HoneyPotSSHTransport,3345,62.210.209.201] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T18:00:49+0000 [HoneyPotSSHTransport,3345,62.210.209.201] connection lost
+2017-10-11T18:00:49+0000 [HoneyPotSSHTransport,3345,62.210.209.201] Connection lost after 1 seconds
+2017-10-11T18:01:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-11T18:01:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 188.125.69.79:25 from ::1:32449
+2017-10-11T18:01:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-11T18:01:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 66.196.118.240:25 from ::1:29378
+2017-10-11T18:02:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-11T18:02:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 66.196.118.240:25 from ::1:43757
+2017-10-11T18:02:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] got channel 'direct-tcpip' request
+2017-10-11T18:02:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] direct-tcp connection request to api.ipify.org:80 from ::1:14911
+2017-10-11T18:02:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (10) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-11T18:02:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (10) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] failed to connect: Connection refused
+2017-10-11T18:02:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (10) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] sending close 10
+2017-10-11T18:02:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3318,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-11T18:02:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3318,91.195.103.195] direct-tcp connection request to 210.131.2.29:25 from ::1:35919
+2017-10-11T18:02:45+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 62.210.209.201:49397 (10.3.66.85:2222) [session: f61c4b8f8c24]
+2017-10-11T18:02:45+0000 [HoneyPotSSHTransport,3346,62.210.209.201] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T18:02:45+0000 [HoneyPotSSHTransport,3346,62.210.209.201] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T18:02:45+0000 [HoneyPotSSHTransport,3346,62.210.209.201] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T18:02:45+0000 [HoneyPotSSHTransport,3346,62.210.209.201] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T18:02:45+0000 [HoneyPotSSHTransport,3346,62.210.209.201] NEW KEYS
+2017-10-11T18:02:45+0000 [HoneyPotSSHTransport,3346,62.210.209.201] starting service 'ssh-userauth'
+2017-10-11T18:02:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3346,62.210.209.201] 'minecraft' trying auth 'password'
+2017-10-11T18:02:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3346,62.210.209.201] login attempt [minecraft/m1necraft] failed
+2017-10-11T18:02:46+0000 [-] 'minecraft' failed auth 'password'
+2017-10-11T18:02:46+0000 [-] unauthorized login: 
+2017-10-11T18:02:46+0000 [HoneyPotSSHTransport,3346,62.210.209.201] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T18:02:46+0000 [HoneyPotSSHTransport,3346,62.210.209.201] connection lost
+2017-10-11T18:02:46+0000 [HoneyPotSSHTransport,3346,62.210.209.201] Connection lost after 1 seconds
+2017-10-11T18:03:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3318,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-11T18:03:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3318,91.195.103.195] direct-tcp connection request to 140.194.153.22:25 from ::1:15171
+2017-10-11T18:03:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-11T18:03:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 188.125.69.79:25 from ::1:32568
+2017-10-11T18:04:38+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 62.210.209.201:42263 (10.3.66.85:2222) [session: b8e3d7c74529]
+2017-10-11T18:04:38+0000 [HoneyPotSSHTransport,3347,62.210.209.201] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T18:04:38+0000 [HoneyPotSSHTransport,3347,62.210.209.201] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T18:04:38+0000 [HoneyPotSSHTransport,3347,62.210.209.201] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T18:04:38+0000 [HoneyPotSSHTransport,3347,62.210.209.201] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T18:04:38+0000 [HoneyPotSSHTransport,3347,62.210.209.201] NEW KEYS
+2017-10-11T18:04:38+0000 [HoneyPotSSHTransport,3347,62.210.209.201] starting service 'ssh-userauth'
+2017-10-11T18:04:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3347,62.210.209.201] 'minecraft' trying auth 'password'
+2017-10-11T18:04:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3347,62.210.209.201] login attempt [minecraft/m1necraft123] failed
+2017-10-11T18:04:39+0000 [-] 'minecraft' failed auth 'password'
+2017-10-11T18:04:39+0000 [-] unauthorized login: 
+2017-10-11T18:04:39+0000 [HoneyPotSSHTransport,3347,62.210.209.201] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T18:04:39+0000 [HoneyPotSSHTransport,3347,62.210.209.201] connection lost
+2017-10-11T18:04:39+0000 [HoneyPotSSHTransport,3347,62.210.209.201] Connection lost after 1 seconds
+2017-10-11T18:04:59+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-11T18:04:59+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3310,5.188.87.57] direct-tcp connection request to 66.196.118.35:25 from ::1:13529
