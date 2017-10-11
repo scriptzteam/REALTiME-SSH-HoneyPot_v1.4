@@ -7142,3 +7142,57 @@
 2017-10-11T22:35:03+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3457,193.201.224.214] login attempt [ro/ro] failed
 2017-10-11T22:35:04+0000 [-] 'ro' failed auth 'password'
 2017-10-11T22:35:04+0000 [-] unauthorized login: 
+2017-10-11T22:35:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3457,193.201.224.214] 'root' trying auth 'password'
+2017-10-11T22:35:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3457,193.201.224.214] login attempt [root/] succeeded
+2017-10-11T22:35:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3457,193.201.224.214] 'root' authenticated with 'password'
+2017-10-11T22:35:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3457,193.201.224.214] starting service 'ssh-connection'
+2017-10-11T22:35:08+0000 [HoneyPotSSHTransport,3457,193.201.224.214] avatar root logging out
+2017-10-11T22:35:08+0000 [HoneyPotSSHTransport,3457,193.201.224.214] connection lost
+2017-10-11T22:35:08+0000 [HoneyPotSSHTransport,3457,193.201.224.214] Connection lost after 75 seconds
+2017-10-11T22:35:14+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 185.165.29.198:52190 (10.3.66.85:2222) [session: c433c93c0f2a]
+2017-10-11T22:35:14+0000 [HoneyPotSSHTransport,3458,185.165.29.198] Got remote error, code 11
+	reason: Bye Bye
+2017-10-11T22:35:14+0000 [HoneyPotSSHTransport,3458,185.165.29.198] connection lost
+2017-10-11T22:35:14+0000 [HoneyPotSSHTransport,3458,185.165.29.198] Connection lost after 0 seconds
+2017-10-11T22:35:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] got channel 'direct-tcpip' request
+2017-10-11T22:35:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] direct-tcp connection request to mail.esp-it.com:465 from ::1:33603
+2017-10-11T22:35:15+0000 [SSHChannel cowrie-discarded-direct-tcpip (98) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] discarded direct-tcp forward request to mail.esp-it.com:465 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\xbf}\xac\xd9B&\xb0h\xc7\x8a/Ah>\xbd\xe8\xce.\x9e*T\x0c\xcf\x7f\x8c\xac/,\xe5,\xfc\x96\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-11T22:35:15+0000 [SSHChannel cowrie-discarded-direct-tcpip (98) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] failed to connect: Connection refused
+2017-10-11T22:35:15+0000 [SSHChannel cowrie-discarded-direct-tcpip (98) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] sending close 98
+2017-10-11T22:35:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] got channel 'direct-tcpip' request
+2017-10-11T22:35:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] direct-tcp connection request to mail.deangraham.com:465 from ::1:25193
+2017-10-11T22:35:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (99) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] discarded direct-tcp forward request to mail.deangraham.com:465 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\xfa\xe9\x05\x9c\xc4\x83\xa7tK\x82nl{\xea'ij\x02\xbc\nP\xb3\xaeM\x1e\xea\xba2\\\x1f9z\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-10-11T22:35:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (99) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] failed to connect: Connection refused
+2017-10-11T22:35:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (99) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] sending close 99
+2017-10-11T22:35:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] got channel 'direct-tcpip' request
+2017-10-11T22:35:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] direct-tcp connection request to outgoing.ANDERSONMILLER.COM:465 from ::1:35952
+2017-10-11T22:35:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (100) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] discarded direct-tcp forward request to outgoing.ANDERSONMILLER.COM:465 with data '\x16\x03\x01\x01.\x01\x00\x01*\x03\x03@vd\xae"\xa9\xe9\xcc\n;\x92\xc5\xc2\x8d\xc4\xa1\xea\x95\xb5\xd6$\x9a\xdch\xa4)\x90"\xf7g\xb9\xbd\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01'
+2017-10-11T22:35:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (100) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] failed to connect: Connection refused
+2017-10-11T22:35:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (100) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3388,91.195.103.202] sending close 100
+2017-10-11T22:35:59+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:35:59+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 74.125.203.27:25 from ::1:26811
+2017-10-11T22:36:16+0000 [CowrieTelnetTransport,2956,185.148.39.136] Closing TTY Log: log/tty/20171011-223413-None-2956i.log after 122 seconds
+2017-10-11T22:36:16+0000 [CowrieTelnetTransport,2956,185.148.39.136] Connection lost after 129 seconds
+2017-10-11T22:36:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:36:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:12745
+2017-10-11T22:37:20+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:37:20+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:18378
+2017-10-11T22:37:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:37:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:33097
+2017-10-11T22:37:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:37:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:48641
+2017-10-11T22:37:51+0000 [-] Process ended. Telnet Session disconnected
+2017-10-11T22:37:51+0000 [CowrieTelnetTransport,2958,161.97.196.240] Closing TTY Log: log/tty/20171011-223451-None-2958i.log after 180 seconds
+2017-10-11T22:37:51+0000 [CowrieTelnetTransport,2958,161.97.196.240] Connection lost after 182 seconds
+2017-10-11T22:38:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:38:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 104.47.0.33:25 from ::1:24594
+2017-10-11T22:39:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:39:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 98.138.112.32:25 from ::1:47739
+2017-10-11T22:39:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:39:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:38087
+2017-10-11T22:39:26+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:39:26+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:35032
+2017-10-11T22:39:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:39:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 74.125.203.27:25 from ::1:10222
+2017-10-11T22:39:42+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-11T22:39:42+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3390,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:42082
