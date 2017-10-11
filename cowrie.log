@@ -995,3 +995,135 @@
 2017-10-11T01:54:49+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2385,91.195.103.189] starting service 'ssh-connection'
 2017-10-11T01:54:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
 2017-10-11T01:54:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 155.136.80.107:26 from ::1:17222
+2017-10-11T01:55:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-11T01:55:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] direct-tcp connection request to 66.196.118.34:25 from ::1:38773
+2017-10-11T01:55:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-11T01:55:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] direct-tcp connection request to 66.196.118.34:25 from ::1:17707
+2017-10-11T01:55:08+0000 [CowrieTelnetTransport,2208,51.15.66.174] Closing TTY Log: log/tty/20171011-015305-None-2208i.log after 123 seconds
+2017-10-11T01:55:08+0000 [CowrieTelnetTransport,2208,51.15.66.174] Connection lost after 130 seconds
+2017-10-11T01:55:09+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:47958 (10.3.66.85:2222) [session: 06d87f85b93d]
+2017-10-11T01:55:09+0000 [HoneyPotSSHTransport,2386,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T01:55:09+0000 [HoneyPotSSHTransport,2386,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T01:55:09+0000 [HoneyPotSSHTransport,2386,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:55:09+0000 [HoneyPotSSHTransport,2386,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:55:09+0000 [HoneyPotSSHTransport,2386,51.15.88.213] NEW KEYS
+2017-10-11T01:55:09+0000 [HoneyPotSSHTransport,2386,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T01:55:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2386,51.15.88.213] 'tsbot' trying auth 'password'
+2017-10-11T01:55:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2386,51.15.88.213] login attempt [tsbot/tsbot] failed
+2017-10-11T01:55:10+0000 [-] 'tsbot' failed auth 'password'
+2017-10-11T01:55:10+0000 [-] unauthorized login: 
+2017-10-11T01:55:10+0000 [HoneyPotSSHTransport,2386,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T01:55:10+0000 [HoneyPotSSHTransport,2386,51.15.88.213] connection lost
+2017-10-11T01:55:10+0000 [HoneyPotSSHTransport,2386,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T01:55:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-11T01:55:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 217.70.180.136:80 from ::1:26956
+2017-10-11T01:55:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (121) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] discarded direct-tcp forward request to 217.70.180.136:80 with data 'HEAD /wp-content/uploads/album_delete.php HTTP/1.1\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; en-US; yahoo msn aol bing)\r\nHost: hairclublive.com\r\nReferer: http://google.com/?mail&yahoo&imap&inbox&googlemail\r\nAccept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5\r\nCache-Control: max-age=0\r\nConnection: Keep-Alive\r\nAccept-Charset: Windows-1250,utf-8;q=0.7,*;q=0.7\r\nAccept-Language: en-us,en;q=0.5\r\n\r\n'
+2017-10-11T01:55:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (121) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] failed to connect: Connection refused
+2017-10-11T01:55:13+0000 [SSHChannel cowrie-discarded-direct-tcpip (121) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] sending close 121
+2017-10-11T01:55:52+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:55514 (10.3.66.85:2222) [session: 4ef63004e8ae]
+2017-10-11T01:55:52+0000 [HoneyPotSSHTransport,2387,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T01:55:52+0000 [HoneyPotSSHTransport,2387,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T01:55:52+0000 [HoneyPotSSHTransport,2387,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:55:52+0000 [HoneyPotSSHTransport,2387,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:55:56+0000 [HoneyPotSSHTransport,2387,111.93.237.194] NEW KEYS
+2017-10-11T01:55:56+0000 [HoneyPotSSHTransport,2387,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T01:55:56+0000 [HoneyPotSSHTransport,2387,111.93.237.194] connection lost
+2017-10-11T01:55:56+0000 [HoneyPotSSHTransport,2387,111.93.237.194] Connection lost after 4 seconds
+2017-10-11T01:56:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-11T01:56:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 62.154.201.129:26 from ::1:31626
+2017-10-11T01:56:40+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:33334 (10.3.66.85:2222) [session: e215245bcc63]
+2017-10-11T01:56:40+0000 [HoneyPotSSHTransport,2388,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T01:56:40+0000 [HoneyPotSSHTransport,2388,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T01:56:40+0000 [HoneyPotSSHTransport,2388,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:56:40+0000 [HoneyPotSSHTransport,2388,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:56:40+0000 [HoneyPotSSHTransport,2388,51.15.88.213] NEW KEYS
+2017-10-11T01:56:40+0000 [HoneyPotSSHTransport,2388,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T01:56:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2388,51.15.88.213] 'tsserver' trying auth 'password'
+2017-10-11T01:56:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2388,51.15.88.213] login attempt [tsserver/tsserver] failed
+2017-10-11T01:56:41+0000 [-] 'tsserver' failed auth 'password'
+2017-10-11T01:56:41+0000 [-] unauthorized login: 
+2017-10-11T01:56:41+0000 [HoneyPotSSHTransport,2388,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T01:56:41+0000 [HoneyPotSSHTransport,2388,51.15.88.213] connection lost
+2017-10-11T01:56:41+0000 [HoneyPotSSHTransport,2388,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T01:57:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-11T01:57:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] direct-tcp connection request to 98.136.216.26:25 from ::1:39279
+2017-10-11T01:57:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-11T01:57:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 125.31.1.243:26 from ::1:31361
+2017-10-11T01:57:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-11T01:57:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] direct-tcp connection request to 98.136.216.26:25 from ::1:22347
+2017-10-11T01:58:05+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:46968 (10.3.66.85:2222) [session: 613c05613b89]
+2017-10-11T01:58:05+0000 [HoneyPotSSHTransport,2389,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T01:58:05+0000 [HoneyPotSSHTransport,2389,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T01:58:05+0000 [HoneyPotSSHTransport,2389,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:58:05+0000 [HoneyPotSSHTransport,2389,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:58:05+0000 [HoneyPotSSHTransport,2389,51.15.88.213] NEW KEYS
+2017-10-11T01:58:05+0000 [HoneyPotSSHTransport,2389,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T01:58:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2389,51.15.88.213] 'ucpss' trying auth 'password'
+2017-10-11T01:58:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2389,51.15.88.213] login attempt [ucpss/23dec1987] failed
+2017-10-11T01:58:06+0000 [-] 'ucpss' failed auth 'password'
+2017-10-11T01:58:06+0000 [-] unauthorized login: 
+2017-10-11T01:58:06+0000 [HoneyPotSSHTransport,2389,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T01:58:06+0000 [HoneyPotSSHTransport,2389,51.15.88.213] connection lost
+2017-10-11T01:58:06+0000 [HoneyPotSSHTransport,2389,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T01:58:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-11T01:58:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 62.24.202.43:587 from ::1:10068
+2017-10-11T01:58:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-11T01:58:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 217.72.192.67:26 from ::1:37656
+2017-10-11T01:59:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2314,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-11T01:59:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2314,91.195.103.183] direct-tcp connection request to api.ipify.org:80 from ::1:15907
+2017-10-11T01:59:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2314,91.195.103.183] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-11T01:59:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2314,91.195.103.183] failed to connect: Connection refused
+2017-10-11T01:59:10+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2314,91.195.103.183] sending close 3
+2017-10-11T01:59:20+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 47.197.18.86:56463 (10.3.66.85:2223) [session: TT2209]
+2017-10-11T01:59:21+0000 [CowrieTelnetTransport,2209,47.197.18.86] login attempt [root/juantech] succeeded
+2017-10-11T01:59:23+0000 [CowrieTelnetTransport,2209,47.197.18.86] Opening TTY Log: log/tty/20171011-015923-None-2209i.log
+2017-10-11T01:59:23+0000 [CowrieTelnetTransport,2209,47.197.18.86] Warning: state changed and new state returned
+2017-10-11T01:59:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-11T01:59:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] direct-tcp connection request to 66.196.118.33:25 from ::1:45655
+2017-10-11T01:59:23+0000 [CowrieTelnetTransport,2209,47.197.18.86] Received unhandled keyID: '\x00'
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] CMD: enable
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Command found: enable 
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Received unhandled keyID: '\x00'
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] CMD: system
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Command not found: system
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Received unhandled keyID: '\x00'
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] CMD: shell
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Command not found: shell
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Received unhandled keyID: '\x00'
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] CMD: sh
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Command found: sh 
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Received unhandled keyID: '\x00'
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] CMD: /bin/busybox MIRAI
+2017-10-11T01:59:24+0000 [CowrieTelnetTransport,2209,47.197.18.86] Command found: /bin/busybox MIRAI
+2017-10-11T01:59:28+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] got channel 'direct-tcpip' request
+2017-10-11T01:59:28+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2331,5.188.87.50] direct-tcp connection request to 66.196.118.33:25 from ::1:12262
+2017-10-11T01:59:31+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:38580 (10.3.66.85:2222) [session: 5ee80ee08158]
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2390,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2390,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2390,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2390,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:59:32+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:60566 (10.3.66.85:2222) [session: 73a2103f28b9]
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2391,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2391,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2391,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2391,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2391,51.15.88.213] NEW KEYS
+2017-10-11T01:59:32+0000 [HoneyPotSSHTransport,2391,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T01:59:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2391,51.15.88.213] '\n' trying auth 'password'
+2017-10-11T01:59:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2391,51.15.88.213] login attempt [\n/a] failed
+2017-10-11T01:59:33+0000 [-] '\n' failed auth 'password'
+2017-10-11T01:59:33+0000 [-] unauthorized login: 
+2017-10-11T01:59:33+0000 [HoneyPotSSHTransport,2391,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T01:59:33+0000 [HoneyPotSSHTransport,2391,51.15.88.213] connection lost
+2017-10-11T01:59:33+0000 [HoneyPotSSHTransport,2391,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T01:59:35+0000 [HoneyPotSSHTransport,2390,111.93.237.194] NEW KEYS
+2017-10-11T01:59:35+0000 [HoneyPotSSHTransport,2390,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T01:59:35+0000 [HoneyPotSSHTransport,2390,111.93.237.194] connection lost
+2017-10-11T01:59:35+0000 [HoneyPotSSHTransport,2390,111.93.237.194] Connection lost after 3 seconds
+2017-10-11T01:59:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-11T01:59:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2320,91.195.103.214] direct-tcp connection request to 62.24.202.43:25 from ::1:31945
