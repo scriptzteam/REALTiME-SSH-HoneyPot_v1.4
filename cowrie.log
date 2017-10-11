@@ -654,3 +654,377 @@
 2017-10-11T09:00:02+0000 [HoneyPotSSHTransport,2851,195.22.127.83] avatar root logging out
 2017-10-11T09:00:02+0000 [HoneyPotSSHTransport,2851,195.22.127.83] connection lost
 2017-10-11T09:00:02+0000 [HoneyPotSSHTransport,2851,195.22.127.83] Connection lost after 209 seconds
+2017-10-11T09:00:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2736,91.195.103.188] got channel 'direct-tcpip' request
+2017-10-11T09:00:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2736,91.195.103.188] direct-tcp connection request to mxs.mail.ru:25 from ::1:29276
+2017-10-11T09:00:32+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:54920 (10.3.66.85:2222) [session: 7b22d61f1d66]
+2017-10-11T09:00:33+0000 [HoneyPotSSHTransport,2855,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T09:00:33+0000 [HoneyPotSSHTransport,2855,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:00:33+0000 [HoneyPotSSHTransport,2855,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:00:33+0000 [HoneyPotSSHTransport,2855,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:00:34+0000 [HoneyPotSSHTransport,2855,111.93.237.194] NEW KEYS
+2017-10-11T09:00:35+0000 [HoneyPotSSHTransport,2855,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T09:00:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2855,111.93.237.194] 'guest' trying auth 'password'
+2017-10-11T09:00:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2855,111.93.237.194] login attempt [guest/abcd1234] failed
+2017-10-11T09:00:36+0000 [-] 'guest' failed auth 'password'
+2017-10-11T09:00:36+0000 [-] unauthorized login: 
+2017-10-11T09:00:36+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2855,111.93.237.194] 'guest' trying auth 'password'
+2017-10-11T09:00:36+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2855,111.93.237.194] login attempt [guest/asdfgh] failed
+2017-10-11T09:00:37+0000 [-] 'guest' failed auth 'password'
+2017-10-11T09:00:37+0000 [-] unauthorized login: 
+2017-10-11T09:00:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2855,111.93.237.194] 'guest' trying auth 'password'
+2017-10-11T09:00:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2855,111.93.237.194] login attempt [guest/guest] failed
+2017-10-11T09:00:38+0000 [-] 'guest' failed auth 'password'
+2017-10-11T09:00:38+0000 [-] unauthorized login: 
+2017-10-11T09:00:39+0000 [HoneyPotSSHTransport,2855,111.93.237.194] connection lost
+2017-10-11T09:00:39+0000 [HoneyPotSSHTransport,2855,111.93.237.194] Connection lost after 6 seconds
+2017-10-11T09:00:47+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:33486 (10.3.66.85:2222) [session: ea4c2102f8b8]
+2017-10-11T09:00:48+0000 [HoneyPotSSHTransport,2856,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T09:00:48+0000 [HoneyPotSSHTransport,2856,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:00:48+0000 [HoneyPotSSHTransport,2856,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:00:48+0000 [HoneyPotSSHTransport,2856,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:00:48+0000 [HoneyPotSSHTransport,2856,51.15.88.213] NEW KEYS
+2017-10-11T09:00:48+0000 [HoneyPotSSHTransport,2856,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T09:00:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2856,51.15.88.213] '123456789' trying auth 'password'
+2017-10-11T09:00:48+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2856,51.15.88.213] login attempt [123456789/pentaho] failed
+2017-10-11T09:00:49+0000 [-] '123456789' failed auth 'password'
+2017-10-11T09:00:49+0000 [-] unauthorized login: 
+2017-10-11T09:00:49+0000 [HoneyPotSSHTransport,2856,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T09:00:49+0000 [HoneyPotSSHTransport,2856,51.15.88.213] connection lost
+2017-10-11T09:00:49+0000 [HoneyPotSSHTransport,2856,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T09:00:52+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.195.103.196:60997 (10.3.66.85:2222) [session: 2ce3b53c35b2]
+2017-10-11T09:01:12+0000 [HoneyPotSSHTransport,2857,91.195.103.196] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-11T09:01:12+0000 [HoneyPotSSHTransport,2857,91.195.103.196] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:01:12+0000 [HoneyPotSSHTransport,2857,91.195.103.196] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-11T09:01:12+0000 [HoneyPotSSHTransport,2857,91.195.103.196] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-11T09:01:12+0000 [HoneyPotSSHTransport,2857,91.195.103.196] NEW KEYS
+2017-10-11T09:01:12+0000 [HoneyPotSSHTransport,2857,91.195.103.196] starting service 'ssh-userauth'
+2017-10-11T09:01:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2857,91.195.103.196] 'root' trying auth 'password'
+2017-10-11T09:01:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2857,91.195.103.196] login attempt [root/] succeeded
+2017-10-11T09:01:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2857,91.195.103.196] 'root' authenticated with 'password'
+2017-10-11T09:01:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2857,91.195.103.196] starting service 'ssh-connection'
+2017-10-11T09:01:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2857,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-11T09:01:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2857,91.195.103.196] direct-tcp connection request to ya.ru:443 from ::1:42921
+2017-10-11T09:01:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] got channel 'direct-tcpip' request
+2017-10-11T09:01:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] direct-tcp connection request to 188.125.69.79:25 from ::1:15834
+2017-10-11T09:01:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] got channel 'direct-tcpip' request
+2017-10-11T09:01:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] direct-tcp connection request to 188.125.69.79:25 from ::1:42194
+2017-10-11T09:02:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2736,91.195.103.188] got channel 'direct-tcpip' request
+2017-10-11T09:02:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2736,91.195.103.188] direct-tcp connection request to mxs.mail.ru:25 from ::1:42424
+2017-10-11T09:02:33+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:47108 (10.3.66.85:2222) [session: fcea3d4c75d5]
+2017-10-11T09:02:33+0000 [HoneyPotSSHTransport,2858,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T09:02:33+0000 [HoneyPotSSHTransport,2858,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:02:33+0000 [HoneyPotSSHTransport,2858,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:02:33+0000 [HoneyPotSSHTransport,2858,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:02:33+0000 [HoneyPotSSHTransport,2858,51.15.88.213] NEW KEYS
+2017-10-11T09:02:33+0000 [HoneyPotSSHTransport,2858,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T09:02:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2858,51.15.88.213] 'pentaho' trying auth 'password'
+2017-10-11T09:02:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2858,51.15.88.213] login attempt [pentaho/postgres] failed
+2017-10-11T09:02:34+0000 [-] 'pentaho' failed auth 'password'
+2017-10-11T09:02:34+0000 [-] unauthorized login: 
+2017-10-11T09:02:34+0000 [HoneyPotSSHTransport,2858,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T09:02:34+0000 [HoneyPotSSHTransport,2858,51.15.88.213] connection lost
+2017-10-11T09:02:34+0000 [HoneyPotSSHTransport,2858,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T09:02:48+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 221.194.44.212:47656 (10.3.66.85:2222) [session: 8bc640594ca9]
+2017-10-11T09:02:48+0000 [HoneyPotSSHTransport,2859,221.194.44.212] Remote SSH version: SSH-2.0-PUTTY
+2017-10-11T09:02:48+0000 [HoneyPotSSHTransport,2859,221.194.44.212] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:02:48+0000 [HoneyPotSSHTransport,2859,221.194.44.212] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:02:48+0000 [HoneyPotSSHTransport,2859,221.194.44.212] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:02:49+0000 [HoneyPotSSHTransport,2859,221.194.44.212] NEW KEYS
+2017-10-11T09:02:49+0000 [HoneyPotSSHTransport,2859,221.194.44.212] starting service 'ssh-userauth'
+2017-10-11T09:02:50+0000 [HoneyPotSSHTransport,2859,221.194.44.212] Got remote error, code 11
+	reason: 
+2017-10-11T09:02:50+0000 [HoneyPotSSHTransport,2859,221.194.44.212] connection lost
+2017-10-11T09:02:50+0000 [HoneyPotSSHTransport,2859,221.194.44.212] Connection lost after 1 seconds
+2017-10-11T09:03:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-11T09:03:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:48245
+2017-10-11T09:03:15+0000 [SSHChannel cowrie-discarded-direct-tcpip (7) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-11T09:03:15+0000 [SSHChannel cowrie-discarded-direct-tcpip (7) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] failed to connect: Connection refused
+2017-10-11T09:03:15+0000 [SSHChannel cowrie-discarded-direct-tcpip (7) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] sending close 7
+2017-10-11T09:03:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-11T09:03:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:40380
+2017-10-11T09:03:17+0000 [SSHChannel cowrie-discarded-direct-tcpip (8) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-11T09:03:17+0000 [SSHChannel cowrie-discarded-direct-tcpip (8) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] failed to connect: Connection refused
+2017-10-11T09:03:17+0000 [SSHChannel cowrie-discarded-direct-tcpip (8) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2665,91.195.103.180] sending close 8
+2017-10-11T09:03:35+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 201.179.41.203:58625 (10.3.66.85:2222) [session: f72ec30739be]
+2017-10-11T09:03:35+0000 [HoneyPotSSHTransport,2860,201.179.41.203] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-10-11T09:03:35+0000 [HoneyPotSSHTransport,2860,201.179.41.203] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-11T09:03:35+0000 [HoneyPotSSHTransport,2860,201.179.41.203] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-11T09:03:35+0000 [HoneyPotSSHTransport,2860,201.179.41.203] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-11T09:03:36+0000 [HoneyPotSSHTransport,2860,201.179.41.203] NEW KEYS
+2017-10-11T09:03:37+0000 [HoneyPotSSHTransport,2860,201.179.41.203] starting service 'ssh-userauth'
+2017-10-11T09:03:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2860,201.179.41.203] 'root' trying auth 'password'
+2017-10-11T09:03:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2860,201.179.41.203] login attempt [root/root] failed
+2017-10-11T09:03:38+0000 [-] 'root' failed auth 'password'
+2017-10-11T09:03:38+0000 [-] unauthorized login: 
+2017-10-11T09:03:38+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 202.134.181.85:42179 (10.3.66.85:2223) [session: TT2441]
+2017-10-11T09:03:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2860,201.179.41.203] 'root' trying auth 'password'
+2017-10-11T09:03:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2860,201.179.41.203] login attempt [root/password] succeeded
+2017-10-11T09:03:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2860,201.179.41.203] 'root' authenticated with 'password'
+2017-10-11T09:03:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2860,201.179.41.203] starting service 'ssh-connection'
+2017-10-11T09:03:41+0000 [HoneyPotSSHTransport,2860,201.179.41.203] avatar root logging out
+2017-10-11T09:03:41+0000 [HoneyPotSSHTransport,2860,201.179.41.203] connection lost
+2017-10-11T09:03:41+0000 [HoneyPotSSHTransport,2860,201.179.41.203] Connection lost after 5 seconds
+2017-10-11T09:03:43+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 195.22.127.83:43656 (10.3.66.85:2222) [session: acfc3f63e161]
+2017-10-11T09:03:43+0000 [HoneyPotSSHTransport,2861,195.22.127.83] Remote SSH version: SSH-2.0-sshlib-0.2
+2017-10-11T09:03:43+0000 [HoneyPotSSHTransport,2861,195.22.127.83] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-11T09:03:43+0000 [HoneyPotSSHTransport,2861,195.22.127.83] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-11T09:03:43+0000 [HoneyPotSSHTransport,2861,195.22.127.83] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-11T09:03:43+0000 [HoneyPotSSHTransport,2861,195.22.127.83] NEW KEYS
+2017-10-11T09:03:43+0000 [HoneyPotSSHTransport,2861,195.22.127.83] starting service 'ssh-userauth'
+2017-10-11T09:03:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2861,195.22.127.83] 'root' trying auth 'password'
+2017-10-11T09:03:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2861,195.22.127.83] login attempt [root/password] succeeded
+2017-10-11T09:03:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2861,195.22.127.83] 'root' authenticated with 'password'
+2017-10-11T09:03:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2861,195.22.127.83] starting service 'ssh-connection'
+2017-10-11T09:03:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] got channel 'session' request
+2017-10-11T09:03:45+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] channel open
+2017-10-11T09:03:45+0000 [CowrieTelnetTransport,2441,202.134.181.85] login attempt [root/aquario] succeeded
+2017-10-11T09:03:48+0000 [CowrieTelnetTransport,2441,202.134.181.85] Opening TTY Log: log/tty/20171011-090348-None-2441i.log
+2017-10-11T09:03:48+0000 [CowrieTelnetTransport,2441,202.134.181.85] Warning: state changed and new state returned
+2017-10-11T09:03:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] got channel 'direct-tcpip' request
+2017-10-11T09:03:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] direct-tcp connection request to 195.22.127.83:443 from 127.0.0.1:22
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] pty request: 'xterm' (24, 280, 0, 0)
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Terminal Size: 24 280
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] getting shell
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Opening TTY Log: log/tty/20171011-090348-acfc3f63e161-0i.log
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: /gweerwe323f
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command not found: /gweerwe323f
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: sudo /bin/sh 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: sudo /bin/sh
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: /bin/sh
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: /bin/busybox cp; /gweerwe323f
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: /bin/busybox cp
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cp
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command not found: /gweerwe323f
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   mount ;/gweerwe323f
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: mount 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Reading txtcmd from "txtcmds/bin/mount"
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command not found: /gweerwe323f
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/' > //.nippon;   cat //.nippon;   rm -f //.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/' > //.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat //.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f //.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/tmp' > /tmp/.nippon;   cat /tmp/.nippon;   rm -f /tmp/.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/tmp' > /tmp/.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /tmp/.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /tmp/.nippon
+2017-10-11T09:03:48+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/var/tmp' > /var/tmp/.nippon;   cat /var/tmp/.nippon;   rm -f /var/tmp/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/var/tmp' > /var/tmp/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /var/tmp/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /var/tmp/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/' > //.nippon;   cat //.nippon;   rm -f //.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/' > //.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat //.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f //.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/lib/init/rw' > /lib/init/rw/.nippon;   cat /lib/init/rw/.nippon;   rm -f /lib/init/rw/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/lib/init/rw' > /lib/init/rw/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /lib/init/rw/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /lib/init/rw/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/proc' > /proc/.nippon;   cat /proc/.nippon;   rm -f /proc/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/proc' > /proc/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /proc/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /proc/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/sys' > /sys/.nippon;   cat /sys/.nippon;   rm -f /sys/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/sys' > /sys/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /sys/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /sys/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon;   cat /dev/.nippon;   rm -f /dev/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /dev/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /dev/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/dev/shm' > /dev/shm/.nippon;   cat /dev/shm/.nippon;   rm -f /dev/shm/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/dev/shm' > /dev/shm/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /dev/shm/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /dev/shm/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon;   cat /dev/pts/.nippon;   rm -f /dev/pts/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /dev/pts/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: rm -f /dev/pts/.nippon
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: /gweerwe323f
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command not found: /gweerwe323f
+2017-10-11T09:03:49+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:50+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD:  cat /bin/echo ;/gweerwe323f
+2017-10-11T09:03:50+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command found: cat /bin/echo
+2017-10-11T09:03:50+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] Command not found: /gweerwe323f
+2017-10-11T09:03:50+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,2861,195.22.127.83] CMD: 
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: enable
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: enable 
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: system
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command not found: system
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: shell
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command not found: shell
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: sh
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: sh 
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: ping ; sh
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: ping 
+2017-10-11T09:03:50+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: sh 
+2017-10-11T09:03:51+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: /bin/busybox SATORI
+2017-10-11T09:03:51+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox SATORI
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/dev/netslink/.file && cd /dev/netslink/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /dev/netslink/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /dev/netslink/
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf .file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf .file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/var/tmp/.file && cd /var/tmp/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /var/tmp/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /var/tmp
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /var/tmp/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /var/tmp/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/tmp/.file && cd /tmp/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /tmp/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /tmp
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /tmp/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /tmp/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/var/.file && cd /var/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /var/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /var
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /var/.file
+2017-10-11T09:03:55+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /var/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/home/.file && cd /home/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /home/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /home
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /home/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /home/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/var/run/.file && cd /var/run/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /var/run/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /var/run
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /var/run/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /var/run/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/.file && cd / && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >./.file && cd ./ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > ./.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/dev/.file && cd /dev/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /dev/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /dev
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /dev/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /dev/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/mnt/.file && cd /mnt/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /mnt/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /mnt
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /mnt/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /mnt/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/boot/.file && cd /boot/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /boot/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /boot
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /boot/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /boot/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/dev/shm/.file && cd /dev/shm/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /dev/shm/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /dev/shm
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /dev/shm/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /dev/shm/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: >/usr/.file && cd /usr/ && /bin/busybox rm -rf .file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: > /usr/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cd /usr
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox rm -rf /usr/.file
+2017-10-11T09:03:56+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: rm -rf /usr/.file
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: /bin/busybox wget; /bin/busybox tftp; /bin/busybox echo
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox wget
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: wget
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox tftp
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: tftp
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox echo
+2017-10-11T09:03:57+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: echo
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] CMD: /bin/busybox cat /bin/busybox || while read i; do /bin/busybox echo $i; done < /bin/busybox || /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox cat /bin/busybox
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: cat /bin/busybox
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command not found: while read i
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command not found: do /bin/busybox echo
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command not found: done < /bin/busybox
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-11T09:04:04+0000 [CowrieTelnetTransport,2441,202.134.181.85] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-11T09:04:08+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:60724 (10.3.66.85:2222) [session: fc4732d00a27]
+2017-10-11T09:04:08+0000 [HoneyPotSSHTransport,2862,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T09:04:08+0000 [HoneyPotSSHTransport,2862,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:04:08+0000 [HoneyPotSSHTransport,2862,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:04:08+0000 [HoneyPotSSHTransport,2862,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T09:04:08+0000 [HoneyPotSSHTransport,2862,51.15.88.213] NEW KEYS
+2017-10-11T09:04:08+0000 [HoneyPotSSHTransport,2862,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T09:04:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2862,51.15.88.213] '123' trying auth 'password'
+2017-10-11T09:04:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2862,51.15.88.213] login attempt [123/postgres] failed
+2017-10-11T09:04:09+0000 [-] '123' failed auth 'password'
+2017-10-11T09:04:09+0000 [-] unauthorized login: 
+2017-10-11T09:04:09+0000 [HoneyPotSSHTransport,2862,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T09:04:09+0000 [HoneyPotSSHTransport,2862,51.15.88.213] connection lost
+2017-10-11T09:04:09+0000 [HoneyPotSSHTransport,2862,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T09:04:21+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 131.191.74.198:59892 (10.3.66.85:2223) [session: TT2442]
+2017-10-11T09:04:22+0000 [CowrieTelnetTransport,2441,202.134.181.85] Closing TTY Log: log/tty/20171011-090348-None-2441i.log after 34 seconds
+2017-10-11T09:04:22+0000 [CowrieTelnetTransport,2441,202.134.181.85] Connection lost after 44 seconds
+2017-10-11T09:04:22+0000 [CowrieTelnetTransport,2442,131.191.74.198] login attempt [root/anko] succeeded
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] Opening TTY Log: log/tty/20171011-090424-None-2442i.log
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] Warning: state changed and new state returned
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] Received unhandled keyID: '\x00'
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] CMD: enable
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] Command found: enable 
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-11T09:04:24+0000 [CowrieTelnetTransport,2442,131.191.74.198] Received unhandled keyID: '\x00'
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] CMD: system
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Command not found: system
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Received unhandled keyID: '\x00'
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] CMD: shell
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Command not found: shell
+2017-10-11T09:04:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2736,91.195.103.188] got channel 'direct-tcpip' request
+2017-10-11T09:04:25+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2736,91.195.103.188] direct-tcp connection request to mxs.mail.ru:25 from ::1:33242
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Received unhandled keyID: '\x00'
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] CMD: sh
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Command found: sh 
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Received unhandled keyID: '\x00'
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] CMD: /bin/busybox MIRAI
+2017-10-11T09:04:25+0000 [CowrieTelnetTransport,2442,131.191.74.198] Command found: /bin/busybox MIRAI
+2017-10-11T09:04:26+0000 [CowrieTelnetTransport,2442,131.191.74.198] Closing TTY Log: log/tty/20171011-090424-None-2442i.log after 1 seconds
+2017-10-11T09:04:26+0000 [CowrieTelnetTransport,2442,131.191.74.198] Connection lost after 4 seconds
+2017-10-11T09:04:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] got channel 'direct-tcpip' request
+2017-10-11T09:04:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] direct-tcp connection request to 188.125.69.79:25 from ::1:37090
+2017-10-11T09:04:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] got channel 'direct-tcpip' request
+2017-10-11T09:04:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,2681,5.188.87.58] direct-tcp connection request to 188.125.69.79:25 from ::1:13019
+2017-10-11T09:04:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 212.83.133.21:59908 (10.3.66.85:2222) [session: b604248e8fa9]
+2017-10-11T09:04:44+0000 [HoneyPotSSHTransport,2863,212.83.133.21] connection lost
+2017-10-11T09:04:44+0000 [HoneyPotSSHTransport,2863,212.83.133.21] Connection lost after 0 seconds
+2017-10-11T09:04:45+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 212.83.133.21:60165 (10.3.66.85:2222) [session: 5e5601783e74]
+2017-10-11T09:04:52+0000 [HoneyPotSSHTransport,2864,212.83.133.21] Remote SSH version: SSH-2.0-JSCH-0.1.51
+2017-10-11T09:04:52+0000 [HoneyPotSSHTransport,2864,212.83.133.21] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T09:04:52+0000 [HoneyPotSSHTransport,2864,212.83.133.21] outgoing: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-11T09:04:52+0000 [HoneyPotSSHTransport,2864,212.83.133.21] incoming: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-11T09:04:53+0000 [HoneyPotSSHTransport,2864,212.83.133.21] NEW KEYS
+2017-10-11T09:04:53+0000 [HoneyPotSSHTransport,2864,212.83.133.21] starting service 'ssh-userauth'
+2017-10-11T09:04:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] 'admin' trying auth 'none'
+2017-10-11T09:04:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] 'admin' trying auth 'keyboard-interactive'
+2017-10-11T09:04:53+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] login attempt [admin/admin] failed
+2017-10-11T09:04:54+0000 [-] 'admin' failed auth 'keyboard-interactive'
+2017-10-11T09:04:54+0000 [-] unauthorized login: 
+2017-10-11T09:04:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] 'admin' trying auth 'keyboard-interactive'
+2017-10-11T09:04:54+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] login attempt [admin/] failed
+2017-10-11T09:04:55+0000 [-] 'admin' failed auth 'keyboard-interactive'
+2017-10-11T09:04:55+0000 [-] unauthorized login: 
+2017-10-11T09:04:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] 'admin' trying auth 'password'
+2017-10-11T09:04:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,2864,212.83.133.21] login attempt [admin/admin] failed
+2017-10-11T09:04:56+0000 [-] 'admin' failed auth 'password'
+2017-10-11T09:04:56+0000 [-] unauthorized login: 
+2017-10-11T09:04:56+0000 [HoneyPotSSHTransport,2864,212.83.133.21] Got remote error, code 3
+	reason: com.jcraft.jsch.JSchException: Auth fail
+2017-10-11T09:04:56+0000 [HoneyPotSSHTransport,2864,212.83.133.21] connection lost
+2017-10-11T09:04:56+0000 [HoneyPotSSHTransport,2864,212.83.133.21] Connection lost after 11 seconds
