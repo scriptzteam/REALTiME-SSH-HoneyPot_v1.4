@@ -3116,3 +3116,85 @@
 2017-10-11T14:14:58+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3205,195.22.127.83] Command found: cat /bin/echo
 2017-10-11T14:14:58+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3205,195.22.127.83] Command not found: /gweerwe323f
 2017-10-11T14:14:58+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3205,195.22.127.83] CMD: 
+2017-10-11T14:15:21+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:56670 (10.3.66.85:2222) [session: ee7a26aef04f]
+2017-10-11T14:15:21+0000 [HoneyPotSSHTransport,3206,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T14:15:21+0000 [HoneyPotSSHTransport,3206,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T14:15:21+0000 [HoneyPotSSHTransport,3206,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:15:21+0000 [HoneyPotSSHTransport,3206,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:15:26+0000 [HoneyPotSSHTransport,3206,111.93.237.194] NEW KEYS
+2017-10-11T14:15:26+0000 [HoneyPotSSHTransport,3206,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T14:15:26+0000 [HoneyPotSSHTransport,3206,111.93.237.194] connection lost
+2017-10-11T14:15:26+0000 [HoneyPotSSHTransport,3206,111.93.237.194] Connection lost after 5 seconds
+2017-10-11T14:16:55+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:52966 (10.3.66.85:2222) [session: 01973cdbb910]
+2017-10-11T14:16:55+0000 [HoneyPotSSHTransport,3207,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T14:16:55+0000 [HoneyPotSSHTransport,3207,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T14:16:55+0000 [HoneyPotSSHTransport,3207,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:16:55+0000 [HoneyPotSSHTransport,3207,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:16:55+0000 [HoneyPotSSHTransport,3207,51.15.88.213] NEW KEYS
+2017-10-11T14:16:55+0000 [HoneyPotSSHTransport,3207,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T14:16:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3207,51.15.88.213] '123' trying auth 'password'
+2017-10-11T14:16:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3207,51.15.88.213] login attempt [123/vagrant] failed
+2017-10-11T14:16:56+0000 [-] '123' failed auth 'password'
+2017-10-11T14:16:56+0000 [-] unauthorized login: 
+2017-10-11T14:16:56+0000 [HoneyPotSSHTransport,3207,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T14:16:56+0000 [HoneyPotSSHTransport,3207,51.15.88.213] connection lost
+2017-10-11T14:16:56+0000 [HoneyPotSSHTransport,3207,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T14:17:57+0000 [-] exitCode: 1
+2017-10-11T14:17:57+0000 [-] sending request 'exit-status'
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663 to dl/d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b to dl/512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125 to dl/5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5 to dl/20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content b01ae8ebaf9305e06816466e53675af88801b3faaacf68801205f75eb531aa79
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 b01ae8ebaf9305e06816466e53675af88801b3faaacf68801205f75eb531aa79 to dl/b01ae8ebaf9305e06816466e53675af88801b3faaacf68801205f75eb531aa79
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947 to dl/f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content b01ae8ebaf9305e06816466e53675af88801b3faaacf68801205f75eb531aa79
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 b01ae8ebaf9305e06816466e53675af88801b3faaacf68801205f75eb531aa79 to dl/b01ae8ebaf9305e06816466e53675af88801b3faaacf68801205f75eb531aa79
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d to dl/d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-11T14:17:57+0000 [-] Not storing duplicate content 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-11T14:17:57+0000 [-] Saved redir contents with SHA-256 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9 to dl/8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-11T14:17:57+0000 [-] Closing TTY Log: log/tty/20171011-141457-17517ef18fbe-0i.log after 180 seconds
+2017-10-11T14:17:57+0000 [-] sending close 0
+2017-10-11T14:18:05+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 211.36.145.118:20425 (10.3.66.85:2223) [session: TT2672]
+2017-10-11T14:18:15+0000 [CowrieTelnetTransport,2672,211.36.145.118] Connection lost after 10 seconds
+2017-10-11T14:18:36+0000 [HoneyPotSSHTransport,3205,195.22.127.83] avatar root logging out
+2017-10-11T14:18:36+0000 [HoneyPotSSHTransport,3205,195.22.127.83] connection lost
+2017-10-11T14:18:36+0000 [HoneyPotSSHTransport,3205,195.22.127.83] Connection lost after 221 seconds
+2017-10-11T14:19:04+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 51.15.88.213:38388 (10.3.66.85:2222) [session: 8484a773d2ef]
+2017-10-11T14:19:04+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:37589 (10.3.66.85:2222) [session: e04201ef4a84]
+2017-10-11T14:19:04+0000 [HoneyPotSSHTransport,3208,51.15.88.213] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-10-11T14:19:04+0000 [HoneyPotSSHTransport,3208,51.15.88.213] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T14:19:04+0000 [HoneyPotSSHTransport,3208,51.15.88.213] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:19:04+0000 [HoneyPotSSHTransport,3208,51.15.88.213] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:19:04+0000 [HoneyPotSSHTransport,3208,51.15.88.213] NEW KEYS
+2017-10-11T14:19:04+0000 [HoneyPotSSHTransport,3208,51.15.88.213] starting service 'ssh-userauth'
+2017-10-11T14:19:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3208,51.15.88.213] '123456789' trying auth 'password'
+2017-10-11T14:19:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3208,51.15.88.213] login attempt [123456789/vagrant] failed
+2017-10-11T14:19:05+0000 [HoneyPotSSHTransport,3209,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T14:19:05+0000 [HoneyPotSSHTransport,3209,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T14:19:05+0000 [HoneyPotSSHTransport,3209,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:19:05+0000 [HoneyPotSSHTransport,3209,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T14:19:06+0000 [-] '123456789' failed auth 'password'
+2017-10-11T14:19:06+0000 [-] unauthorized login: 
+2017-10-11T14:19:06+0000 [HoneyPotSSHTransport,3208,51.15.88.213] Got remote error, code 11
+	reason: Normal Shutdown, Thank you for playing
+2017-10-11T14:19:06+0000 [HoneyPotSSHTransport,3208,51.15.88.213] connection lost
+2017-10-11T14:19:06+0000 [HoneyPotSSHTransport,3208,51.15.88.213] Connection lost after 1 seconds
+2017-10-11T14:19:09+0000 [HoneyPotSSHTransport,3209,111.93.237.194] NEW KEYS
+2017-10-11T14:19:09+0000 [HoneyPotSSHTransport,3209,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T14:19:09+0000 [HoneyPotSSHTransport,3209,111.93.237.194] connection lost
+2017-10-11T14:19:09+0000 [HoneyPotSSHTransport,3209,111.93.237.194] Connection lost after 4 seconds
+2017-10-11T14:19:46+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 222.174.60.150:41515 (10.3.66.85:2223) [session: TT2673]
+2017-10-11T14:19:47+0000 [CowrieTelnetTransport,2673,222.174.60.150] login attempt [admin/password] failed
+2017-10-11T14:19:47+0000 [CowrieTelnetTransport,2673,222.174.60.150] Warning: state changed and new state returned
+2017-10-11T14:19:48+0000 [CowrieTelnetTransport,2673,222.174.60.150] login attempt [enable\x00/system\x00] failed
+2017-10-11T14:19:48+0000 [CowrieTelnetTransport,2673,222.174.60.150] Warning: state changed and new state returned
+2017-10-11T14:19:49+0000 [CowrieTelnetTransport,2673,222.174.60.150] login attempt [shell\x00/sh\x00] failed
+2017-10-11T14:19:49+0000 [CowrieTelnetTransport,2673,222.174.60.150] Warning: state changed and new state returned
