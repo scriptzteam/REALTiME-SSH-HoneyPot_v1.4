@@ -1069,3 +1069,52 @@
 2017-10-11T16:29:45+0000 [CowrieTelnetTransport,2775,24.209.45.236] Command found: /bin/busybox MIRAI
 2017-10-11T16:29:45+0000 [CowrieTelnetTransport,2775,24.209.45.236] Closing TTY Log: log/tty/20171011-162944-None-2775i.log after 1 seconds
 2017-10-11T16:29:45+0000 [CowrieTelnetTransport,2775,24.209.45.236] Connection lost after 4 seconds
+2017-10-11T16:32:56+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 70.121.42.99:56739 (10.3.66.85:2223) [session: TT2776]
+2017-10-11T16:32:57+0000 [CowrieTelnetTransport,2776,70.121.42.99] login attempt [root/xc3511] succeeded
+2017-10-11T16:32:58+0000 [CowrieTelnetTransport,2776,70.121.42.99] Opening TTY Log: log/tty/20171011-163258-None-2776i.log
+2017-10-11T16:32:58+0000 [CowrieTelnetTransport,2776,70.121.42.99] Warning: state changed and new state returned
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Received unhandled keyID: '\x00'
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] CMD: enable
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Command found: enable 
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Received unhandled keyID: '\x00'
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] CMD: system
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Command not found: system
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Received unhandled keyID: '\x00'
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] CMD: shell
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Command not found: shell
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Received unhandled keyID: '\x00'
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] CMD: sh
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Command found: sh 
+2017-10-11T16:32:59+0000 [CowrieTelnetTransport,2776,70.121.42.99] Received unhandled keyID: '\x00'
+2017-10-11T16:33:00+0000 [CowrieTelnetTransport,2776,70.121.42.99] CMD: /bin/busybox MIRAI
+2017-10-11T16:33:00+0000 [CowrieTelnetTransport,2776,70.121.42.99] Command found: /bin/busybox MIRAI
+2017-10-11T16:33:00+0000 [CowrieTelnetTransport,2776,70.121.42.99] Closing TTY Log: log/tty/20171011-163258-None-2776i.log after 1 seconds
+2017-10-11T16:33:00+0000 [CowrieTelnetTransport,2776,70.121.42.99] Connection lost after 3 seconds
+2017-10-11T16:33:18+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.195.103.195:50255 (10.3.66.85:2222) [session: 61d624964c55]
+2017-10-11T16:33:38+0000 [HoneyPotSSHTransport,3308,91.195.103.195] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-11T16:33:38+0000 [HoneyPotSSHTransport,3308,91.195.103.195] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T16:33:38+0000 [HoneyPotSSHTransport,3308,91.195.103.195] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-11T16:33:38+0000 [HoneyPotSSHTransport,3308,91.195.103.195] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-11T16:33:39+0000 [HoneyPotSSHTransport,3308,91.195.103.195] NEW KEYS
+2017-10-11T16:33:39+0000 [HoneyPotSSHTransport,3308,91.195.103.195] starting service 'ssh-userauth'
+2017-10-11T16:33:39+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3308,91.195.103.195] 'root' trying auth 'password'
+2017-10-11T16:33:39+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3308,91.195.103.195] login attempt [root/] succeeded
+2017-10-11T16:33:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3308,91.195.103.195] 'root' authenticated with 'password'
+2017-10-11T16:33:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3308,91.195.103.195] starting service 'ssh-connection'
+2017-10-11T16:33:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3308,91.195.103.195] got channel 'direct-tcpip' request
+2017-10-11T16:33:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3308,91.195.103.195] direct-tcp connection request to ya.ru:443 from ::1:12556
+2017-10-11T16:33:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] got channel 'direct-tcpip' request
+2017-10-11T16:33:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] direct-tcp connection request to api.ipify.org:80 from ::1:37953
+2017-10-11T16:33:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-11T16:33:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] failed to connect: Connection refused
+2017-10-11T16:33:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3303,91.195.103.185] sending close 1
+2017-10-11T16:33:59+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.93.237.194:35893 (10.3.66.85:2222) [session: d929ef9d53bb]
+2017-10-11T16:33:59+0000 [HoneyPotSSHTransport,3309,111.93.237.194] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-10-11T16:33:59+0000 [HoneyPotSSHTransport,3309,111.93.237.194] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-11T16:33:59+0000 [HoneyPotSSHTransport,3309,111.93.237.194] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T16:33:59+0000 [HoneyPotSSHTransport,3309,111.93.237.194] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-11T16:34:03+0000 [HoneyPotSSHTransport,3309,111.93.237.194] NEW KEYS
+2017-10-11T16:34:03+0000 [HoneyPotSSHTransport,3309,111.93.237.194] starting service 'ssh-userauth'
+2017-10-11T16:34:03+0000 [HoneyPotSSHTransport,3309,111.93.237.194] connection lost
+2017-10-11T16:34:03+0000 [HoneyPotSSHTransport,3309,111.93.237.194] Connection lost after 4 seconds
