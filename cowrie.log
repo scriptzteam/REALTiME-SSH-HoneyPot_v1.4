@@ -8108,3 +8108,75 @@
 2017-10-12T21:50:00+0000 [HoneyPotSSHTransport,3926,177.101.205.5] outgoing: 'aes128-ctr' 'hmac-md5' 'none'
 2017-10-12T21:50:00+0000 [HoneyPotSSHTransport,3926,177.101.205.5] incoming: 'aes128-ctr' 'hmac-md5' 'none'
 2017-10-12T21:50:01+0000 [HoneyPotSSHTransport,3926,177.101.205.5] NEW KEYS
+2017-10-12T21:50:09+0000 [HoneyPotSSHTransport,3926,177.101.205.5] starting service 'ssh-userauth'
+2017-10-12T21:50:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3926,177.101.205.5] 'root' trying auth 'password'
+2017-10-12T21:50:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3926,177.101.205.5] login attempt [root/] succeeded
+2017-10-12T21:50:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3926,177.101.205.5] 'root' authenticated with 'password'
+2017-10-12T21:50:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3926,177.101.205.5] starting service 'ssh-connection'
+2017-10-12T21:50:14+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] got channel 'session' request
+2017-10-12T21:50:14+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] channel open
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] executing command "cat /proc/cpuinfo | grep -E "model|type|imple"; uname -m"
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] Opening TTY Log: log/tty/20171012-215017-ae02ce187dd8-0e.log
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] CMD: cat /proc/cpuinfo | grep -E "model|type|imple"; uname -m
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] Command found: grep -E "model|type|imple"
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] Command found: cat /proc/cpuinfo
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] Command found: uname -m
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] exitCode: 0
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] sending request 'exit-status'
+2017-10-12T21:50:17+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] sending close 0
+2017-10-12T21:50:19+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] received eof, sending ctrl-d to command
+2017-10-12T21:50:19+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] Received CTRL-D, exiting..
+2017-10-12T21:50:19+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] exitCode: 0
+2017-10-12T21:50:19+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] Closing TTY Log: log/tty/20171012-215017-ae02ce187dd8-0e.log after 1 seconds
+2017-10-12T21:50:19+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3926,177.101.205.5] remote close
+2017-10-12T21:50:19+0000 [HoneyPotSSHTransport,3926,177.101.205.5] avatar root logging out
+2017-10-12T21:50:19+0000 [HoneyPotSSHTransport,3926,177.101.205.5] connection lost
+2017-10-12T21:50:19+0000 [HoneyPotSSHTransport,3926,177.101.205.5] Connection lost after 18 seconds
+2017-10-12T21:50:44+0000 [HoneyPotSSHTransport,3853,5.188.87.57] avatar root logging out
+2017-10-12T21:50:44+0000 [HoneyPotSSHTransport,3853,5.188.87.57] connection lost
+2017-10-12T21:50:44+0000 [HoneyPotSSHTransport,3853,5.188.87.57] Connection lost after 11591 seconds
+2017-10-12T21:51:17+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 201.160.34.76:39502 (10.3.66.85:2223) [session: TT3711]
+2017-10-12T21:51:18+0000 [CowrieTelnetTransport,3711,201.160.34.76] login attempt [root/jvbzd] succeeded
+2017-10-12T21:51:20+0000 [CowrieTelnetTransport,3711,201.160.34.76] Opening TTY Log: log/tty/20171012-215120-None-3711i.log
+2017-10-12T21:51:20+0000 [CowrieTelnetTransport,3711,201.160.34.76] Warning: state changed and new state returned
+2017-10-12T21:51:20+0000 [CowrieTelnetTransport,3711,201.160.34.76] CMD: cat /proc/mounts; (/bin/busybox XZFSP || :)
+2017-10-12T21:51:20+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: cat /proc/mounts
+2017-10-12T21:51:20+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: /bin/busybox XZFSP
+2017-10-12T21:51:20+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command not found: :
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; (/bin/busybox XZFSP || :)
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: cd /dev/shm
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: cat .s
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: cp /bin/echo .s
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: /bin/busybox XZFSP
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command not found: :
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] CMD: tftp; wget; (/bin/busybox XZFSP || :)
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: tftp 
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: wget 
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: /bin/busybox XZFSP
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command not found: :
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] CMD: dd bs=52 count=1 if=.s || cat .s
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: dd bs=52 count=1 if=.s
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: cat /dev/shm/.s
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] CMD: (/bin/busybox XZFSP || :)
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command found: /bin/busybox XZFSP
+2017-10-12T21:51:21+0000 [CowrieTelnetTransport,3711,201.160.34.76] Command not found: :
+2017-10-12T21:51:22+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.188.87.53:42344 (10.3.66.85:2222) [session: fc9cc87262f0]
+2017-10-12T21:51:42+0000 [HoneyPotSSHTransport,3927,5.188.87.53] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-12T21:51:42+0000 [HoneyPotSSHTransport,3927,5.188.87.53] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-12T21:51:42+0000 [HoneyPotSSHTransport,3927,5.188.87.53] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-12T21:51:42+0000 [HoneyPotSSHTransport,3927,5.188.87.53] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-12T21:51:42+0000 [HoneyPotSSHTransport,3927,5.188.87.53] NEW KEYS
+2017-10-12T21:51:42+0000 [HoneyPotSSHTransport,3927,5.188.87.53] starting service 'ssh-userauth'
+2017-10-12T21:51:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3927,5.188.87.53] 'root' trying auth 'password'
+2017-10-12T21:51:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3927,5.188.87.53] login attempt [root/] succeeded
+2017-10-12T21:51:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3927,5.188.87.53] 'root' authenticated with 'password'
+2017-10-12T21:51:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3927,5.188.87.53] starting service 'ssh-connection'
+2017-10-12T21:51:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3927,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-12T21:51:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3927,5.188.87.53] direct-tcp connection request to ya.ru:443 from ::1:21845
+2017-10-12T21:53:02+0000 [CowrieTelnetTransport,3711,201.160.34.76] Closing TTY Log: log/tty/20171012-215120-None-3711i.log after 101 seconds
+2017-10-12T21:53:02+0000 [CowrieTelnetTransport,3711,201.160.34.76] Connection lost after 104 seconds
+2017-10-12T21:53:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3925,91.195.103.202] got channel 'direct-tcpip' request
+2017-10-12T21:53:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3925,91.195.103.202] direct-tcp connection request to pinerichland.org:587 from ::1:36256
+2017-10-12T21:54:52+0000 [HoneyPotSSHTransport,3855,5.188.87.39] avatar root logging out
+2017-10-12T21:54:52+0000 [HoneyPotSSHTransport,3855,5.188.87.39] connection lost
+2017-10-12T21:54:52+0000 [HoneyPotSSHTransport,3855,5.188.87.39] Connection lost after 11682 seconds
