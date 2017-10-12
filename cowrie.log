@@ -2514,3 +2514,33 @@
 2017-10-12T13:59:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] direct-tcp connection request to 66.196.118.37:25 from ::1:24336
 2017-10-12T13:59:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] got channel 'direct-tcpip' request
 2017-10-12T13:59:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] direct-tcp connection request to 66.196.118.37:25 from ::1:20031
+2017-10-12T14:00:25+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 67.187.221.190:39283 (10.3.66.85:2223) [session: TT3386]
+2017-10-12T14:00:26+0000 [CowrieTelnetTransport,3386,67.187.221.190] login attempt [root/xc3511] succeeded
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Opening TTY Log: log/tty/20171012-140028-None-3386i.log
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Warning: state changed and new state returned
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Received unhandled keyID: '\x00'
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] CMD: enable
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Command found: enable 
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Received unhandled keyID: '\x00'
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] CMD: system
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Command not found: system
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Received unhandled keyID: '\x00'
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] CMD: shell
+2017-10-12T14:00:28+0000 [CowrieTelnetTransport,3386,67.187.221.190] Command not found: shell
+2017-10-12T14:00:29+0000 [CowrieTelnetTransport,3386,67.187.221.190] Received unhandled keyID: '\x00'
+2017-10-12T14:00:29+0000 [CowrieTelnetTransport,3386,67.187.221.190] CMD: sh
+2017-10-12T14:00:29+0000 [CowrieTelnetTransport,3386,67.187.221.190] Command found: sh 
+2017-10-12T14:00:29+0000 [CowrieTelnetTransport,3386,67.187.221.190] Received unhandled keyID: '\x00'
+2017-10-12T14:00:29+0000 [CowrieTelnetTransport,3386,67.187.221.190] CMD: /bin/busybox MIRAI
+2017-10-12T14:00:29+0000 [CowrieTelnetTransport,3386,67.187.221.190] Command found: /bin/busybox MIRAI
+2017-10-12T14:00:30+0000 [CowrieTelnetTransport,3386,67.187.221.190] Closing TTY Log: log/tty/20171012-140028-None-3386i.log after 1 seconds
+2017-10-12T14:00:30+0000 [CowrieTelnetTransport,3386,67.187.221.190] Connection lost after 4 seconds
+2017-10-12T14:02:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-12T14:02:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] direct-tcp connection request to 98.138.112.34:25 from ::1:33955
+2017-10-12T14:02:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-12T14:02:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] direct-tcp connection request to 98.138.112.34:25 from ::1:14251
+2017-10-12T14:03:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-12T14:03:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] direct-tcp connection request to 98.138.112.33:25 from ::1:30113
+2017-10-12T14:03:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-12T14:03:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3694,5.188.87.56] direct-tcp connection request to 98.138.112.33:25 from ::1:47926
