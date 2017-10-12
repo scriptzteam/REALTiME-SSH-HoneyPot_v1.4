@@ -2328,3 +2328,129 @@
 2017-10-12T07:04:50+0000 [HoneyPotSSHTransport,3568,168.1.128.77] incoming: 'aes128-ctr' 'hmac-md5' 'none'
 2017-10-12T07:04:55+0000 [HoneyPotSSHTransport,3568,168.1.128.77] connection lost
 2017-10-12T07:04:55+0000 [HoneyPotSSHTransport,3568,168.1.128.77] Connection lost after 6 seconds
+2017-10-12T07:05:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3532,91.195.103.181] got channel 'direct-tcpip' request
+2017-10-12T07:05:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3532,91.195.103.181] direct-tcp connection request to api.ipify.org:80 from ::1:38794
+2017-10-12T07:05:49+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3532,91.195.103.181] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-12T07:05:49+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3532,91.195.103.181] failed to connect: Connection refused
+2017-10-12T07:05:49+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3532,91.195.103.181] sending close 3
+2017-10-12T07:05:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-12T07:05:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] direct-tcp connection request to 98.136.217.203:25 from ::1:21378
+2017-10-12T07:05:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-12T07:05:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] direct-tcp connection request to 98.136.217.203:25 from ::1:25790
+2017-10-12T07:07:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3536,91.195.103.202] got channel 'direct-tcpip' request
+2017-10-12T07:07:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3536,91.195.103.202] direct-tcp connection request to mail.cc.uic.edu:25 from ::1:43758
+2017-10-12T07:08:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-12T07:08:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] direct-tcp connection request to 98.138.112.34:25 from ::1:41239
+2017-10-12T07:08:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-12T07:08:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3537,5.188.87.54] direct-tcp connection request to 98.138.112.34:25 from ::1:29991
+2017-10-12T07:08:23+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 80.234.10.119:57747 (10.3.66.85:2222) [session: 33bd5f030a71]
+2017-10-12T07:08:23+0000 [HoneyPotSSHTransport,3569,80.234.10.119] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-10-12T07:08:23+0000 [HoneyPotSSHTransport,3569,80.234.10.119] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-12T07:08:23+0000 [HoneyPotSSHTransport,3569,80.234.10.119] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-12T07:08:23+0000 [HoneyPotSSHTransport,3569,80.234.10.119] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-12T07:08:24+0000 [HoneyPotSSHTransport,3569,80.234.10.119] NEW KEYS
+2017-10-12T07:08:24+0000 [HoneyPotSSHTransport,3569,80.234.10.119] starting service 'ssh-userauth'
+2017-10-12T07:08:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3569,80.234.10.119] 'root' trying auth 'password'
+2017-10-12T07:08:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3569,80.234.10.119] login attempt [root/123456] failed
+2017-10-12T07:08:25+0000 [-] 'root' failed auth 'password'
+2017-10-12T07:08:25+0000 [-] unauthorized login: 
+2017-10-12T07:08:25+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3569,80.234.10.119] 'root' trying auth 'password'
+2017-10-12T07:08:25+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3569,80.234.10.119] login attempt [root/raspberrypi] succeeded
+2017-10-12T07:08:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3569,80.234.10.119] 'root' authenticated with 'password'
+2017-10-12T07:08:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3569,80.234.10.119] starting service 'ssh-connection'
+2017-10-12T07:08:27+0000 [HoneyPotSSHTransport,3569,80.234.10.119] avatar root logging out
+2017-10-12T07:08:27+0000 [HoneyPotSSHTransport,3569,80.234.10.119] connection lost
+2017-10-12T07:08:27+0000 [HoneyPotSSHTransport,3569,80.234.10.119] Connection lost after 3 seconds
+2017-10-12T07:08:28+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 195.22.127.83:44032 (10.3.66.85:2222) [session: dc35d2be1cf6]
+2017-10-12T07:08:28+0000 [HoneyPotSSHTransport,3570,195.22.127.83] Remote SSH version: SSH-2.0-sshlib-0.2
+2017-10-12T07:08:28+0000 [HoneyPotSSHTransport,3570,195.22.127.83] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-12T07:08:28+0000 [HoneyPotSSHTransport,3570,195.22.127.83] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-12T07:08:28+0000 [HoneyPotSSHTransport,3570,195.22.127.83] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-12T07:08:28+0000 [HoneyPotSSHTransport,3570,195.22.127.83] NEW KEYS
+2017-10-12T07:08:28+0000 [HoneyPotSSHTransport,3570,195.22.127.83] starting service 'ssh-userauth'
+2017-10-12T07:08:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3570,195.22.127.83] 'root' trying auth 'password'
+2017-10-12T07:08:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3570,195.22.127.83] login attempt [root/raspberrypi] succeeded
+2017-10-12T07:08:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3570,195.22.127.83] 'root' authenticated with 'password'
+2017-10-12T07:08:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3570,195.22.127.83] starting service 'ssh-connection'
+2017-10-12T07:08:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] got channel 'session' request
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] channel open
+2017-10-12T07:08:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] got channel 'direct-tcpip' request
+2017-10-12T07:08:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] direct-tcp connection request to 195.22.127.83:443 from 127.0.0.1:22
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] pty request: 'xterm' (24, 280, 0, 0)
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Terminal Size: 24 280
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] getting shell
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Opening TTY Log: log/tty/20171012-070831-dc35d2be1cf6-0i.log
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: /gweerwe323f
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command not found: /gweerwe323f
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: sudo /bin/sh 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: sudo /bin/sh
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: /bin/sh
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: /bin/busybox cp; /gweerwe323f
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: /bin/busybox cp
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cp
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command not found: /gweerwe323f
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   mount ;/gweerwe323f
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: mount 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Reading txtcmd from "txtcmds/bin/mount"
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command not found: /gweerwe323f
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/' > //.nippon;   cat //.nippon;   rm -f //.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/' > //.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat //.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f //.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/tmp' > /tmp/.nippon;   cat /tmp/.nippon;   rm -f /tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/tmp' > /tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/var/tmp' > /var/tmp/.nippon;   cat /var/tmp/.nippon;   rm -f /var/tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/var/tmp' > /var/tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /var/tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /var/tmp/.nippon
+2017-10-12T07:08:31+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/' > //.nippon;   cat //.nippon;   rm -f //.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/' > //.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat //.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f //.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/lib/init/rw' > /lib/init/rw/.nippon;   cat /lib/init/rw/.nippon;   rm -f /lib/init/rw/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/lib/init/rw' > /lib/init/rw/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /lib/init/rw/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /lib/init/rw/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/proc' > /proc/.nippon;   cat /proc/.nippon;   rm -f /proc/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/proc' > /proc/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /proc/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /proc/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/sys' > /sys/.nippon;   cat /sys/.nippon;   rm -f /sys/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/sys' > /sys/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /sys/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /sys/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon;   cat /dev/.nippon;   rm -f /dev/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /dev/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /dev/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/dev/shm' > /dev/shm/.nippon;   cat /dev/shm/.nippon;   rm -f /dev/shm/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/dev/shm' > /dev/shm/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /dev/shm/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /dev/shm/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:   echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon;   cat /dev/pts/.nippon;   rm -f /dev/pts/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /dev/pts/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: rm -f /dev/pts/.nippon
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: /gweerwe323f
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command not found: /gweerwe323f
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD:  cat /bin/echo ;/gweerwe323f
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command found: cat /bin/echo
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] Command not found: /gweerwe323f
+2017-10-12T07:08:32+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3570,195.22.127.83] CMD: 
