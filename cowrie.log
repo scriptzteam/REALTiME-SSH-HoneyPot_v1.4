@@ -1781,3 +1781,35 @@
 2017-10-12T11:59:25+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
 2017-10-12T11:59:25+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] failed to connect: Connection refused
 2017-10-12T11:59:25+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] sending close 1
+2017-10-12T12:00:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-12T12:00:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] direct-tcp connection request to 98.138.112.34:25 from ::1:41649
+2017-10-12T12:00:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-12T12:00:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] direct-tcp connection request to 98.138.112.34:25 from ::1:34746
+2017-10-12T12:01:18+0000 [HoneyPotSSHTransport,3638,91.195.103.196] avatar root logging out
+2017-10-12T12:01:18+0000 [HoneyPotSSHTransport,3638,91.195.103.196] connection lost
+2017-10-12T12:01:18+0000 [HoneyPotSSHTransport,3638,91.195.103.196] Connection lost after 11674 seconds
+2017-10-12T12:02:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-12T12:02:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:47434
+2017-10-12T12:02:18+0000 [SSHChannel cowrie-discarded-direct-tcpip (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-12T12:02:18+0000 [SSHChannel cowrie-discarded-direct-tcpip (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] failed to connect: Connection refused
+2017-10-12T12:02:18+0000 [SSHChannel cowrie-discarded-direct-tcpip (2) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3690,91.195.103.180] sending close 2
+2017-10-12T12:02:45+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.195.103.202:43090 (10.3.66.85:2222) [session: 8b39ece62e7a]
+2017-10-12T12:03:05+0000 [HoneyPotSSHTransport,3693,91.195.103.202] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-12T12:03:05+0000 [HoneyPotSSHTransport,3693,91.195.103.202] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-12T12:03:05+0000 [HoneyPotSSHTransport,3693,91.195.103.202] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-12T12:03:05+0000 [HoneyPotSSHTransport,3693,91.195.103.202] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-12T12:03:05+0000 [HoneyPotSSHTransport,3693,91.195.103.202] NEW KEYS
+2017-10-12T12:03:05+0000 [HoneyPotSSHTransport,3693,91.195.103.202] starting service 'ssh-userauth'
+2017-10-12T12:03:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3693,91.195.103.202] 'root' trying auth 'password'
+2017-10-12T12:03:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3693,91.195.103.202] login attempt [root/] succeeded
+2017-10-12T12:03:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3693,91.195.103.202] 'root' authenticated with 'password'
+2017-10-12T12:03:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3693,91.195.103.202] starting service 'ssh-connection'
+2017-10-12T12:03:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3693,91.195.103.202] got channel 'direct-tcpip' request
+2017-10-12T12:03:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3693,91.195.103.202] direct-tcp connection request to ya.ru:443 from ::1:42779
+2017-10-12T12:03:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-12T12:03:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] direct-tcp connection request to 66.196.118.36:25 from ::1:24749
+2017-10-12T12:03:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] got channel 'direct-tcpip' request
+2017-10-12T12:03:24+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3642,5.188.87.55] direct-tcp connection request to 66.196.118.36:25 from ::1:30219
+2017-10-12T12:04:44+0000 [HoneyPotSSHTransport,3642,5.188.87.55] avatar root logging out
+2017-10-12T12:04:44+0000 [HoneyPotSSHTransport,3642,5.188.87.55] connection lost
+2017-10-12T12:04:44+0000 [HoneyPotSSHTransport,3642,5.188.87.55] Connection lost after 11606 seconds
