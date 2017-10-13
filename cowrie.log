@@ -3439,3 +3439,128 @@
 2017-10-13T08:39:27+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] discarded direct-tcp forward request to www.google.ca:443 with data '\x16\x03\x01\x01x\x01\x00\x01t\x03\x03Y\xe0{\xa5\xf9\xde)\x80\xb0i\x02\xb8\xd4:\x06\xfe\x90\xa0\xb0\xca\x81,\x18\xee\xfe\xce\xc4!,\xa1AP\x00\x00\xca\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\xc0"\xc0!\x00\xa3\x00\x9f\x00k\x00j\x009\x008\x00\x88\x00\x87\xc0\x19\xc0 \x00\xa7\x00m\x00:\x00\x89\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0\x12\xc0\x08\xc0\x1c\xc0\x1b\x00\x16\x00\x13\xc0\x17\xc0\x1a\x00\x1b\xc0\r\xc0\x03\x00\n\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\xc0\x1f\xc0\x1e\x00\xa2\x00\x9e\x00g\x00@\x003\x002\x00\x9a\x00\x99\x00E\x00D\xc0\x18\xc0\x1d\x00\xa6\x00l\x004\x00\x9b\x00F\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x16\x00\x18\xc0\x0c\xc0\x02\x00\x05\x00\x04\x00\x15\x00\x12\x00\x1a\x00\t\x00\x14\x00\x11\x00\x19\x00\x08\x00\x06\x00\x17\x00\x03\x00\xff\x01\x00\x00\x81\x00\x00\x00\x12\x00\x10\x00\x00\rwww.google.ca\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x004\x002\x00\x0e\x00\r\x00\x19\x00\x0b\x00\x0c\x00\x18\x00\t\x00\n\x00\x16\x00\x17\x00\x08\x00\x06\x00\x07\x00\x14\x00\x15\x00\x04\x00\x05\x00\x12\x00\x13\x00\x01\x00\x02\x00\x03\x00\x0f\x00\x10\x00\x11\x00\r\x00"\x00 \x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x01\x01\x00\x0f\x00\x01\x01'
 2017-10-13T08:39:27+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] failed to connect: Connection refused
 2017-10-13T08:39:27+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] sending close 3
+2017-10-13T08:40:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-13T08:40:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] direct-tcp connection request to 63.250.192.46:25 from ::1:40793
+2017-10-13T08:40:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-13T08:40:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] direct-tcp connection request to 63.250.192.46:25 from ::1:20395
+2017-10-13T08:40:42+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.195.103.196:57384 (10.3.66.85:2222) [session: 6745bec19acf]
+2017-10-13T08:40:42+0000 [HoneyPotSSHTransport,4060,91.195.103.196] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-13T08:40:42+0000 [HoneyPotSSHTransport,4060,91.195.103.196] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-13T08:40:42+0000 [HoneyPotSSHTransport,4060,91.195.103.196] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-13T08:40:42+0000 [HoneyPotSSHTransport,4060,91.195.103.196] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-13T08:40:42+0000 [HoneyPotSSHTransport,4060,91.195.103.196] NEW KEYS
+2017-10-13T08:40:42+0000 [HoneyPotSSHTransport,4060,91.195.103.196] starting service 'ssh-userauth'
+2017-10-13T08:40:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4060,91.195.103.196] 'root' trying auth 'password'
+2017-10-13T08:40:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4060,91.195.103.196] login attempt [root/] succeeded
+2017-10-13T08:40:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4060,91.195.103.196] 'root' authenticated with 'password'
+2017-10-13T08:40:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4060,91.195.103.196] starting service 'ssh-connection'
+2017-10-13T08:40:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4060,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-13T08:40:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4060,91.195.103.196] direct-tcp connection request to ya.ru:443 from ::1:23834
+2017-10-13T08:40:55+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 116.196.95.138:54747 (10.3.66.85:2222) [session: b124a433804f]
+2017-10-13T08:40:56+0000 [HoneyPotSSHTransport,4061,116.196.95.138] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-10-13T08:40:56+0000 [HoneyPotSSHTransport,4061,116.196.95.138] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-13T08:40:56+0000 [HoneyPotSSHTransport,4061,116.196.95.138] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-13T08:40:56+0000 [HoneyPotSSHTransport,4061,116.196.95.138] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-13T08:40:57+0000 [HoneyPotSSHTransport,4061,116.196.95.138] NEW KEYS
+2017-10-13T08:40:57+0000 [HoneyPotSSHTransport,4061,116.196.95.138] starting service 'ssh-userauth'
+2017-10-13T08:40:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:40:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/aerohive] failed
+2017-10-13T08:40:58+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:40:58+0000 [-] unauthorized login: 
+2017-10-13T08:40:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:40:58+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/admin] failed
+2017-10-13T08:41:00+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:00+0000 [-] unauthorized login: 
+2017-10-13T08:41:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:00+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/1234] failed
+2017-10-13T08:41:01+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:01+0000 [-] unauthorized login: 
+2017-10-13T08:41:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:01+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/12345] failed
+2017-10-13T08:41:02+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:02+0000 [-] unauthorized login: 
+2017-10-13T08:41:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:02+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/12345] failed
+2017-10-13T08:41:03+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:03+0000 [-] unauthorized login: 
+2017-10-13T08:41:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:04+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/admin] failed
+2017-10-13T08:41:05+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:05+0000 [-] unauthorized login: 
+2017-10-13T08:41:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:05+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/pfsense] failed
+2017-10-13T08:41:06+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:06+0000 [-] unauthorized login: 
+2017-10-13T08:41:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/password] failed
+2017-10-13T08:41:07+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:07+0000 [-] unauthorized login: 
+2017-10-13T08:41:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/admin] failed
+2017-10-13T08:41:09+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:09+0000 [-] unauthorized login: 
+2017-10-13T08:41:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/changeme] failed
+2017-10-13T08:41:10+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:10+0000 [-] unauthorized login: 
+2017-10-13T08:41:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:10+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/12345] failed
+2017-10-13T08:41:11+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:11+0000 [-] unauthorized login: 
+2017-10-13T08:41:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:12+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/manager] failed
+2017-10-13T08:41:13+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:13+0000 [-] unauthorized login: 
+2017-10-13T08:41:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:13+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/aerohive] failed
+2017-10-13T08:41:14+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:14+0000 [-] unauthorized login: 
+2017-10-13T08:41:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/admin] failed
+2017-10-13T08:41:15+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:15+0000 [-] unauthorized login: 
+2017-10-13T08:41:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/changeme] failed
+2017-10-13T08:41:17+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:17+0000 [-] unauthorized login: 
+2017-10-13T08:41:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/admin] failed
+2017-10-13T08:41:18+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:18+0000 [-] unauthorized login: 
+2017-10-13T08:41:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/password] failed
+2017-10-13T08:41:19+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:19+0000 [-] unauthorized login: 
+2017-10-13T08:41:19+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:19+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/pfsense] failed
+2017-10-13T08:41:20+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:20+0000 [-] unauthorized login: 
+2017-10-13T08:41:21+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:21+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/1111] failed
+2017-10-13T08:41:22+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:22+0000 [-] unauthorized login: 
+2017-10-13T08:41:22+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:22+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/7ujMko0admin] failed
+2017-10-13T08:41:23+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:23+0000 [-] unauthorized login: 
+2017-10-13T08:41:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] 'admin' trying auth 'password'
+2017-10-13T08:41:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4061,116.196.95.138] login attempt [admin/7ujMko0admin] failed
+2017-10-13T08:41:24+0000 [-] 'admin' failed auth 'password'
+2017-10-13T08:41:24+0000 [-] unauthorized login: 
+2017-10-13T08:41:24+0000 [-] Disconnecting with error, code 14
+	reason: too many bad auths
+2017-10-13T08:41:24+0000 [HoneyPotSSHTransport,4061,116.196.95.138] connection lost
+2017-10-13T08:41:24+0000 [HoneyPotSSHTransport,4061,116.196.95.138] Connection lost after 29 seconds
+2017-10-13T08:43:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4060,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-13T08:43:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4060,91.195.103.196] direct-tcp connection request to 216.40.42.4:25 from ::1:44739
+2017-10-13T08:43:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] got channel 'direct-tcpip' request
+2017-10-13T08:43:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] direct-tcp connection request to www.google.ca:443 from ::1:32236
+2017-10-13T08:43:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] discarded direct-tcp forward request to www.google.ca:443 with data '\x16\x03\x01\x01x\x01\x00\x01t\x03\x03Y\xe0|\x86\xe0\x017\xb6O\xee\x14\xa4M\xc8\xf3L\xf5\xa0\x13n\xdfw\xfe\xc0\xddlp\x1f\xd0\x98\x19\x9c\x00\x00\xca\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\xc0"\xc0!\x00\xa3\x00\x9f\x00k\x00j\x009\x008\x00\x88\x00\x87\xc0\x19\xc0 \x00\xa7\x00m\x00:\x00\x89\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0\x12\xc0\x08\xc0\x1c\xc0\x1b\x00\x16\x00\x13\xc0\x17\xc0\x1a\x00\x1b\xc0\r\xc0\x03\x00\n\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\xc0\x1f\xc0\x1e\x00\xa2\x00\x9e\x00g\x00@\x003\x002\x00\x9a\x00\x99\x00E\x00D\xc0\x18\xc0\x1d\x00\xa6\x00l\x004\x00\x9b\x00F\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x16\x00\x18\xc0\x0c\xc0\x02\x00\x05\x00\x04\x00\x15\x00\x12\x00\x1a\x00\t\x00\x14\x00\x11\x00\x19\x00\x08\x00\x06\x00\x17\x00\x03\x00\xff\x01\x00\x00\x81\x00\x00\x00\x12\x00\x10\x00\x00\rwww.google.ca\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x004\x002\x00\x0e\x00\r\x00\x19\x00\x0b\x00\x0c\x00\x18\x00\t\x00\n\x00\x16\x00\x17\x00\x08\x00\x06\x00\x07\x00\x14\x00\x15\x00\x04\x00\x05\x00\x12\x00\x13\x00\x01\x00\x02\x00\x03\x00\x0f\x00\x10\x00\x11\x00\r\x00"\x00 \x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x01\x01\x00\x0f\x00\x01\x01'
+2017-10-13T08:43:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] failed to connect: Connection refused
+2017-10-13T08:43:12+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4057,91.195.103.188] sending close 4
+2017-10-13T08:43:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-13T08:43:48+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] direct-tcp connection request to 106.10.166.52:25 from ::1:14418
+2017-10-13T08:43:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] got channel 'direct-tcpip' request
+2017-10-13T08:43:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4052,5.188.87.54] direct-tcp connection request to 106.10.166.52:25 from ::1:27924
+2017-10-13T08:44:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4060,91.195.103.196] got channel 'direct-tcpip' request
+2017-10-13T08:44:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4060,91.195.103.196] direct-tcp connection request to 94.100.134.10:25 from ::1:33860
