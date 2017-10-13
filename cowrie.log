@@ -129,3 +129,26 @@
 2017-10-13T05:13:55+0000 [HoneyPotSSHTransport,4023,134.19.187.78] avatar root logging out
 2017-10-13T05:13:55+0000 [HoneyPotSSHTransport,4023,134.19.187.78] connection lost
 2017-10-13T05:13:55+0000 [HoneyPotSSHTransport,4023,134.19.187.78] Connection lost after 274 seconds
+2017-10-13T05:15:17+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 119.201.14.188:40054 (10.3.66.85:2223) [session: TT3926]
+2017-10-13T05:15:18+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 134.19.187.78:34624 (10.3.66.85:2222) [session: 9a7a53539efc]
+2017-10-13T05:15:18+0000 [HoneyPotSSHTransport,4024,134.19.187.78] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-13T05:15:18+0000 [HoneyPotSSHTransport,4024,134.19.187.78] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-13T05:15:18+0000 [HoneyPotSSHTransport,4024,134.19.187.78] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-13T05:15:18+0000 [HoneyPotSSHTransport,4024,134.19.187.78] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-13T05:15:18+0000 [HoneyPotSSHTransport,4024,134.19.187.78] NEW KEYS
+2017-10-13T05:15:18+0000 [HoneyPotSSHTransport,4024,134.19.187.78] starting service 'ssh-userauth'
+2017-10-13T05:15:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4024,134.19.187.78] 'root' trying auth 'password'
+2017-10-13T05:15:18+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4024,134.19.187.78] login attempt [root/] succeeded
+2017-10-13T05:15:21+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4024,134.19.187.78] 'root' authenticated with 'password'
+2017-10-13T05:15:21+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4024,134.19.187.78] starting service 'ssh-connection'
+2017-10-13T05:15:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] got channel 'direct-tcpip' request
+2017-10-13T05:15:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] direct-tcp connection request to ya.ru:443 from ::1:19576
+2017-10-13T05:15:45+0000 [CowrieTelnetTransport,3926,119.201.14.188] Connection lost after 28 seconds
+2017-10-13T05:17:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] got channel 'direct-tcpip' request
+2017-10-13T05:17:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] direct-tcp connection request to 8.31.233.32:25 from ::1:38678
+2017-10-13T05:17:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] got channel 'direct-tcpip' request
+2017-10-13T05:17:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] direct-tcp connection request to 199.193.206.102:25 from ::1:16951
+2017-10-13T05:19:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] got channel 'direct-tcpip' request
+2017-10-13T05:19:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] direct-tcp connection request to 69.134.155.136:25 from ::1:12887
+2017-10-13T05:19:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] got channel 'direct-tcpip' request
+2017-10-13T05:19:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4024,134.19.187.78] direct-tcp connection request to 104.47.41.33:25 from ::1:49696
