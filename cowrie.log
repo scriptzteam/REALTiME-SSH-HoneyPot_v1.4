@@ -6522,3 +6522,40 @@
 2017-10-13T02:59:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.138.112.34:25 from ::1:18962
 2017-10-13T02:59:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
 2017-10-13T02:59:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.138.112.34:25 from ::1:43005
+2017-10-13T03:00:35+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 121.18.238.125:39241 (10.3.66.85:2222) [session: 8292e6ced469]
+2017-10-13T03:00:35+0000 [HoneyPotSSHTransport,3990,121.18.238.125] Remote SSH version: SSH-2.0-PUTTY
+2017-10-13T03:00:35+0000 [HoneyPotSSHTransport,3990,121.18.238.125] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-13T03:00:35+0000 [HoneyPotSSHTransport,3990,121.18.238.125] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-13T03:00:35+0000 [HoneyPotSSHTransport,3990,121.18.238.125] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-13T03:00:36+0000 [HoneyPotSSHTransport,3990,121.18.238.125] NEW KEYS
+2017-10-13T03:00:36+0000 [HoneyPotSSHTransport,3990,121.18.238.125] starting service 'ssh-userauth'
+2017-10-13T03:00:37+0000 [HoneyPotSSHTransport,3990,121.18.238.125] Got remote error, code 11
+	reason: 
+2017-10-13T03:00:37+0000 [HoneyPotSSHTransport,3990,121.18.238.125] connection lost
+2017-10-13T03:00:37+0000 [HoneyPotSSHTransport,3990,121.18.238.125] Connection lost after 2 seconds
+2017-10-13T03:01:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T03:01:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.136.217.202:25 from ::1:40507
+2017-10-13T03:01:59+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T03:01:59+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.136.217.202:25 from ::1:14227
+2017-10-13T03:02:08+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 94.209.252.200:46411 (10.3.66.85:2223) [session: TT3914]
+2017-10-13T03:02:08+0000 [CowrieTelnetTransport,3914,94.209.252.200] login attempt [root/jvbzd] succeeded
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Opening TTY Log: log/tty/20171013-030210-None-3914i.log
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Warning: state changed and new state returned
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Received unhandled keyID: '\x00'
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] CMD: enable
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Command found: enable 
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Received unhandled keyID: '\x00'
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] CMD: system
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Command not found: system
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Received unhandled keyID: '\x00'
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] CMD: shell
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Command not found: shell
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Received unhandled keyID: '\x00'
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] CMD: sh
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Command found: sh 
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Received unhandled keyID: '\x00'
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] CMD: /bin/busybox MIRAI
+2017-10-13T03:02:10+0000 [CowrieTelnetTransport,3914,94.209.252.200] Command found: /bin/busybox MIRAI
+2017-10-13T03:02:11+0000 [CowrieTelnetTransport,3914,94.209.252.200] Closing TTY Log: log/tty/20171013-030210-None-3914i.log after 0 seconds
+2017-10-13T03:02:11+0000 [CowrieTelnetTransport,3914,94.209.252.200] Connection lost after 2 seconds
