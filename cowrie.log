@@ -2205,3 +2205,37 @@
 2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: dd if=/bin/busybox bs=22 count=1
 2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox cat /bin/busybox
 2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: cat /bin/busybox
+2017-10-13T14:21:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:21:45+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.138.112.37:25 from ::1:32161
+2017-10-13T14:21:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:21:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.138.112.37:25 from ::1:40339
+2017-10-13T14:21:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Closing TTY Log: log/tty/20171013-141949-None-4230i.log after 122 seconds
+2017-10-13T14:21:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Connection lost after 126 seconds
+2017-10-13T14:22:28+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 118.244.238.4:60233 (10.3.66.85:2222) [session: 746156e5d7bc]
+2017-10-13T14:22:29+0000 [HoneyPotSSHTransport,4153,118.244.238.4] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-10-13T14:22:29+0000 [HoneyPotSSHTransport,4153,118.244.238.4] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-13T14:22:29+0000 [HoneyPotSSHTransport,4153,118.244.238.4] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-13T14:22:29+0000 [HoneyPotSSHTransport,4153,118.244.238.4] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-13T14:22:29+0000 [HoneyPotSSHTransport,4153,118.244.238.4] NEW KEYS
+2017-10-13T14:22:30+0000 [HoneyPotSSHTransport,4153,118.244.238.4] starting service 'ssh-userauth'
+2017-10-13T14:22:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4153,118.244.238.4] 'root' trying auth 'password'
+2017-10-13T14:22:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4153,118.244.238.4] login attempt [root/waldo] succeeded
+2017-10-13T14:22:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4153,118.244.238.4] 'root' authenticated with 'password'
+2017-10-13T14:22:32+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4153,118.244.238.4] starting service 'ssh-connection'
+2017-10-13T14:22:32+0000 [HoneyPotSSHTransport,4153,118.244.238.4] avatar root logging out
+2017-10-13T14:22:32+0000 [HoneyPotSSHTransport,4153,118.244.238.4] connection lost
+2017-10-13T14:22:32+0000 [HoneyPotSSHTransport,4153,118.244.238.4] Connection lost after 3 seconds
+2017-10-13T14:23:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:23:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.136.217.202:25 from ::1:23475
+2017-10-13T14:23:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:23:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.136.217.202:25 from ::1:23972
+2017-10-13T14:24:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-13T14:24:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:36671
+2017-10-13T14:24:40+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-13T14:24:40+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] failed to connect: Connection refused
+2017-10-13T14:24:40+0000 [SSHChannel cowrie-discarded-direct-tcpip (3) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] sending close 3
+2017-10-13T14:24:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] got channel 'direct-tcpip' request
+2017-10-13T14:24:44+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] direct-tcp connection request to api.ipify.org:80 from ::1:39294
+2017-10-13T14:24:44+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-13T14:24:44+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] failed to connect: Connection refused
+2017-10-13T14:24:44+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4148,91.195.103.180] sending close 4
