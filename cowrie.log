@@ -680,3 +680,27 @@
 2017-10-13T11:14:06+0000 [CowrieTelnetTransport,4091,95.215.62.81] Command found: /bin/busybox killme
 2017-10-13T11:14:41+0000 [CowrieTelnetTransport,4091,95.215.62.81] Closing TTY Log: log/tty/20171013-111403-None-4091i.log after 37 seconds
 2017-10-13T11:14:41+0000 [CowrieTelnetTransport,4091,95.215.62.81] Connection lost after 43 seconds
+2017-10-13T11:16:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T11:16:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] direct-tcp connection request to 66.196.118.240:25 from ::1:19274
+2017-10-13T11:16:42+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T11:16:42+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] direct-tcp connection request to 66.196.118.240:25 from ::1:38939
+2017-10-13T11:18:27+0000 [HoneyPotSSHTransport,4081,91.195.103.214] avatar root logging out
+2017-10-13T11:18:27+0000 [HoneyPotSSHTransport,4081,91.195.103.214] connection lost
+2017-10-13T11:18:27+0000 [HoneyPotSSHTransport,4081,91.195.103.214] Connection lost after 2128 seconds
+2017-10-13T11:18:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T11:18:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] direct-tcp connection request to 98.138.112.34:25 from ::1:28218
+2017-10-13T11:18:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T11:18:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4084,5.188.87.56] direct-tcp connection request to 98.138.112.34:25 from ::1:46250
+2017-10-13T11:18:55+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 91.195.103.214:46477 (10.3.66.85:2222) [session: fafbc62161e2]
+2017-10-13T11:19:15+0000 [HoneyPotSSHTransport,4091,91.195.103.214] Remote SSH version: SSH-2.0-OpenSSH_7.3
+2017-10-13T11:19:15+0000 [HoneyPotSSHTransport,4091,91.195.103.214] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-10-13T11:19:15+0000 [HoneyPotSSHTransport,4091,91.195.103.214] outgoing: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-13T11:19:15+0000 [HoneyPotSSHTransport,4091,91.195.103.214] incoming: '3des-cbc' 'hmac-sha1' 'none'
+2017-10-13T11:19:15+0000 [HoneyPotSSHTransport,4091,91.195.103.214] NEW KEYS
+2017-10-13T11:19:15+0000 [HoneyPotSSHTransport,4091,91.195.103.214] starting service 'ssh-userauth'
+2017-10-13T11:19:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4091,91.195.103.214] 'root' trying auth 'password'
+2017-10-13T11:19:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4091,91.195.103.214] login attempt [root/] succeeded
+2017-10-13T11:19:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4091,91.195.103.214] 'root' authenticated with 'password'
+2017-10-13T11:19:17+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4091,91.195.103.214] starting service 'ssh-connection'
+2017-10-13T11:19:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4091,91.195.103.214] got channel 'direct-tcpip' request
+2017-10-13T11:19:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4091,91.195.103.214] direct-tcp connection request to ya.ru:443 from ::1:48832
