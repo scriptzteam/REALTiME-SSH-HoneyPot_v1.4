@@ -2200,3 +2200,32 @@
 	reason: 
 2017-10-13T07:13:50+0000 [HoneyPotSSHTransport,4045,121.18.238.125] connection lost
 2017-10-13T07:13:50+0000 [HoneyPotSSHTransport,4045,121.18.238.125] Connection lost after 1 seconds
+2017-10-13T07:15:43+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 167.114.210.108:38125 (10.3.66.85:2222) [session: cd7e61aa0a12]
+2017-10-13T07:15:43+0000 [HoneyPotSSHTransport,4046,167.114.210.108] Remote SSH version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2
+2017-10-13T07:15:43+0000 [HoneyPotSSHTransport,4046,167.114.210.108] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-13T07:15:43+0000 [HoneyPotSSHTransport,4046,167.114.210.108] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-13T07:15:43+0000 [HoneyPotSSHTransport,4046,167.114.210.108] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-13T07:15:43+0000 [HoneyPotSSHTransport,4046,167.114.210.108] NEW KEYS
+2017-10-13T07:15:44+0000 [HoneyPotSSHTransport,4046,167.114.210.108] starting service 'ssh-userauth'
+2017-10-13T07:15:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4046,167.114.210.108] 'root' trying auth 'none'
+2017-10-13T07:15:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4046,167.114.210.108] 'root' trying auth 'keyboard-interactive'
+2017-10-13T07:15:44+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4046,167.114.210.108] login attempt [root/angel] succeeded
+2017-10-13T07:15:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4046,167.114.210.108] 'root' authenticated with 'keyboard-interactive'
+2017-10-13T07:15:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4046,167.114.210.108] starting service 'ssh-connection'
+2017-10-13T07:15:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] got global no-more-sessions@openssh.com request
+2017-10-13T07:15:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] got channel 'direct-tcpip' request
+2017-10-13T07:15:53+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] direct-tcp connection request to 34.205.175.53:80 from 127.0.0.1:59370
+2017-10-13T07:15:53+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] discarded direct-tcp forward request to 34.205.175.53:80 with data 'GET / HTTP/1.1\r\nHost: www.alexa.com\r\nUser-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36\r\nAccept: */*\r\n\r\n'
+2017-10-13T07:15:53+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] failed to connect: Connection refused
+2017-10-13T07:15:53+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] sending close 0
+2017-10-13T07:15:53+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4046,167.114.210.108] remote close
+2017-10-13T07:16:03+0000 [HoneyPotSSHTransport,4046,167.114.210.108] Got remote error, code 11
+	reason: disconnected by user
+2017-10-13T07:16:03+0000 [HoneyPotSSHTransport,4046,167.114.210.108] avatar root logging out
+2017-10-13T07:16:03+0000 [HoneyPotSSHTransport,4046,167.114.210.108] connection lost
+2017-10-13T07:16:03+0000 [HoneyPotSSHTransport,4046,167.114.210.108] Connection lost after 19 seconds
+2017-10-13T07:18:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4020,91.195.103.189] got channel 'direct-tcpip' request
+2017-10-13T07:18:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4020,91.195.103.189] direct-tcp connection request to 91.121.57.68:80 from localhost:5556
+2017-10-13T07:18:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (54) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4020,91.195.103.189] discarded direct-tcp forward request to 91.121.57.68:80 with data 'GET /proxy.php HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nConnection: Close\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0\r\nAccept-Language: en-US,en;q=0.5\r\nCache-Control: max-age=0\r\nReferer: RefererString\r\nCookie: param1=CookieString\r\nAccept-Encoding: gzip\r\nHost: check2.zennolab.com\r\n\r\n'
+2017-10-13T07:18:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (54) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4020,91.195.103.189] failed to connect: Connection refused
+2017-10-13T07:18:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (54) on SSHService 'ssh-connection' on HoneyPotSSHTransport,4020,91.195.103.189] sending close 54
