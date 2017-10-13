@@ -6457,3 +6457,68 @@
 2017-10-13T02:52:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 66.196.118.36:25 from ::1:22647
 2017-10-13T02:53:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
 2017-10-13T02:53:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 66.196.118.36:25 from ::1:41846
+2017-10-13T02:55:33+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T02:55:33+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.136.216.25:25 from ::1:23305
+2017-10-13T02:55:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T02:55:38+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.136.216.25:25 from ::1:33374
+2017-10-13T02:57:44+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 38.84.132.236:46993 (10.3.66.85:2222) [session: 5a59c07b0760]
+2017-10-13T02:57:44+0000 [HoneyPotSSHTransport,3988,38.84.132.236] Remote SSH version: SSH-2.0-OpenSSH_6.6p1 Ubuntu-2ubuntu1
+2017-10-13T02:57:44+0000 [HoneyPotSSHTransport,3988,38.84.132.236] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-13T02:57:44+0000 [HoneyPotSSHTransport,3988,38.84.132.236] outgoing: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-13T02:57:44+0000 [HoneyPotSSHTransport,3988,38.84.132.236] incoming: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-13T02:57:45+0000 [HoneyPotSSHTransport,3988,38.84.132.236] NEW KEYS
+2017-10-13T02:57:45+0000 [HoneyPotSSHTransport,3988,38.84.132.236] starting service 'ssh-userauth'
+2017-10-13T02:57:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3988,38.84.132.236] 'root' trying auth 'none'
+2017-10-13T02:57:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3988,38.84.132.236] 'root' trying auth 'keyboard-interactive'
+2017-10-13T02:57:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3988,38.84.132.236] login attempt [root/angel] succeeded
+2017-10-13T02:57:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3988,38.84.132.236] 'root' authenticated with 'keyboard-interactive'
+2017-10-13T02:57:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3988,38.84.132.236] starting service 'ssh-connection'
+2017-10-13T02:57:47+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] got global no-more-sessions@openssh.com request
+2017-10-13T02:57:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] got channel 'direct-tcpip' request
+2017-10-13T02:57:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] direct-tcp connection request to 34.205.175.53:80 from 127.0.0.1:43422
+2017-10-13T02:57:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] discarded direct-tcp forward request to 34.205.175.53:80 with data 'GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36\r\nHost: www.alexa.com\r\nAccept: */*\r\n\r\n'
+2017-10-13T02:57:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] failed to connect: Connection refused
+2017-10-13T02:57:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] sending close 0
+2017-10-13T02:57:54+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3988,38.84.132.236] remote close
+2017-10-13T02:58:04+0000 [HoneyPotSSHTransport,3988,38.84.132.236] Got remote error, code 11
+	reason: disconnected by user
+2017-10-13T02:58:04+0000 [HoneyPotSSHTransport,3988,38.84.132.236] avatar root logging out
+2017-10-13T02:58:04+0000 [HoneyPotSSHTransport,3988,38.84.132.236] connection lost
+2017-10-13T02:58:04+0000 [HoneyPotSSHTransport,3988,38.84.132.236] Connection lost after 19 seconds
+2017-10-13T02:58:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T02:58:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.138.112.37:25 from ::1:42452
+2017-10-13T02:58:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T02:58:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.138.112.37:25 from ::1:24443
+2017-10-13T02:58:54+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 167.114.210.108:53058 (10.3.66.85:2222) [session: 8d29b8782bd3]
+2017-10-13T02:58:54+0000 [HoneyPotSSHTransport,3989,167.114.210.108] Remote SSH version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2
+2017-10-13T02:58:54+0000 [HoneyPotSSHTransport,3989,167.114.210.108] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-13T02:58:54+0000 [HoneyPotSSHTransport,3989,167.114.210.108] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-13T02:58:54+0000 [HoneyPotSSHTransport,3989,167.114.210.108] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-13T02:58:55+0000 [HoneyPotSSHTransport,3989,167.114.210.108] NEW KEYS
+2017-10-13T02:58:55+0000 [HoneyPotSSHTransport,3989,167.114.210.108] starting service 'ssh-userauth'
+2017-10-13T02:58:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3989,167.114.210.108] 'root' trying auth 'none'
+2017-10-13T02:58:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3989,167.114.210.108] 'root' trying auth 'keyboard-interactive'
+2017-10-13T02:58:55+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3989,167.114.210.108] login attempt [root/angel] succeeded
+2017-10-13T02:58:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3989,167.114.210.108] 'root' authenticated with 'keyboard-interactive'
+2017-10-13T02:58:57+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3989,167.114.210.108] starting service 'ssh-connection'
+2017-10-13T02:58:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] got global no-more-sessions@openssh.com request
+2017-10-13T02:59:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] got channel 'direct-tcpip' request
+2017-10-13T02:59:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] direct-tcp connection request to 34.205.175.53:80 from 127.0.0.1:40605
+2017-10-13T02:59:04+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] discarded direct-tcp forward request to 34.205.175.53:80 with data 'GET / HTTP/1.1\r\nHost: www.alexa.com\r\nUser-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36\r\nAccept: */*\r\n\r\n'
+2017-10-13T02:59:04+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] failed to connect: Connection refused
+2017-10-13T02:59:04+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] sending close 0
+2017-10-13T02:59:04+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3989,167.114.210.108] remote close
+2017-10-13T02:59:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3960,91.195.103.179] got channel 'direct-tcpip' request
+2017-10-13T02:59:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3960,91.195.103.179] direct-tcp connection request to api.ipify.org:80 from ::1:40005
+2017-10-13T02:59:06+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3960,91.195.103.179] discarded direct-tcp forward request to api.ipify.org:80 with data 'GET / HTTP/1.0\r\nHost: api.ipify.org\r\n\r\n'
+2017-10-13T02:59:06+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3960,91.195.103.179] failed to connect: Connection refused
+2017-10-13T02:59:06+0000 [SSHChannel cowrie-discarded-direct-tcpip (4) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3960,91.195.103.179] sending close 4
+2017-10-13T02:59:14+0000 [HoneyPotSSHTransport,3989,167.114.210.108] Got remote error, code 11
+	reason: disconnected by user
+2017-10-13T02:59:14+0000 [HoneyPotSSHTransport,3989,167.114.210.108] avatar root logging out
+2017-10-13T02:59:14+0000 [HoneyPotSSHTransport,3989,167.114.210.108] connection lost
+2017-10-13T02:59:14+0000 [HoneyPotSSHTransport,3989,167.114.210.108] Connection lost after 19 seconds
+2017-10-13T02:59:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T02:59:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.138.112.34:25 from ::1:18962
+2017-10-13T02:59:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] got channel 'direct-tcpip' request
+2017-10-13T02:59:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3963,5.188.87.52] direct-tcp connection request to 98.138.112.34:25 from ::1:43005
