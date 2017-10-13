@@ -2138,3 +2138,70 @@
 2017-10-13T14:14:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 63.250.192.46:25 from ::1:42883
 2017-10-13T14:14:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
 2017-10-13T14:14:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 63.250.192.46:25 from ::1:13438
+2017-10-13T14:16:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:16:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.138.112.34:25 from ::1:17884
+2017-10-13T14:16:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:16:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.138.112.34:25 from ::1:36283
+2017-10-13T14:19:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:19:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.136.216.26:25 from ::1:42196
+2017-10-13T14:19:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] got channel 'direct-tcpip' request
+2017-10-13T14:19:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4151,5.188.87.56] direct-tcp connection request to 98.136.216.26:25 from ::1:38865
+2017-10-13T14:19:35+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 218.4.102.14:42415 (10.3.66.85:2223) [session: TT4229]
+2017-10-13T14:19:36+0000 [CowrieTelnetTransport,4229,218.4.102.14] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-13T14:19:38+0000 [CowrieTelnetTransport,4229,218.4.102.14] Opening TTY Log: log/tty/20171013-141938-None-4229i.log
+2017-10-13T14:19:38+0000 [CowrieTelnetTransport,4229,218.4.102.14] Warning: state changed and new state returned
+2017-10-13T14:19:39+0000 [CowrieTelnetTransport,4229,218.4.102.14] CMD: enable
+2017-10-13T14:19:39+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: enable 
+2017-10-13T14:19:39+0000 [CowrieTelnetTransport,4229,218.4.102.14] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-13T14:19:39+0000 [CowrieTelnetTransport,4229,218.4.102.14] CMD: system
+2017-10-13T14:19:39+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command not found: system
+2017-10-13T14:19:40+0000 [CowrieTelnetTransport,4229,218.4.102.14] CMD: shell
+2017-10-13T14:19:40+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command not found: shell
+2017-10-13T14:19:40+0000 [CowrieTelnetTransport,4229,218.4.102.14] CMD: sh
+2017-10-13T14:19:40+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: sh 
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/busybox wget
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: wget
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/busybox 81c46036wget
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: printf '\00281c46036\177'
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/busybox tftp
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: tftp
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Command found: /bin/busybox 81c46036tftp
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Closing TTY Log: log/tty/20171013-141938-None-4229i.log after 2 seconds
+2017-10-13T14:19:41+0000 [CowrieTelnetTransport,4229,218.4.102.14] Connection lost after 6 seconds
+2017-10-13T14:19:46+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 180.176.167.79:58436 (10.3.66.85:2223) [session: TT4230]
+2017-10-13T14:19:47+0000 [CowrieTelnetTransport,4230,180.176.167.79] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-13T14:19:49+0000 [CowrieTelnetTransport,4230,180.176.167.79] Opening TTY Log: log/tty/20171013-141949-None-4230i.log
+2017-10-13T14:19:49+0000 [CowrieTelnetTransport,4230,180.176.167.79] Warning: state changed and new state returned
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] CMD: enable
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: enable 
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] CMD: system
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command not found: system
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] CMD: shell
+2017-10-13T14:19:50+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command not found: shell
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] CMD: sh
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: sh 
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox wget
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: wget
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox 81c46036wget
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: printf '\00281c46036\177'
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox tftp
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: tftp
+2017-10-13T14:19:51+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox 81c46036tftp
+2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: /bin/busybox cat /bin/busybox
+2017-10-13T14:19:52+0000 [CowrieTelnetTransport,4230,180.176.167.79] Command found: cat /bin/busybox
