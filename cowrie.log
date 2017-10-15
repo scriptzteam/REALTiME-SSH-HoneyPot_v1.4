@@ -584,3 +584,98 @@
 2017-10-15T06:39:32+0000 [CowrieTelnetTransport,5793,113.122.224.134] Command found: /bin/busybox 81c46036tftp
 2017-10-15T06:39:33+0000 [CowrieTelnetTransport,5793,113.122.224.134] Closing TTY Log: log/tty/20171015-063930-None-5793i.log after 2 seconds
 2017-10-15T06:39:33+0000 [CowrieTelnetTransport,5793,113.122.224.134] Connection lost after 5 seconds
+2017-10-15T06:45:22+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 41.59.225.157:18589 (10.3.66.85:2222) [session: e896d7d620f5]
+2017-10-15T06:45:22+0000 [HoneyPotSSHTransport,4752,41.59.225.157] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-10-15T06:45:22+0000 [HoneyPotSSHTransport,4752,41.59.225.157] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-10-15T06:45:22+0000 [HoneyPotSSHTransport,4752,41.59.225.157] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-15T06:45:22+0000 [HoneyPotSSHTransport,4752,41.59.225.157] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-10-15T06:45:23+0000 [HoneyPotSSHTransport,4752,41.59.225.157] NEW KEYS
+2017-10-15T06:45:23+0000 [HoneyPotSSHTransport,4752,41.59.225.157] starting service 'ssh-userauth'
+2017-10-15T06:45:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/pfsense] failed
+2017-10-15T06:45:24+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:24+0000 [-] unauthorized login: 
+2017-10-15T06:45:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/manager] failed
+2017-10-15T06:45:25+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:25+0000 [-] unauthorized login: 
+2017-10-15T06:45:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:26+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin1234] failed
+2017-10-15T06:45:27+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:27+0000 [-] unauthorized login: 
+2017-10-15T06:45:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:27+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/aerohive] failed
+2017-10-15T06:45:28+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:28+0000 [-] unauthorized login: 
+2017-10-15T06:45:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:28+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/password] failed
+2017-10-15T06:45:29+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:29+0000 [-] unauthorized login: 
+2017-10-15T06:45:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/1111] failed
+2017-10-15T06:45:30+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:30+0000 [-] unauthorized login: 
+2017-10-15T06:45:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/changeme] failed
+2017-10-15T06:45:31+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:31+0000 [-] unauthorized login: 
+2017-10-15T06:45:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/password] failed
+2017-10-15T06:45:32+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:32+0000 [-] unauthorized login: 
+2017-10-15T06:45:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:33+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin] failed
+2017-10-15T06:45:34+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:34+0000 [-] unauthorized login: 
+2017-10-15T06:45:34+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:34+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/1234] failed
+2017-10-15T06:45:35+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:35+0000 [-] unauthorized login: 
+2017-10-15T06:45:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:35+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin] failed
+2017-10-15T06:45:36+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:36+0000 [-] unauthorized login: 
+2017-10-15T06:45:36+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:36+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin] failed
+2017-10-15T06:45:37+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:37+0000 [-] unauthorized login: 
+2017-10-15T06:45:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:37+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/default] failed
+2017-10-15T06:45:38+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:38+0000 [-] unauthorized login: 
+2017-10-15T06:45:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:38+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/1234] failed
+2017-10-15T06:45:39+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:39+0000 [-] unauthorized login: 
+2017-10-15T06:45:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin1234] failed
+2017-10-15T06:45:41+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:41+0000 [-] unauthorized login: 
+2017-10-15T06:45:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin1234] failed
+2017-10-15T06:45:42+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:42+0000 [-] unauthorized login: 
+2017-10-15T06:45:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin1] failed
+2017-10-15T06:45:43+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:43+0000 [-] unauthorized login: 
+2017-10-15T06:45:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin123] failed
+2017-10-15T06:45:45+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:45+0000 [-] unauthorized login: 
+2017-10-15T06:45:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:45+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin1234] failed
+2017-10-15T06:45:46+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:46+0000 [-] unauthorized login: 
+2017-10-15T06:45:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:46+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/1111] failed
+2017-10-15T06:45:47+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:47+0000 [-] unauthorized login: 
+2017-10-15T06:45:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] 'admin' trying auth 'password'
+2017-10-15T06:45:47+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4752,41.59.225.157] login attempt [admin/admin1234] failed
+2017-10-15T06:45:48+0000 [-] 'admin' failed auth 'password'
+2017-10-15T06:45:48+0000 [-] unauthorized login: 
+2017-10-15T06:45:48+0000 [-] Disconnecting with error, code 14
+	reason: too many bad auths
+2017-10-15T06:45:48+0000 [HoneyPotSSHTransport,4752,41.59.225.157] connection lost
+2017-10-15T06:45:48+0000 [HoneyPotSSHTransport,4752,41.59.225.157] Connection lost after 25 seconds
