@@ -466,3 +466,36 @@
 2017-10-15T06:19:05+0000 [CowrieTelnetTransport,5788,202.89.132.135] Connection lost after 6 seconds
 2017-10-15T06:19:43+0000 [CowrieTelnetTransport,5787,31.223.73.30] Closing TTY Log: log/tty/20171015-061802-None-5787i.log after 101 seconds
 2017-10-15T06:19:43+0000 [CowrieTelnetTransport,5787,31.223.73.30] Connection lost after 104 seconds
+2017-10-15T06:21:11+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 220.135.147.9:4946 (10.3.66.85:2223) [session: TT5789]
+2017-10-15T06:21:13+0000 [CowrieTelnetTransport,5789,220.135.147.9] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-15T06:21:15+0000 [CowrieTelnetTransport,5789,220.135.147.9] Opening TTY Log: log/tty/20171015-062115-None-5789i.log
+2017-10-15T06:21:15+0000 [CowrieTelnetTransport,5789,220.135.147.9] Warning: state changed and new state returned
+2017-10-15T06:21:15+0000 [CowrieTelnetTransport,5789,220.135.147.9] CMD: enable
+2017-10-15T06:21:15+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: enable 
+2017-10-15T06:21:15+0000 [CowrieTelnetTransport,5789,220.135.147.9] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-15T06:21:16+0000 [CowrieTelnetTransport,5789,220.135.147.9] CMD: system
+2017-10-15T06:21:16+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command not found: system
+2017-10-15T06:21:16+0000 [CowrieTelnetTransport,5789,220.135.147.9] CMD: shell
+2017-10-15T06:21:16+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command not found: shell
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] CMD: sh
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: sh 
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox wget
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: wget
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox 81c46036wget
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: printf '\00281c46036\177'
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox tftp
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: tftp
+2017-10-15T06:21:17+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox 81c46036tftp
+2017-10-15T06:21:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-15T06:21:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-15T06:21:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-15T06:21:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: /bin/busybox cat /bin/busybox
+2017-10-15T06:21:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] Command found: cat /bin/busybox
+2017-10-15T06:23:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] Closing TTY Log: log/tty/20171015-062115-None-5789i.log after 123 seconds
+2017-10-15T06:23:18+0000 [CowrieTelnetTransport,5789,220.135.147.9] Connection lost after 127 seconds
