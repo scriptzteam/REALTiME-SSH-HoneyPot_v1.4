@@ -2750,3 +2750,18 @@
 2017-10-15T10:38:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:32504
 2017-10-15T10:38:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] got channel 'direct-tcpip' request
 2017-10-15T10:38:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:39333
+2017-10-15T10:42:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-15T10:42:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:32946
+2017-10-15T10:42:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] got channel 'direct-tcpip' request
+2017-10-15T10:42:23+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,4805,5.188.87.57] direct-tcp connection request to 66.196.118.33:25 from ::1:25975
+2017-10-15T10:44:04+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.188.87.42:49992 (10.3.66.85:2222) [session: 06cc0cce08f7]
+2017-10-15T10:44:05+0000 [HoneyPotSSHTransport,4808,5.188.87.42] Remote SSH version: SSH-2.0-libssh-0.6.0
+2017-10-15T10:44:05+0000 [HoneyPotSSHTransport,4808,5.188.87.42] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-15T10:44:05+0000 [HoneyPotSSHTransport,4808,5.188.87.42] outgoing: 'aes256-ctr' 'hmac-sha1' 'none'
+2017-10-15T10:44:05+0000 [HoneyPotSSHTransport,4808,5.188.87.42] incoming: 'aes256-ctr' 'hmac-sha1' 'none'
+2017-10-15T10:44:06+0000 [HoneyPotSSHTransport,4808,5.188.87.42] NEW KEYS
+2017-10-15T10:44:06+0000 [HoneyPotSSHTransport,4808,5.188.87.42] starting service 'ssh-userauth'
+2017-10-15T10:44:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4808,5.188.87.42] 'root' trying auth 'password'
+2017-10-15T10:44:06+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4808,5.188.87.42] login attempt [root/] succeeded
+2017-10-15T10:44:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4808,5.188.87.42] 'root' authenticated with 'password'
+2017-10-15T10:44:08+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,4808,5.188.87.42] starting service 'ssh-connection'
