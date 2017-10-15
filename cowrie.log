@@ -218,3 +218,40 @@
 2017-10-15T05:52:03+0000 [CowrieTelnetTransport,5779,189.219.65.251] Connection lost after 103 seconds
 2017-10-15T05:52:56+0000 [CowrieTelnetTransport,5781,175.5.243.178] Closing TTY Log: log/tty/20171015-055052-None-5781i.log after 123 seconds
 2017-10-15T05:52:56+0000 [CowrieTelnetTransport,5781,175.5.243.178] Connection lost after 126 seconds
+2017-10-15T05:56:56+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 185.165.29.198:57338 (10.3.66.85:2222) [session: b3882febd692]
+2017-10-15T05:56:56+0000 [HoneyPotSSHTransport,4748,185.165.29.198] Got remote error, code 11
+	reason: Bye Bye
+2017-10-15T05:56:56+0000 [HoneyPotSSHTransport,4748,185.165.29.198] connection lost
+2017-10-15T05:56:56+0000 [HoneyPotSSHTransport,4748,185.165.29.198] Connection lost after 0 seconds
+2017-10-15T05:59:11+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 119.179.110.215:58198 (10.3.66.85:2223) [session: TT5782]
+2017-10-15T05:59:12+0000 [CowrieTelnetTransport,5782,119.179.110.215] login attempt [user/user] failed
+2017-10-15T05:59:12+0000 [CowrieTelnetTransport,5782,119.179.110.215] Warning: state changed and new state returned
+2017-10-15T05:59:13+0000 [CowrieTelnetTransport,5782,119.179.110.215] Connection lost after 1 seconds
+2017-10-15T05:59:13+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 119.179.110.215:59742 (10.3.66.85:2223) [session: TT5783]
+2017-10-15T05:59:15+0000 [CowrieTelnetTransport,5783,119.179.110.215] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-15T05:59:17+0000 [CowrieTelnetTransport,5783,119.179.110.215] Opening TTY Log: log/tty/20171015-055916-None-5783i.log
+2017-10-15T05:59:17+0000 [CowrieTelnetTransport,5783,119.179.110.215] Warning: state changed and new state returned
+2017-10-15T05:59:17+0000 [CowrieTelnetTransport,5783,119.179.110.215] CMD: enable
+2017-10-15T05:59:17+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: enable 
+2017-10-15T05:59:17+0000 [CowrieTelnetTransport,5783,119.179.110.215] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-15T05:59:18+0000 [CowrieTelnetTransport,5783,119.179.110.215] CMD: system
+2017-10-15T05:59:18+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command not found: system
+2017-10-15T05:59:18+0000 [CowrieTelnetTransport,5783,119.179.110.215] CMD: shell
+2017-10-15T05:59:18+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command not found: shell
+2017-10-15T05:59:18+0000 [CowrieTelnetTransport,5783,119.179.110.215] CMD: sh
+2017-10-15T05:59:18+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: sh 
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/busybox wget
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: wget
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/busybox 81c46036wget
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: printf '\00281c46036\177'
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/busybox tftp
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: tftp
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Command found: /bin/busybox 81c46036tftp
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Closing TTY Log: log/tty/20171015-055916-None-5783i.log after 2 seconds
+2017-10-15T05:59:19+0000 [CowrieTelnetTransport,5783,119.179.110.215] Connection lost after 6 seconds
