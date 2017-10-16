@@ -3426,3 +3426,49 @@
 2017-10-16T08:04:57+0000 [CowrieTelnetTransport,7096,84.24.188.91] Warning: state changed and new state returned
 2017-10-16T08:04:58+0000 [CowrieTelnetTransport,7096,84.24.188.91] login attempt [shell\x00/sh\x00] failed
 2017-10-16T08:04:58+0000 [CowrieTelnetTransport,7096,84.24.188.91] Warning: state changed and new state returned
+2017-10-16T08:05:28+0000 [CowrieTelnetTransport,7096,84.24.188.91] Connection lost after 30 seconds
+2017-10-16T08:05:28+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 84.24.188.91:55792 (10.3.66.85:2223) [session: TT7097]
+2017-10-16T08:05:28+0000 [CowrieTelnetTransport,7097,84.24.188.91] login attempt [root/xmhdipc] succeeded
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Opening TTY Log: log/tty/20171016-080530-None-7097i.log
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Warning: state changed and new state returned
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Received unhandled keyID: '\x00'
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] CMD: enable
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Command found: enable 
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Received unhandled keyID: '\x00'
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] CMD: system
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Command not found: system
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Received unhandled keyID: '\x00'
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] CMD: shell
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Command not found: shell
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Received unhandled keyID: '\x00'
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] CMD: sh
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Command found: sh 
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Received unhandled keyID: '\x00'
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] CMD: /bin/busybox MIRAI
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Command found: /bin/busybox MIRAI
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Closing TTY Log: log/tty/20171016-080530-None-7097i.log after 0 seconds
+2017-10-16T08:05:30+0000 [CowrieTelnetTransport,7097,84.24.188.91] Connection lost after 2 seconds
+2017-10-16T08:05:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] got channel 'direct-tcpip' request
+2017-10-16T08:05:41+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] direct-tcp connection request to 64.233.162.94:443 from localhost:5556
+2017-10-16T08:05:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (13) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] discarded direct-tcp forward request to 64.233.162.94:443 with data '\x16\x03\x01\x01x\x01\x00\x01t\x03\x03Y\xe4h=\x96\xeb%\xbe\xe7\xf0;\xd2c\xbd\xbac\xe7T\xe6\x0b\x8bh2\x9d9<H\x92q\xdf\xd3\xc3\x00\x00\xca\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\xc0"\xc0!\x00\xa3\x00\x9f\x00k\x00j\x009\x008\x00\x88\x00\x87\xc0\x19\xc0 \x00\xa7\x00m\x00:\x00\x89\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0\x12\xc0\x08\xc0\x1c\xc0\x1b\x00\x16\x00\x13\xc0\x17\xc0\x1a\x00\x1b\xc0\r\xc0\x03\x00\n\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\xc0\x1f\xc0\x1e\x00\xa2\x00\x9e\x00g\x00@\x003\x002\x00\x9a\x00\x99\x00E\x00D\xc0\x18\xc0\x1d\x00\xa6\x00l\x004\x00\x9b\x00F\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x16\x00\x18\xc0\x0c\xc0\x02\x00\x05\x00\x04\x00\x15\x00\x12\x00\x1a\x00\t\x00\x14\x00\x11\x00\x19\x00\x08\x00\x06\x00\x17\x00\x03\x00\xff\x01\x00\x00\x81\x00\x00\x00\x12\x00\x10\x00\x00\rwww.google.fr\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x004\x002\x00\x0e\x00\r\x00\x19\x00\x0b\x00\x0c\x00\x18\x00\t\x00\n\x00\x16\x00\x17\x00\x08\x00\x06\x00\x07\x00\x14\x00\x15\x00\x04\x00\x05\x00\x12\x00\x13\x00\x01\x00\x02\x00\x03\x00\x0f\x00\x10\x00\x11\x00\r\x00"\x00 \x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x01\x01\x00\x0f\x00\x01\x01'
+2017-10-16T08:05:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (13) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] failed to connect: Connection refused
+2017-10-16T08:05:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (13) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] sending close 13
+2017-10-16T08:06:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5151,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-16T08:06:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5151,91.195.103.183] direct-tcp connection request to 183.79.16.247:25 from ::1:22820
+2017-10-16T08:06:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5151,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-16T08:06:15+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5151,91.195.103.183] direct-tcp connection request to 66.102.1.27:25 from ::1:15942
+2017-10-16T08:08:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5151,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-16T08:08:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5151,91.195.103.183] direct-tcp connection request to 188.125.69.79:25 from ::1:24180
+2017-10-16T08:08:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] got channel 'direct-tcpip' request
+2017-10-16T08:08:36+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] direct-tcp connection request to 64.233.162.94:443 from localhost:5556
+2017-10-16T08:08:38+0000 [SSHChannel cowrie-discarded-direct-tcpip (14) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] discarded direct-tcp forward request to 64.233.162.94:443 with data '\x16\x03\x01\x01x\x01\x00\x01t\x03\x03Y\xe4h\xecp\x1e\x18,|\xe5\x11\xd3-\x00\xd5\xcf\x13l\xe9o\x95\xca\x93\x81\xfd\x89\xbe\x8cX\xbaS\xdf\x00\x00\xca\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\xc0"\xc0!\x00\xa3\x00\x9f\x00k\x00j\x009\x008\x00\x88\x00\x87\xc0\x19\xc0 \x00\xa7\x00m\x00:\x00\x89\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0\x12\xc0\x08\xc0\x1c\xc0\x1b\x00\x16\x00\x13\xc0\x17\xc0\x1a\x00\x1b\xc0\r\xc0\x03\x00\n\xc0/\xc0+\xc0\'\xc0#\xc0\x13\xc0\t\xc0\x1f\xc0\x1e\x00\xa2\x00\x9e\x00g\x00@\x003\x002\x00\x9a\x00\x99\x00E\x00D\xc0\x18\xc0\x1d\x00\xa6\x00l\x004\x00\x9b\x00F\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x16\x00\x18\xc0\x0c\xc0\x02\x00\x05\x00\x04\x00\x15\x00\x12\x00\x1a\x00\t\x00\x14\x00\x11\x00\x19\x00\x08\x00\x06\x00\x17\x00\x03\x00\xff\x01\x00\x00\x81\x00\x00\x00\x12\x00\x10\x00\x00\rwww.google.fr\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x004\x002\x00\x0e\x00\r\x00\x19\x00\x0b\x00\x0c\x00\x18\x00\t\x00\n\x00\x16\x00\x17\x00\x08\x00\x06\x00\x07\x00\x14\x00\x15\x00\x04\x00\x05\x00\x12\x00\x13\x00\x01\x00\x02\x00\x03\x00\x0f\x00\x10\x00\x11\x00\r\x00"\x00 \x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x01\x01\x00\x0f\x00\x01\x01'
+2017-10-16T08:08:38+0000 [SSHChannel cowrie-discarded-direct-tcpip (14) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] failed to connect: Connection refused
+2017-10-16T08:08:38+0000 [SSHChannel cowrie-discarded-direct-tcpip (14) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5158,5.188.87.40] sending close 14
+2017-10-16T08:09:40+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 71.6.142.85:59005 (10.3.66.85:2223) [session: TT7098]
+2017-10-16T08:09:40+0000 [CowrieTelnetTransport,7098,71.6.142.85] Connection lost after 0 seconds
+2017-10-16T08:09:58+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.188.207.12:42673 (10.3.66.85:2223) [session: TT7099]
+2017-10-16T08:09:59+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.188.207.13:39520 (10.3.66.85:2223) [session: TT7100]
+2017-10-16T08:09:59+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.188.207.12:33200 (10.3.66.85:2223) [session: TT7101]
+2017-10-16T08:10:00+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 185.188.207.13:57317 (10.3.66.85:2223) [session: TT7102]
+2017-10-16T08:10:02+0000 [CowrieTelnetTransport,7099,185.188.207.12] login attempt [root/888888] succeeded
