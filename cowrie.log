@@ -2511,3 +2511,150 @@
 2017-10-16T11:24:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:46998
 2017-10-16T11:25:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] got channel 'direct-tcpip' request
 2017-10-16T11:25:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] direct-tcp connection request to 188.125.69.79:25 from ::1:44774
+2017-10-16T11:25:41+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 5.196.76.41:58811 (10.3.66.85:2222) [session: 814df61ee139]
+2017-10-16T11:25:41+0000 [HoneyPotSSHTransport,5244,5.196.76.41] Remote SSH version: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.7
+2017-10-16T11:25:41+0000 [HoneyPotSSHTransport,5244,5.196.76.41] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-16T11:25:41+0000 [HoneyPotSSHTransport,5244,5.196.76.41] outgoing: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-16T11:25:41+0000 [HoneyPotSSHTransport,5244,5.196.76.41] incoming: 'aes128-ctr' 'hmac-md5' 'none'
+2017-10-16T11:25:41+0000 [HoneyPotSSHTransport,5244,5.196.76.41] NEW KEYS
+2017-10-16T11:25:41+0000 [HoneyPotSSHTransport,5244,5.196.76.41] starting service 'ssh-userauth'
+2017-10-16T11:25:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5244,5.196.76.41] 'root' trying auth 'none'
+2017-10-16T11:25:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5244,5.196.76.41] 'root' trying auth 'keyboard-interactive'
+2017-10-16T11:25:41+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5244,5.196.76.41] login attempt [root/Pr!vat3Sh3llAcc3sS] succeeded
+2017-10-16T11:25:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5244,5.196.76.41] 'root' authenticated with 'keyboard-interactive'
+2017-10-16T11:25:43+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5244,5.196.76.41] starting service 'ssh-connection'
+2017-10-16T11:25:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] got global no-more-sessions@openssh.com request
+2017-10-16T11:25:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] got channel 'direct-tcpip' request
+2017-10-16T11:25:51+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] direct-tcp connection request to 34.199.64.190:80 from 127.0.0.1:49303
+2017-10-16T11:25:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] discarded direct-tcp forward request to 34.199.64.190:80 with data 'GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36\r\nHost: www.alexa.com\r\nAccept: */*\r\n\r\n'
+2017-10-16T11:25:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] failed to connect: Connection refused
+2017-10-16T11:25:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] sending close 0
+2017-10-16T11:25:51+0000 [SSHChannel cowrie-discarded-direct-tcpip (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,5244,5.196.76.41] remote close
+2017-10-16T11:25:57+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 49.89.108.83:48008 (10.3.66.85:2223) [session: TT7180]
+2017-10-16T11:25:59+0000 [CowrieTelnetTransport,7180,49.89.108.83] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-16T11:26:00+0000 [CowrieTelnetTransport,7180,49.89.108.83] Opening TTY Log: log/tty/20171016-112600-None-7180i.log
+2017-10-16T11:26:00+0000 [CowrieTelnetTransport,7180,49.89.108.83] Warning: state changed and new state returned
+2017-10-16T11:26:01+0000 [HoneyPotSSHTransport,5244,5.196.76.41] Got remote error, code 11
+	reason: disconnected by user
+2017-10-16T11:26:01+0000 [HoneyPotSSHTransport,5244,5.196.76.41] avatar root logging out
+2017-10-16T11:26:01+0000 [HoneyPotSSHTransport,5244,5.196.76.41] connection lost
+2017-10-16T11:26:01+0000 [HoneyPotSSHTransport,5244,5.196.76.41] Connection lost after 19 seconds
+2017-10-16T11:26:01+0000 [CowrieTelnetTransport,7180,49.89.108.83] CMD: enable
+2017-10-16T11:26:01+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: enable 
+2017-10-16T11:26:01+0000 [CowrieTelnetTransport,7180,49.89.108.83] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-16T11:26:01+0000 [CowrieTelnetTransport,7180,49.89.108.83] CMD: system
+2017-10-16T11:26:01+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command not found: system
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] CMD: shell
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command not found: shell
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] CMD: sh
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: sh 
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/busybox wget
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: wget
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/busybox 81c46036wget
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: printf '\00281c46036\177'
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/busybox tftp
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: tftp
+2017-10-16T11:26:02+0000 [CowrieTelnetTransport,7180,49.89.108.83] Command found: /bin/busybox 81c46036tftp
+2017-10-16T11:26:03+0000 [CowrieTelnetTransport,7180,49.89.108.83] Closing TTY Log: log/tty/20171016-112600-None-7180i.log after 2 seconds
+2017-10-16T11:26:03+0000 [CowrieTelnetTransport,7180,49.89.108.83] Connection lost after 5 seconds
+2017-10-16T11:26:08+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 176.51.97.123:60658 (10.3.66.85:2223) [session: TT7181]
+2017-10-16T11:26:08+0000 [CowrieTelnetTransport,7181,176.51.97.123] login attempt [root/7ujMko0vizxv ] succeeded
+2017-10-16T11:26:10+0000 [CowrieTelnetTransport,7181,176.51.97.123] Opening TTY Log: log/tty/20171016-112610-None-7181i.log
+2017-10-16T11:26:10+0000 [CowrieTelnetTransport,7181,176.51.97.123] Warning: state changed and new state returned
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] CMD: enable
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: enable 
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Reading txtcmd from "txtcmds/bin/enable"
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] CMD: system
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command not found: system
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] CMD: shell
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command not found: shell
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] CMD: sh
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: sh 
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] CMD:  /bin/busybox wget; /bin/busybox 81c46036wget; /bin/busybox echo -ne '\x0181c46036\x7f'; /bin/busybox printf '\00281c46036\177'; /bin/echo -ne '\x0381c46036\x7f'; /usr/bin/printf '\00481c46036\177'; /bin/busybox tftp; /bin/busybox 81c46036tftp;
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox wget
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: wget
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox 81c46036wget
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox echo -ne '\x0181c46036\x7f'
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: echo -ne '\x0181c46036\x7f'
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox printf '\00281c46036\177'
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: printf '\00281c46036\177'
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/echo -ne '\x0381c46036\x7f'
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /usr/bin/printf '\00481c46036\177'
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox tftp
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: tftp
+2017-10-16T11:26:11+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox 81c46036tftp
+2017-10-16T11:26:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] CMD:  /bin/busybox dd if=/bin/busybox bs=22 count=1 || /bin/busybox cat /bin/busybox
+2017-10-16T11:26:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox dd if=/bin/busybox bs=22 count=1
+2017-10-16T11:26:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: dd if=/bin/busybox bs=22 count=1
+2017-10-16T11:26:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: /bin/busybox cat /bin/busybox
+2017-10-16T11:26:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] Command found: cat /bin/busybox
+2017-10-16T11:26:48+0000 [-] exitCode: 1
+2017-10-16T11:26:48+0000 [-] sending request 'exit-status'
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947 to dl/f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5 to dl/20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125 to dl/5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b to dl/512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d to dl/d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663 to dl/d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content 0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f to dl/0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f
+2017-10-16T11:26:48+0000 [-] Not storing duplicate content 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-16T11:26:48+0000 [-] Saved redir contents with SHA-256 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9 to dl/8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-16T11:26:48+0000 [-] Closing TTY Log: log/tty/20171016-112348-81adfff76beb-0i.log after 180 seconds
+2017-10-16T11:26:48+0000 [-] sending close 0
+2017-10-16T11:26:51+0000 [-] exitCode: 1
+2017-10-16T11:26:51+0000 [-] sending request 'exit-status'
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663 to dl/d1858ce41a813fe37afc0d06a7e7fe173ac6b2ede926d056f8949f0d5c8a4663
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content 0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f to dl/0293300dd762fa18a428d9157ebc7f26ffaf3ebcb3971a2e466696e90184659f
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9 to dl/8779e030cb0375b390b4aa5b21622e7b7a3b4ee8a8ecc20e56ee006bb3d040c9
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5 to dl/20ceeed361016631c30e4d23e0b49b4005260c570874e1161f4b2862d08eb6b5
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d to dl/d660d112066efe36b9d91ec56f7ed2eb7b20a84de5131f500488bbd4aea0c31d
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b to dl/512893f968dd5b8325b6509cff0cc9d38b764e89d02171e59f6328a0d91bc15b
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947 to dl/f6426a2b81de3e2c09e6a65ec360782c44d5845eb405caebce2adc7046bda947
+2017-10-16T11:26:51+0000 [-] Not storing duplicate content 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-16T11:26:51+0000 [-] Saved redir contents with SHA-256 5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125 to dl/5ab400ec034eceda49abeaaee5167c240847c2833775d7b89fecd1662a574125
+2017-10-16T11:26:51+0000 [-] Closing TTY Log: log/tty/20171016-112351-1a1f7514310c-0i.log after 180 seconds
+2017-10-16T11:26:51+0000 [-] sending close 0
+2017-10-16T11:26:53+0000 [HoneyPotSSHTransport,5242,195.22.127.83] avatar root logging out
+2017-10-16T11:26:53+0000 [HoneyPotSSHTransport,5242,195.22.127.83] connection lost
+2017-10-16T11:26:53+0000 [HoneyPotSSHTransport,5242,195.22.127.83] Connection lost after 187 seconds
+2017-10-16T11:27:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T11:27:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:21895
+2017-10-16T11:27:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T11:27:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:22768
+2017-10-16T11:27:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5222,91.195.103.210] got channel 'direct-tcpip' request
+2017-10-16T11:27:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5222,91.195.103.210] direct-tcp connection request to smtp.maratonaqv.com.br:25 from ::1:32782
+2017-10-16T11:27:14+0000 [HoneyPotSSHTransport,5243,195.22.127.83] avatar root logging out
+2017-10-16T11:27:14+0000 [HoneyPotSSHTransport,5243,195.22.127.83] connection lost
+2017-10-16T11:27:14+0000 [HoneyPotSSHTransport,5243,195.22.127.83] Connection lost after 206 seconds
+2017-10-16T11:27:20+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-16T11:27:20+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] direct-tcp connection request to 104.47.41.33:25 from ::1:26703
+2017-10-16T11:28:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] Closing TTY Log: log/tty/20171016-112610-None-7181i.log after 121 seconds
+2017-10-16T11:28:12+0000 [CowrieTelnetTransport,7181,176.51.97.123] Connection lost after 123 seconds
+2017-10-16T11:28:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-16T11:28:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] direct-tcp connection request to 188.125.69.79:25 from ::1:17978
+2017-10-16T11:29:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T11:29:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:22682
+2017-10-16T11:29:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T11:29:09+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5224,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:13498
+2017-10-16T11:29:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] got channel 'direct-tcpip' request
+2017-10-16T11:29:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5220,91.195.103.183] direct-tcp connection request to 104.47.1.33:25 from ::1:36822
