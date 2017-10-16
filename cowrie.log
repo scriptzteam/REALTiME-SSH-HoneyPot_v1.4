@@ -4672,3 +4672,97 @@
 2017-10-16T00:38:05+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:12372
 2017-10-16T00:38:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
 2017-10-16T00:38:10+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:46970
+2017-10-16T00:40:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T00:40:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:36816
+2017-10-16T00:40:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T00:40:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:47914
+2017-10-16T00:40:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:40:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 207.46.8.199:25 from ::1:39637
+2017-10-16T00:40:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:40:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 65.55.37.120:25 from ::1:44277
+2017-10-16T00:41:22+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 112.144.41.186:36286 (10.3.66.85:2222) [session: 364a5b74a02b]
+2017-10-16T00:41:22+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 112.144.41.186:36284 (10.3.66.85:2222) [session: ae3ad80085d1]
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5086,112.144.41.186] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5086,112.144.41.186] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5086,112.144.41.186] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5086,112.144.41.186] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5087,112.144.41.186] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5087,112.144.41.186] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5087,112.144.41.186] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-16T00:41:22+0000 [HoneyPotSSHTransport,5087,112.144.41.186] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-10-16T00:41:23+0000 [HoneyPotSSHTransport,5086,112.144.41.186] NEW KEYS
+2017-10-16T00:41:23+0000 [HoneyPotSSHTransport,5087,112.144.41.186] NEW KEYS
+2017-10-16T00:41:23+0000 [HoneyPotSSHTransport,5086,112.144.41.186] starting service 'ssh-userauth'
+2017-10-16T00:41:23+0000 [HoneyPotSSHTransport,5087,112.144.41.186] starting service 'ssh-userauth'
+2017-10-16T00:41:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5086,112.144.41.186] 'pi' trying auth 'none'
+2017-10-16T00:41:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5087,112.144.41.186] 'pi' trying auth 'none'
+2017-10-16T00:41:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5086,112.144.41.186] 'pi' trying auth 'password'
+2017-10-16T00:41:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5086,112.144.41.186] login attempt [pi/raspberry] failed
+2017-10-16T00:41:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5087,112.144.41.186] 'pi' trying auth 'password'
+2017-10-16T00:41:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,5087,112.144.41.186] login attempt [pi/raspberryraspberry993311] failed
+2017-10-16T00:41:25+0000 [-] 'pi' failed auth 'password'
+2017-10-16T00:41:25+0000 [-] unauthorized login: 
+2017-10-16T00:41:25+0000 [-] 'pi' failed auth 'password'
+2017-10-16T00:41:25+0000 [-] unauthorized login: 
+2017-10-16T00:41:25+0000 [HoneyPotSSHTransport,5086,112.144.41.186] connection lost
+2017-10-16T00:41:25+0000 [HoneyPotSSHTransport,5086,112.144.41.186] Connection lost after 3 seconds
+2017-10-16T00:41:25+0000 [HoneyPotSSHTransport,5087,112.144.41.186] connection lost
+2017-10-16T00:41:25+0000 [HoneyPotSSHTransport,5087,112.144.41.186] Connection lost after 3 seconds
+2017-10-16T00:41:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:41:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 104.44.194.232:25 from ::1:24039
+2017-10-16T00:41:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:41:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 212.56.128.152:25 from ::1:47342
+2017-10-16T00:42:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T00:42:12+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:26173
+2017-10-16T00:42:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T00:42:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:39112
+2017-10-16T00:42:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:42:19+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 62.149.128.166:25 from ::1:14927
+2017-10-16T00:42:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:42:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 68.87.20.5:25 from ::1:18099
+2017-10-16T00:42:52+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory] New connection: 171.5.167.212:60111 (10.3.66.85:2223) [session: TT6716]
+2017-10-16T00:42:53+0000 [CowrieTelnetTransport,6716,171.5.167.212] login attempt [Admin/5up] failed
+2017-10-16T00:42:53+0000 [CowrieTelnetTransport,6716,171.5.167.212] Warning: state changed and new state returned
+2017-10-16T00:42:54+0000 [CowrieTelnetTransport,6716,171.5.167.212] login attempt [root/realtek] succeeded
+2017-10-16T00:42:55+0000 [CowrieTelnetTransport,6716,171.5.167.212] Opening TTY Log: log/tty/20171016-004255-None-6716i.log
+2017-10-16T00:42:55+0000 [CowrieTelnetTransport,6716,171.5.167.212] Warning: state changed and new state returned
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] CMD: cat /proc/mounts; (/bin/busybox QFKUE || :)
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: cat /proc/mounts
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: /bin/busybox QFKUE
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: :
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] CMD: cd /dev/shm; cat .s || cp /bin/echo .s; (/bin/busybox QFKUE || :)
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: cd /dev/shm
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: cat .s
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: cp /bin/echo .s
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: /bin/busybox QFKUE
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: :
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] CMD: tftp; wget; (/bin/busybox QFKUE || :)
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: tftp 
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: wget 
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: /bin/busybox QFKUE
+2017-10-16T00:42:56+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: :
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] CMD: dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: dd bs=52 count=1 if=.s
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: cat /dev/shm/.s
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: while read i
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: do echo
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: done < .s
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] CMD: (/bin/busybox QFKUE || :)
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command found: /bin/busybox QFKUE
+2017-10-16T00:42:57+0000 [CowrieTelnetTransport,6716,171.5.167.212] Command not found: :
+2017-10-16T00:43:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:43:02+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 74.208.5.20:25 from ::1:24421
+2017-10-16T00:43:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:43:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 96.114.157.80:25 from ::1:18194
+2017-10-16T00:44:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T00:44:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:34019
+2017-10-16T00:44:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] got channel 'direct-tcpip' request
+2017-10-16T00:44:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5071,5.188.87.53] direct-tcp connection request to 188.125.69.79:25 from ::1:27127
+2017-10-16T00:44:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:44:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 64.12.88.131:25 from ::1:31389
+2017-10-16T00:44:37+0000 [CowrieTelnetTransport,6716,171.5.167.212] Closing TTY Log: log/tty/20171016-004255-None-6716i.log after 101 seconds
+2017-10-16T00:44:37+0000 [CowrieTelnetTransport,6716,171.5.167.212] Connection lost after 104 seconds
+2017-10-16T00:44:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:44:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 104.44.194.237:25 from ::1:34797
+2017-10-16T00:44:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] got channel 'direct-tcpip' request
+2017-10-16T00:44:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5070,91.195.103.197] direct-tcp connection request to 104.44.194.235:25 from ::1:24507
